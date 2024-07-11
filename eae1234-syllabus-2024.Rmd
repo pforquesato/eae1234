@@ -1,0 +1,141 @@
+---
+title: 'EAE-1234: PUBLIC ECONOMICS'
+author: Pedro Forquesato<br/>Department of Economics<br/>School of Economics, Business and Accounting <br/>University of São Paulo
+date: "2024/2"
+output:
+  prettydoc::html_pretty:
+    toc: yes
+    theme: cayman
+    urlcolor: red
+  word_document: default
+  html_document:
+    toc: yes
+    df_print: paged
+  pdf_document: default
+institute: Department of Economics<br/>University of São Paulo
+bibliography: ./esp_bib.bib
+---
+
+### General Objectives
+
+In modern economies, more than a third of the national product is absorbed by governments in the form of taxes; governments employ one in five workers (OECD average), and in Brazil, the government consumption accounts for nearly 20% of GDP. It is unquestionable, therefore, that studying the role of the public sector in the economy is fundamental to the understanding of modern societies.
+
+In this course, we will study in what situations and how the government should act in the economy in order to generate the best welfare for society, and whether this indeed happens in the real world (and why not). We will also study how countries' tax systems should be organized in order to achieve their income redistribution goals and how to approach modern difficulties in taxing wealth and large companies.
+
+### Learning Objectives
+
+1. Conceptually understand the consequences of government intervention in the economy, predicting in a substantiated and logically accurate way the likely consequence of public policies.
+2. Get to know the main microeconomic models used to explain government action, solving them analytically and interpreting them correctly.
+3. Arguing in a logical and informed way about the role of government and public policy formulation, developing argumentative essays defending policy adoption.
+4. Judging the logical coherence and empirical consistency of economic arguments, critically evaluating classmates' and academic economists' arguments.
+
+### Learning Assessments
+
+1. Two exams, covering each half of the course, worth 40% of the course average each. Each exam consists of 7 discursive questions and 3 analytical exercises. (Learning Objectives 1 and 2.)
+2. A group presentation, covering a JEP paper: 20% of the average. (Learning Objectives 3 and 4.)
+3. Two exercise lists: each list turned in *completely* done adds 0,5 point (**extra credit**) to the final grade (there is no partial credit). (Learning objective 2.) 
+4. Two argumentative essays (opinion articles) with peer correction (6500 characters): each one adds *up to* 0,5 points (**extra credit**). All grades will come from the student's essay assessment, but essays will only be credited if *both* activities are done properly. (Learning Objectives 3 and 4.)
+
+Not participating in an optional activity (test or list) does **not** restrain student participation in any other activity. The exam involves conceptual questions about the subjects covered in class and the mandatory bibliography, as well as a question chosen from among the questions in the list with some modifications. 
+
+All averages will be rounded up (relative to the final grade on Moodle) to one decimal place (**and only this**).
+
+### Quality of life
+
+If you are having difficulties: 1. if this somehow interferes with your ability to take the course, let me know *before the end of the course* and we will work something out; 2. Contact the mental health services available in the university:
+
+1. [Programa ECOS: Serviço de Escuta em Saúde Mental](https://prip.usp.br/programa-ecos/)
+2. [USP Contra o Assédio](https://prip.usp.br/usp-contra-assedio/)
+
+### Professor
+
+My name is Pedro Forquesato, I am an assistant professor at the Department of Economics at FEA/USP and a researcher at [LabPub](https://labpub.fea.usp.br/). More information about me can be found on [my website](https://www.pedroforquesato.com). My area of expertise is in applied microeconomics, with a research focus on public sector economics. In 2024, I teach public economics at the undergraduate and graduate levels, as well as game theory (undergraduate) and statistics and econometrics (graduate).
+
+### Contact
+
+For specific and individual questions send me an [e-mail](mailto:pforquesato@usp.br). If you want to talk in person, you can book an appointment on the link available on the platform. My office number is 217 at FEA2.
+
+Please, always send me emails that are clearly identified, legible, **polite** and relatively short. (If the email you are writing is longer than 2 paragraphs, it might be worth talking in person.)
+
+### Teaching Assistant
+
+
+### Policies and regulations
+
+**Classes.** Classes will be on Tuesdays from 7:30 pm to 9:10 pm and Thursdays from 9:20 pm to 11:00 pm in classroom **G-02** of FEA 1.
+
+**Communication.** All official communication of the course from me will be done through [Moodle](https://edisciplinas.usp.br), including lists, grades, attendance, assessments and announcements. The course assumes that students frequently access the platform and checks daily the emails received.
+
+**Absences.** According to USP regulations, **participation in 70% of the classes is mandatory to be approved in the course**. Absences will only be disconsidered with a medical certificate issued by HU/USP ([Portaria GR 3740/2007](http://leginf.usp.br/?portaria=portaria-gr-no-3740-de-29-de-marco-de-2007)).
+
+If the student misses the exam (regardless of a medical certificate) they can replace the grade with the *second evaluation*, without needing a justification. 
+
+**Ethics.** The exam is **individual and without consultation**. Cheating on the exam or the group assignment will automatically result in a failure in the course. Lists can be done together and/or with the help of the TA, but they *must be written individually*.  Essays and the group assignment will be submitted by students to Turnitin, and must be *entirely* original. (Quotations are not allowed.) Copied lists or essays with similarity will result in forfeit **all** optional (extra credit) course activities.
+
+Note that these punishments will occur without prejudice to an administrative proceeding according to the [Código de Ética da USP](http://leginf.usp.br/?resolucao=resolucao-no-4871-de-22-de-outubro-de-2001-3).
+
+**Reviews.** Along with the correction of the exam, I will send the answer key. Revision requests must be accompanied by a precise and specific explanation of where the correction would not be consistent with the answer key and why. Lists, the group assignment and the essays do not have correction revisions. There are no grade review requests. [[Artigo 81, §§1-2 do RG/USP]](https://leginf.usp.br/?resolucao=consolidada-resolucao-no-3745-de-19-de-outubro-de-1990#t5)
+
+**Retake test.** Students who have more than 70% of attendance and a grade between 3 and 5 ([Portaria CoG 3583/1989](https://leginf.usp.br/?resolucao=resolucao-cog-no-3583-de-29-de-setembro-de1989)) can take a second assessment (retake test), thus having their final average in the discipline as the simple arithmetic average of the course average and of the retake test grade.
+
+**Others.**  Any conflict with the professor that you are unable (or unwilling) to solve in person, I recommend that you contact the [Ouvidoria da FEA](https://www.fea.usp.br/fea/ouvidoria).
+
+### Program content and schedule
+
+In this course, we will study how the government should design its tax system in order to minimize distortions in the economy and achieve its objectives (perhaps the main one is to redistribute income), as well as how to best implement its main spending policies, namely social insurance and assistance, education and health.
+
+1. **Normative economics and cost-benefit analysis**: @gruber, chaps. 1 and 2 (review), chap. 8. @atkinson, chap. 11. [13/03, 15/03].
+8. **Introduction to taxation**: @gruber, chap. 18, @kleven. [15/05, 17/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-8-intro-taxacao.html)
+9. **Tax incidence**: @gruber, chap. 19, @allcott. [22/05, 24/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-9-incidencia.html)
+10. **Deadweight loss and optimal consumption taxation**: @gruber, chap. 20. [29/05, 31/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-10-peso-morto.html)
+
+First seminar night: papers [1], [2], and [3].
+
+5. **Labor income taxes**: @gruber, chap. 21. [05/06, 07/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-11-imposto-renda.html)
+6. **Taxation on savings**: @gruber, chap. 22. [12/06, 14/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-12-taxacao-poupanca.html)
+
+
+Midterm exam: **05/07**. [[List 1]](https://www.pedroforquesato.com/files/eae0310_lista_2_2023.pdf) (Topics 1-6.)
+
+
+7. **Taxation on wealth**: @gruber, chap. 23, @scheuer. [19/06, 21/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-13-imposto-riqueza.html)
+8. **Corporate taxes**: @gruber, chap. 24, @kopczuk2020business. [26/06, 28/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-14-imposto-corporativo.html)
+
+Second seminar night: papers [5], [7] and [8].
+
+9. **Social security and health**: @gruber, chap. 12. [24/04, 26/04]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-6-seguridade-social.html)
+10. **Social assistance**: @gruber, chap. 17, @banerjee. [03/05, 08/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-7-assistencia-social.html)
+11. **Public provision of goods and education**: @gruber, chap. 7 (review) e 11. [17/04, 19/04]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-5-bens-publicos.html) + 3-lobbying, corruption, PPP, privatization
+
+Third seminar night: papers [4], [6], and [9].
+
+Final exam: **05/07**. [[List 2]](https://www.pedroforquesato.com/files/eae0310_lista_2_2023.pdf)  [[Final exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_2_2022.pdf) (Topics 7-11.)
+
+Retake test: **17/07**.
+
+The deadline for submitting lists and essays is defined on [Moodle](https://edisciplinas.usp.br/). *The submission of lists and essays is also on Moodle.*
+
+### Group presentation
+
+Students will divide themselves in 9 groups and each group chooses one of the papers below to present to class in a 30 mins presentation.
+
+- Acemoglu, D., & Robinson, J. A. (2013). Economics versus politics: Pitfalls of policy advice. Journal of Economic perspectives, 27(2), 173-192.
+- Bachas, P., Jensen, A., & Gadenne, L. (2024). Tax Equity in Low-and Middle-Income Countries. Journal of Economic Perspectives, 38(1), 55-80.
+- Brockmeyer, A., Mascagni, G., Nair, V., Waseem, M., & Almunia, M. (2024). Does the Value-Added Tax Add Value? Lessons Using Administrative Data from a Diverse Set of Countries. Journal of Economic Perspectives, 38(1), 107-132.
+- Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The ways of corruption in infrastructure: Lessons from the Odebrecht case. Journal of Economic Perspectives, 35(2), 171-190.
+- Kleven, H., Landais, C., Munoz, M., & Stantcheva, S. (2020). Taxation and migration: Evidence and policy implications. Journal of Economic Perspectives, 34(2), 119-142.
+- Levy, S., & Schady, N. (2013). Latin America's social policy challenge: Education, social insurance, redistribution. Journal of Economic Perspectives, 27(2), 193-218.
+- Slattery, C., & Zidar, O. (2020). Evaluating state and local business incentives. Journal of Economic Perspectives, 34(2), 90-118.
+- Slemrod, J. (2007). Cheating ourselves: The economics of tax evasion. Journal of Economic perspectives, 21(1), 25-48.
+- Deming, D. J. (2022). Four facts about human capital. Journal of Economic Perspectives, 36(3), 75-102.
+<!--- Woessmann, L. (2016). The importance of school systems: Evidence from international differences in student achievement. Journal of Economic Perspectives, 30(3), 3-32. --->
+
+### Course bibliography
+
+The textbook that we are going to follow closely is *Public Finance and Public Policy*, by Jonathan Gruber. The most recent edition is the 6th edition, 2019, but the course is mostly based on the 5th edition, 2016. 
+
+Review chapters are *optional* and they cover contents that you have already learned in prerequisite disciplines for this course, but they can be useful to recall these contents. Bibliography chapters often have a section explaining the US public system. Reading these sections is also optional.
+
+Besides that, it is important to follow the slides and class notes because I will bring data about Brazil that are not in the book (like all the others, the textbook is American), in addition to some derivations and models that I think are important.
+
+#### References

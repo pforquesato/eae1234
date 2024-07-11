@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>EAE-1234: PUBLIC ECONOMICS</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Pedro Forquesato http://www.pedroforquesato.com Office 217/FEA2 - pforquesato@usp.br" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# EAE-1234: PUBLIC ECONOMICS
+]
+.author[
+### Pedro Forquesato<br/><a href="http://www.pedroforquesato.com" class="uri">http://www.pedroforquesato.com</a><br/>Office 217/FEA2 - <a href="mailto:pforquesato@usp.br" class="email">pforquesato@usp.br</a>
+]
+.institute[
+### School of Economics, Business and Accounting<br/>University of São Paulo
+]
+.date[
+### Topic 5: Taxes on labor income<br/>2024/2
+]
+
+---
+
+class: inverse, middle, center
+
+
+
+# Taxes on labor income
+
+---
+class: middle
+## Taxing income
+
+In indirect taxation (on goods), the government generally seeks to collect revenue for public policies in the least distorting way possible (**targeting principle**)
+
+In direct taxation (i.e. income taxes), there is a second motivator: *reducing socioeconomic inequality* &amp;mdash; that is why almost every country in the world taxes income progressively
+
+As in modern societies, **income redistribution** is one of the main tasks of governments, and studying the optimal progressivity of income tax is one of the central (and most contentious) points of public finance
+
+---
+class: middle
+## Tax on income
+
+We already saw in the first class of the course that if income does not depend on effort (it is "fixed"), and we have a **utilitarian** social objective with *decreasing marginal utility*, it results in the *principle of equimarginal sacrifice*
+
+This principle says that we should equate the marginal utility of all individuals, which, if everyone has equal utility functions, is the same as equaling the income (after taxes and transfers) of everyone
+
+But this would only be possible with an income tax of `\(100\%\)`, which is very extreme (*ma non troppo*: in 1945 the maximum **marginal** rate in the US was `\(94\%\)` (!), and in Scandinavian countries today `\(\sim 70\%\)`)
+
+---
+class: middle
+## Tax on income
+
+But it is obvious that income *does depend* on effort, and under a tax of 100%, no one would work &amp;mdash; which generates the well-known **trade-off between efficiency and equity**
+
+The second ingredient, then, for deciding the optimal level of taxation will be quantifying the size of this *trade-off*: if **taxable income** is very elastic, then achieving more equity becomes very costly; otherwise, it costs less
+
+The study of taxation theory is fundamental for the reduction of inequalities, and the role of the economist is central when telling politicians what is the size of the *trade-off* between efficiency and equity
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-3.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+With *behavioral effects*, there is no longer any guarantee that raising the tax rate will increase revenue: beyond a certain tax level, it will reduce it, generating **unanimous worsening** &amp;mdash; this is exposed in the **Laffer curve**, which points to a rate `\(\tau^*\)` that maximizes revenue, and any higher rate implies lower revenue [Gru16]
+
+---
+class: middle
+## Laffer curve
+
+An increase in taxation of labor income has two opposite effects:
+
+1. *Mechanical effect*: for a given level of labor supply, revenue increases `\(\Delta \tau \cdot wl\)`, that is, **proportional to `\(\Delta \tau\)`**;
+2. *Behavioral effect*: it reduces the collection due to the decrease in labor supply in `\(\tau \cdot w\Delta l\)`, i.e., **proportional to `\(\tau\)`**
+
+As (1) it depends on the variation in the rate and (2) on the total taxation, the first effect tends to dominate for low `\(\tau\)` and the second effect dominates for high `\(\tau\)` : which is represented by the **Laffer curve**
+
+---
+class: middle
+## Personal income tax in Brazil
+
+Since 2009, the IRPF in Brazil has 5 rates (until 2008 there were only rates 1, 3, and 5):
+
+1. 0% (exempt) up to R$ 2,259.20
+2. 7.5% up to R$ 2,826.65
+3. 15% up to R$ 3,751.05
+4. 22.5% up to R$ 4,664.68; and
+5. 27.5% for higher wages
+
+Variation in rates is small, making the system not particularly progressive; on the other hand, the exemption range is high, and few people pay IRPF in Brazil (but they do pay payroll and consumption tax), as we will soon see
+
+---
+class: middle
+## Personal income tax in Brazil
+
+The IRPF also has several exemptions for medical and education expenses that reduce the tax burden at the top, decreasing even more the progressivity
+
+We have already seen that average taxation varies almost nothing in income quintiles 1 to 4, and by only 4p.p. in the last quintile (exactly the impact of IRPF)
+
+Also, the Brazilian tax base has several "holes", and the rich practice **tax avoidance** by disguising labor income as capital income ("pejotização")
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-9.png" width="70%" /&gt;
+
+Taxation `\(T\)` of **taxable income** `\(z\)` is convex in income (*progressive*), but continuous through discrete tax rates (*piecewise-linear*): note that each new tax rate (marginal rate) applies only to income above the threshold (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-10.png" width="70%" /&gt;
+
+On the other hand, *marginal rate* `\(T^{\prime}(z)\)` increases discontinuously (it is a *step function*), generating **kinks** in the taxation graph, which individuals acting rationally tend to concentrate on (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/notch.jpg" width="75%" style="display: block; margin: auto;" /&gt;
+
+A *kink* is a discontinuous rise in the *marginal* tax rate, while a **notch** is a discontinuous rise in the **average** tax rate &amp;mdash; an example above is income tax deduction for childcare in the UK, which is possible only for families with income up to £100k: so after-tax income for families that earn £99k is *higher* than for families earning £100-140k
+
+---
+class: middle
+## Measures of tax distortions
+
+Those with zero taxable income receive transfers `\(T(0) &lt; 0\)`, which generates a **participation rate** `\(\tau_p = \left( T(z)- T(0) \right)/z\)`: individual keeps with `\(1-\tau_p\)` when they start to work (*extensive margin*)
+
+The **marginal tax rate** is `\(T^{\prime}(z)\)`: individual keeps with `\(1 - T^{\prime}(z)\)` of every extra `$`1 earned (*intensive margin*) &amp;mdash; we usually focus on the marginal rate *at the top*, which in a progressive tax system will be the highest
+
+A system of *taxes and transfers* (income taxes and social welfare) generates a **break-even point** `\(z^*\)` such that `\(T(z^*) = 0\)`
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-11.png" width="75%" /&gt;
+
+A system of taxes and transfers `\(T\)` generates a **budget set** with a slope `\(1 - T^{\prime}(z)\)`: the relation between taxable income and (potential) consumption &amp;mdash; in this example for a single tax rate `\(T^{\prime}(z)\)`, and the point in which the BS intersects the income without taxes and transfers (the 45º line) is the *break-even point* (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-12.png" width="75%" /&gt;
+
+The difference between the intercept `\(-T(0)\)` and working income `\(z - T(z)\)` is the proportion of income that stays with the individual `\((1 - \tau_p)z\)`, which `\(\tau_p\)` is the **participation rate** (Saez)
+
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-20.png" width="70%" /&gt;
+
+Budget constraints in the real world: in France, both the *marginal rate* and the *participation rate* are much higher than in the US [Aue+13, ch. 7]
+
+---
+class: middle
+## Effect of taxation on labor supply 
+
+A tax on labor income has two effects:
+
+1. It makes leisure cheaper in relation to consumption (*substitution effect*)
+2. It makes the worker *poorer* and more willing to work if leisure is a normal good (*income effect*)
+
+This is an idealized view of the market, in reality, there is **rigidity in the labor market**: workers cannot freely choose how many hours of labor to offer &amp;mdash; but this will somehow be captured in the *elasticities* that make up the optimal taxation
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-13.png" width="80%" /&gt;
+
+The choice between labor supply `\(l\)` (which decreases utility by reducing leisure) and consumption `\(c\)` (which depends on earned salary `\(w\)` and other incomes `\(R\)`) generates the **Marshallian labor supply** `\(l(w, R)\)` &amp;mdash; here still without taxes (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-14.png" width="80%" /&gt;
+
+An increase in income **shifts vertically** the budget constraint and always reduces labor supply, since leisure is a normal good (there is only the *income effect* `\(\eta = w \frac{\partial l}{\partial R}\)`) (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-14b.png" width="85%" /&gt;
+
+An increase of income **shifts vertically** the budget constraint and always reduces labor supply, since leisure is a normal good (there is only the *income effect* `\(\eta = w \frac{\partial l}{\partial R}\)`) (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-14c.png" width="85%" /&gt;
+
+An increase of income **shifts vertically** the budget constraint and always reduces labor supply, since leisure is a normal good (there is only the *income effect* `\(\eta = w \frac{\partial l}{\partial R}\)`) (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-15.png" width="80%" /&gt;
+
+The **compensated labor supply** is obtained through the *dual problem*: to minimize the cost of reaching a level of utility  `\(u\)` &amp;mdash; optimally, the compensated supply equals the Marshallian (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-16.png" width="80%" /&gt;
+
+The change in labor supply *offset* by the change in the relative prices of consumption and leisure (i.e., wage) measures the **substitution effect** `\(\varepsilon^c =\frac{\partial l^c(w, \bar{u})}{\partial w} \frac{w}{l^c(w, \bar{u})}\)` (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-16b.png" width="80%" /&gt;
+
+The change in labor supply *offset* by the change in the relative prices of consumption and leisure (i.e., wage) measures the **substitution effect** `\(\varepsilon^c = \frac{\partial l^c(w, \bar{u})}{\partial w}\frac{w}{l^c(w, \bar{u})}\)` (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-17.png" width="80%" /&gt;
+
+The **total effect** (*elasticity of Marshallian supply*) of a change in wage is the sum of the *substitution effect* and the *income effect*: `\(\varepsilon^u = \varepsilon^c + \eta\)` &amp;mdash; the first increases and the second decreases the labor supply, and the final effect `\(\varepsilon^u\)` is ambiguous (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-17b.png" width="80%" /&gt;
+
+The **total effect** (*elasticity of Marshallian supply*) of a change in wage is the sum of the *substitution effect* and the *income effect*: `\(\varepsilon^u = \varepsilon^c + \eta\)` &amp;mdash; the first increases and the second decreases the labor supply, and the final effect `\(\varepsilon^u\)` is ambiguous (Saez)
+
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-17c.png" width="80%" /&gt;
+
+The **total effect** (*elasticity of Marshallian supply*) of a change in wage is the sum of the *substitution effect* and the *income effect*: `\(\varepsilon^u = \varepsilon^c + \eta\)` &amp;mdash; the first increases and the second decreases the labor supply, and the final effect `\(\varepsilon^u\)` is ambiguous (Saez)
+
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-17d.png" width="80%" /&gt;
+
+The **total effect** (*elasticity of Marshallian supply*) of a change in wage is the sum of the *substitution effect* and the *income effect*: `\(\varepsilon^u = \varepsilon^c + \eta\)` &amp;mdash; the first increases and the second decreases the labor supply, and the final effect `\(\varepsilon\)` is ambiguous (Saez)
+
+
+---
+class: middle
+## Effects of taxation on labor supply
+
+The effects of taxation on labor supply are:
+
+1. `\(T^{\prime}(z) &gt; 0\)` reduces net wages and **reduces** labor supply through *substitution effect*
+2. `\(T(z) &gt; 0\)` reduces disposable income and **increases** labor supply through *income effect*
+3. `\(T(z) &lt; 0\)` increases disposable income and ** reduces** labor supply through *income effect*
+
+As we have seen, taxes have an ambiguous effect on labor supply, but social assistance (with `\(T^{\prime}(z) &gt; 0\)` and `\(T(z) &lt; 0\)`) **always decreases** it
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-18.png" width="80%" /&gt;
+
+The effect of taxation on labor supply depends on the **level** `\(T(z)\)` and **slope** `\(T^{\prime}(z)\)` of budget constraint (Saez)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-18b.png" width="80%" /&gt;
+
+The effect of taxation on labor supply depends on the **level** `\(T(z)\)` and **slope** `\(T^{\prime}(z)\)` of budget constraint (Saez)
+
+---
+class: middle
+## Elasticity of labor supply
+
+As we have seen, optimal taxation depends fundamentally on the value of the **elasticity of labor supply** (an empirical question!)
+
+Decades of literature in economics try to estimate it &amp;mdash; in general, the conclusions for the US [Kea11] are:
+
+1. The elasticity for *primary earners* is very low: `\(\sim 0.1\)`, that is, a reduction of `\(10\%\)`  in after-tax wage decreases the hours offered in `\(1\%\)`
+2. The elasticity for *secondary earners* is much higher, `\(0.5-1.0\)`, mainly coming from a reduction in **workforce participation**
+
+---
+class: middle
+## Elasticity of labor supply
+
+The elasticity depends on the alternatives to the formal work: in the USA they are very few for *primary earners*, who need to work to support their families
+
+In developing countries, with the possibility of operating in the untaxed informal sector, it should be higher
+
+The elasticity for *secondary earners* is high because they have a clear (and untaxed!) alternative to formal work: taking care of children &amp;mdash; probably with public daycare this elasticity is lower
+
+---
+class: middle
+## Elasticity of taxable income
+
+The main problem with measuring the effect of taxation on worked hours is that it ignores many other dimensions by which it can affect the economy
+
+Workers can respond to a higher taxation by working less, studying less, taking fewer risks, seeking fewer promotions, etc
+
+Economists have approached this problem by studying the **elasticity of taxable income with respect to the net-of-tax rate**: the proportional decrease in pre-tax income given a proportional decrease in `\(1 - T^{\prime}(z)\)`
+
+---
+class: middle
+## Taxable income
+
+Potential problem: changes in taxable income may be due to increased tax evasion, which intuitively should not be taken into account
+
+Feldstein (1995, 1999) argued that tax evasion generates social costs (lawyer hours, establishing banks in tax havens, accountants), which in equilibrium should equal the marginal benefit of evasion
+
+Therefore, if $1 of taxation reduces 1 hour of an individual's work or makes him use 1 more hour of wasted accountant work to evade taxes, the social cost is equal
+
+---
+class: middle
+## Taxable income
+
+This reasoning, in addition to initial estimates that suggested this elasticity of taxable income would be considerable (~1), made it influential in suggesting that the US would be on the "wrong side" of the Laffer curve
+
+More recent and reliable estimates of the elasticity of taxable income are in the range of 0.1-0.5 (let us say, 0.3): higher than the elasticity of labor supply, but not exceedingly high [SSG12]
+
+Literature has also pointed out that if the expected cost of evasion is transfers to other agents (esp. fines to the government), this is not included in the calculation of the optimal taxation
+
+---
+class: middle
+## Calculating the top of the Laffer curve
+
+In our simple model, without tax consumption equals taxable income, `\(c = z\)`; but with taxation consumption equals taxable income minus net taxes (i.e, `\(c = z - T(z)\)`)
+
+Our goal here is to get information on what the desirable income tax rate should be &amp;mdash; a natural point to start is to define the tax that maximizes revenue (the **top of the Laffer curve**)
+
+As `\(R(\tau^*) = \tau^* z\)`, the *rate that maximizes revenue* solves the FOC `\(R^{\prime}(\tau^*) = 0\)`, therefore:
+
+`$$\frac{dR(\tau^*)}{d\tau} = z - \tau^* \frac{dz}{d(1 - \tau^*)} = 0$$`
+
+---
+class: middle
+## Rawlsian taxation
+
+Multiplying and dividing by `\((1 - \tau^*)\)` and dividing by `\(z\)`, we have: `$$1 - \frac{\tau^*}{1 - \tau^*} \frac{1 - \tau^*}{z}\frac{dz}{d(1 - \tau^*)} = 0 \Rightarrow \tau^* = \frac{1}{1 + e},$$`
+
+Which `\(e \equiv (1 - \tau^*)/z \cdot dz/d(1 - \tau^*)\)` is the **elasticity of taxable income in relation to the net-of-tax rate**
+
+The tax that maximizes revenue is the optimal taxation given **a Rawlsian social welfare function**: it is the *maximum redistribution* that does not make everyone's situation worse (which is not on the *wrong side* of Laffer curve)
+
+---
+class: middle
+## Rawlsian income tax rate at the top
+
+So far we have considered a single tax rate &amp;mdash; in practice, income tax generally has progressive rates, so an interesting question is: what should be the maximum rate?
+
+Consider a threshold `\(z^*\)` and a maximum marginal rate `\(\tau^{\infty}\)` above that threshold, and `\(z\)` as the average income of people at the top bracket (in Brazil, those with incomes above R$ 4,664.68, around the richest 10%; in the US, the richest 1%)
+
+Let us calculate the maximum rate `\(\tau^{\infty}\)` above the threshold `\(z^*\)` that maximizes tax collection
+
+---
+class: middle
+## Rawlsian income tax rate at the top
+
+If we are at the maximum, then any infinitesimal change `\(d\tau^{\infty}\)` above `\(z^*\)` at optimum, it should have zero effect on tax collection (FOC)
+
+There is a **mechanical effect (positive)**, by raising more for a fixed amount of work, and a **behavioral effect (negative)**, by reducing the labor supply
+
+The *mechanical effect* on the average individual is `\(dM = \left( z - z^* \right) d\tau^{\infty}\)`
+
+And the *behavioral effect* on the average individual is given by:
+
+`$$dB = \tau^{\infty} dz = - \tau^{\infty} \frac{dz}{d(1-\tau^{\infty})}d\tau^{\infty} = - \frac{\tau^{\infty}}{1-\tau^{\infty}}e z \ d\tau^{\infty}$$`
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-19.png" width="70%" /&gt;
+
+An increase of `\(d\tau^{\infty}\)` in the income tax rate for incomes above `\(z^*\)` **rotates downwards** the workers' budget constraint starting at `\(z^*\)` (decreases the slope) [DS11]
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-19b.png" width="70%" /&gt;
+
+The two effects of this change are: a **mechanical** increase in tax collection, because taxpayers are paying more for a certain level of work, and a **behavioral** reduction in taxable income `\(z\)` caused by a higher **marginal tax rate** [DS11]
+
+---
+class: middle
+## Top rate that maximizes revenue
+
+As the effect on revenue of `\(d\tau^{\infty}\)` has to be zero, `\(dM + dB = 0\)`, therefore: `$$\left[ \left( z - z^* \right) -\frac{\tau^{\infty}}{1-\tau^{\infty}}e \cdot z \right] d\tau^{\infty} = 0$$`
+
+Defining `\(a = z/ (z - z^*)\)`, we have: `$$\frac{\tau^{\infty}}{1 - \tau^{\infty}} = \frac{1}{a \cdot e} \Rightarrow \tau^{\infty} = \frac{1}{1 + a \cdot e}$$`
+
+---
+class: middle
+## Top rate that maximizes revenue
+
+The tax rate at the top *that maximizes revenue* is decreasing in  **elasticity of taxable income** `\(e\)` (efficiency cost) and in `\(a = z/(z - z^*)\)`, which measures how "thin" is the tail of the distribution is in relation to the threshold rate (if `\(z^* = 0\)`, then `\(a = 1\)`, and we have the same formula as before)
+
+This is because an increase in the maximum rate only collects revenue on income higher than `\(z^*\)`, but reductions in labor supply reduce revenue "at all rates" (i.e., `\(\tau dz\)`)
+
+The statistic `\(a\)` is easy to estimate empirically, in the US it is `\(\sim 1.5\)` &amp;mdash; if `\(e = 0.1,\)`, then `\(\tau^{\infty} = 87\%\)` (!); if `\(e = 0.3\)`, `\(\tau^{\infty}\)` it is still high `\(68\%\)`
+
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-21.png" width="70%" /&gt;
+
+Maximum rates of income tax in selected countries during the 20th century: on several occasions, especially during wars (but not only!), these rates came close to &amp;mdash; or plausibly even exceeded &amp;mdash; the top of Laffer curve around 70-90% of marginal rate [Aue+13]
+
+---
+class: middle
+## Taxation of the richest
+
+One of the central points of the taxation debate is how much to tax the richest: as their consumption is basically satiated, the marginal utility should be close to zero, and it is reasonable to tax up to the top of the Laffer curve
+
+The argument then divides between those who defend a high economic cost (*supply-side economics* or *trickle-down economics*)...
+
+... and those who believe that the increase in the proportion of the richest 1% in income came at the expense of the other 99% (**rent-seeking**) &amp;mdash; and therefore, a reduction in the maximum tax rate would only increase this income extraction
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-1.png" width="85%" /&gt;
+
+The drastic reduction in the top marginal tax rate in the US during "Reagonomics" was accompanied by a significant growth in the share of the richest 1% income... [PSS14]
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-2.png" width="85%" /&gt;
+
+... but it seems to have had no effect on income growth for the other 99% (if there is, the effect is negative): i.e., there is *plausibly* little real economic effect of a higher taxation on the top [PSS14] 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-5.png" width="75%" /&gt;
+
+In *cross-country* evidence, we see the same: higher taxation at the top is strongly (and negatively) correlated with a lower proportion of the richest 1% in income... [PSS14] 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-6.png" width="75%" /&gt;
+
+... but changes in the marginal rate at the top have zero correlation with GDP *per capita* growth [PSS14] 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-7.png" width="75%" /&gt;
+
+Furthermore, higher taxation at the top is associated with lower CEO wages *before tax*: evidence that taxation would decrease **rent-seeking** [PSS14] 
+
+---
+class: middle
+## Taxation at the top and migration
+
+A potential effect of taxation, especially at the top, is emigration: if a high tax rate at the top "expels" the greatest inventors and most productive agents, the economic cost can be high
+
+The elasticity of emigration in relation to taxation is quite high for European soccer players [KLS13] &amp;mdash; for *super-stars* inventors, it is high for foreigners but low for the nationals [ABS16]
+
+As emigration is a **zero-sum game**, there is a need for *international tax coordination* to avoid **beggar-thy-neighbor** policies (we will see this same argument for wealth and corporate taxes)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-11-8.png" width="70%" /&gt;
+
+A 3 years tax reduction for highly skilled immigrants in 1991 more than doubled its number in Denmark (elasticity `\(\varepsilon = 1.6\)`) compared to less-skilled immigrants who did not have a reduction in taxation (*control group*) [Kle+14] 
+
+---
+class:middle
+# References
+&lt;small&gt;
+[ABS16] U. Akcigit, S. Baslandze, and S. Stantcheva. "Taxation and the
+international mobility of inventors". In: _American Economic Review_
+106.10 (2016), pp. 2930-81.
+
+[Aue+13] A. J. Auerbach, R. Chetty, M. Feldstein, et al. _Handbook of
+public economics_. Vol. 5. Newnes, 2013.
+
+[DS11] P. Diamond and E. Saez. "The case for a progressive tax: from
+basic research to policy recommendations". In: _Journal of Economic
+Perspectives_ 25.4 (2011), pp. 165-90.
+
+[Gru16] J. Gruber. _Public finance and public policy_. 5th ed.
+Macmillan, 2016.
+
+[Kea11] M. P. Keane. "Labor supply and taxes: A survey". In: _Journal
+of Economic Literature_ 49.4 (2011), pp. 961-1075.
+&lt;/small&gt;
+
+---
+class:middle
+# References
+&lt;small&gt;
+[Kle+14] H. J. Kleven, C. Landais, E. Saez, et al. "Migration and wage
+effects of taxing top earners: Evidence from the foreigners’ tax scheme
+in Denmark". In: _The Quarterly Journal of Economics_ 129.1 (2014), pp.
+333-378.
+
+[KLS13] H. J. Kleven, C. Landais, and E. Saez. "Taxation and
+international migration of superstars: Evidence from the European
+football market". In: _American economic review_ 103.5 (2013), pp.
+1892-1924.
+
+[PSS14] T. Piketty, E. Saez, and S. Stantcheva. "Optimal taxation of
+top labor incomes: A tale of three elasticities". In: _American
+economic journal: economic policy_ 6.1 (2014), pp. 230-71.
+
+[SSG12] E. Saez, J. Slemrod, and S. H. Giertz. "The elasticity of
+taxable income with respect to marginal tax rates: A critical review".
+In: _Journal of economic literature_ 50.1 (2012), pp. 3-50.
+&lt;/small&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Alíquota ótima --&gt;
+
+&lt;!-- No caso mais geral, em que a sociedade seja *utilitarista* mas não rawlsiana, a taxação marginal ótima se torna: `$$T^{\prime}(z)^* = \frac{1 - G(z)}{1 - G(z) + a(z) \cdot e(z)}$$` --&gt;
+
+&lt;!-- A grande diferença aqui é que temos o termo `\(G(z)\)`, que é o **peso na função de bem-estar social** de indivíduos com renda `\(z\)`, ou seja, a importância que a socidedade dá ao seu bem-estar --&gt;
+
+&lt;!-- É plausível que a sociedade dê menos valor à utilidade dos mais ricos, se a sociedade tiver preferências sociais redistributivas ("gostar de igualdade") --&gt;
+
+&lt;!-- Mas mesmo que não seja o caso, `\(G(z)\)` tenderá a ser decrescente pela *utilidade marginal decrescente*: no limite, quando `\(z \rightarrow \infty\)`, `\(u^{\prime}(z) = 0 \Rightarrow G(z) = 0\)` e a alíquota ótima utilitarista maximiza a receita --&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
