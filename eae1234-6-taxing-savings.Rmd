@@ -40,43 +40,43 @@ knitr::include_graphics("figs/musk.jpg")
 class: middle
 ## Inequality of capital income
 
-The main way of reducing socioeconomic inequalities is the progressive taxation system of labor income and transfers, since labor income accounts for around 3/4 of the national product
+The main way of reducing socioeconomic inequalities is the progressive taxation system of labor income and transfers, since labor income accounts for around three-quarters of the national product
 
-But the richest 1%, and especially the richest 0,1%, are only slightly affected by taxation on labor income, since most of their income comes from capital (or at least it is easily transformed into capital income)
+But the richest 1%, and especially the richest 0.1%, are only slightly affected by taxation on labor income, since most of their income comes from capital (or at least it is easily transformed into capital income)
 
 As we have seen, through the **targeting principle**, if the only heterogeneity is *skill*, we should only tax labor &mdash; but if savings or rate of return is unequal, so taxing capital becomes important
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '60%'}
+```{r, echo=FALSE, out.width = '70%', fig.align="center"}
 knitr::include_graphics("figs/eae0310-12-3.png")
 ```
 
-In 1850, capital's share of national income was nearly 50%, but it has dropped since then, and today it accounts for only 25-30% of GDP, the complement being the labor share `r Citep(myBib, "piketty2014capital")`
+In 1850, during the Industrial Revolution, capital's share of national income was nearly 50%, but it has dropped since then, and today it accounts for only 25-30% of GDP, the complement being the labor share `r Citep(myBib, "piketty2014capital")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-12-5.png")
 ```
 
-Brazilian wealth is extremely unequal distributed (even in international comparison): the richest 10% have around 3/4 of Brazilian wealth, and the richest 1% have half &mdash; as it is common internationally, the poorest 50% have zero wealth [(WID)](https://wid.world/country/brazil/)
+Brazilian wealth is extremely unequal distributed (even in international comparison): the richest 10% have around 3/4 of Brazilian wealth, and the richest 1% have half &mdash; as it is common internationally, the poorest 50% have effectively zero (net) wealth [(WID)](https://wid.world/country/brazil/)
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '85%'}
+```{r, echo=FALSE, out.width = '85%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-12-1.jpg")
 ```
 
-Brazil is among only 6 countries in the world where the poorest 80% have less wealth than the richest 0,001% (1/100.000), in other words, 2.000 people (the size of the FEA student body) have more wealth than 160 million Brazilians together [(WID and @rubenbmathisen)](https://twitter.com/rubenbmathisen/status/1508148771225485316)
+Brazil is among only 6 countries in the world where the poorest 80% have less wealth than the richest 0.001% (1/100,000), in other words, 2,000 people (the size of the FEA's student body) have more wealth than 170 million Brazilians together [(WID and @rubenbmathisen)](https://twitter.com/rubenbmathisen/status/1508148771225485316)
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '60%'}
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-12-6.png")
 ```
 
@@ -89,7 +89,7 @@ class: middle
 knitr::include_graphics("figs/eae0310-12-7.png")
 ```
 
-In the US, the wealth of the 90% grew until the 80s with incentives for homeownership, but it has dropped (relatively) since then due to income and savings inequality, besides tax reductions &mdash; and this movement was mirrored by doubling the proportion of the richest 0,1%, which today has 20% of that country's wealth `r Citep(myBib, "piketty2018distributional")`
+In the US, the wealth of the 90% grew until the 80s with incentives for homeownership, but it has dropped (proportionally) since then due to income and savings inequality, besides tax reductions &mdash; and this movement was mirrored by the doubling the share of wealth owned by the richest 0.1%, which today have 20% of that country's wealth `r Citep(myBib, "piketty2018distributional")`
 
 ---
 class: middle
@@ -98,7 +98,7 @@ class: middle
 knitr::include_graphics("figs/eae0310-12-8.png")
 ```
 
-Another way to look at wealth inequality is the Forbes 400 richest list: since 1982, their wealth has tripled, surpassing 3% of the total American wealth &mdash; 3% of wealth for (nearly) 1-in-1-million (Saez)
+Another way to look at wealth inequality is the Forbes 400 richest list: since 1982, their wealth has tripled, surpassing 3% of the total American wealth &mdash; 3% of total wealth for the (nearly) 1-in-a-million richest (Saez)
 
 
 ---
@@ -109,16 +109,16 @@ knitr::include_graphics("figs/eae0310-13-10.png")
 knitr::include_graphics("figs/eae0310-13-10b.png")
 ```
 
-There is also a **racial inequality of wealth**: in the US, in 1860, in Emancipation, the wealth of white people was 56x higher than black people: there was a marked improvement in the following decades, slowing down in the 20th century &mdash; but since the 2000s, this inequality has *increased*, going back to the level of the Civil Rights Movement in the 60s (5-7x higher) `r Citep(myBib, "derenoncourt2022wealth")`
+**Racial inequality of wealth**: in the US, in 1860, during Emancipation, the wealth of white people was 56x higher than of black people: there was a marked improvement in the following decades, slowing down in the 20th century &mdash; but since the 2000s, this inequality has *increased*, going back to the level of the Civil Rights Movement in the 60s (5-7x higher) `r Citep(myBib, "derenoncourt2022wealth")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-12-1.png")
 ```
 
-While only 10% of income for 90% of the bottom comes from capital, 60% of income of the richest 1% and 70% of the 0,1% comes from this factor of production (or at least it is reported as it): taxing labor has limited redistribution capacity in these groups `r Citep(myBib, "piketty2018distributional")`
+While only 10% of income for 90% of the bottom comes from capital, 60% of income of the richest 1% and 70% of the top 0.1% comes from this factor of production (or at least it is reported as it): taxing labor has limited redistribution capacity in these groups `r Citep(myBib, "piketty2018distributional")`
 
 ---
 class: middle
@@ -128,9 +128,9 @@ If the wealth in $t$ is $W_t$ and the rate of return $r_t$, then the capital ret
 
 The wealth in $t$ will be the wealth in $t-1$ plus capital income, the saving $S_t$ and eventual inheritance $I_t$: people have unequal wealth because of:
 
-1. Different ages (**life-cycle wealth**)
+1. Different ages (**life-cycle wealth inequality**)
 2. Differences in the amount saved in the past $S_t$, potentially by different labor income $Y_t$, since $S_t = Y_t - C_t$
-3. Differences in inheritances received $I_t$ (**inherited wealth**)
+3. Differences in inheritances received $I_t$ (**inherited wealth inequality**)
 4. Different rates of return $r_t$
 
 ---
@@ -144,7 +144,7 @@ There are many ways to tax capital:
 (ii) **Personal income tax on capital:** in Brazil, dividends are *exempt*, and capital gains taxed at 15% (up to 5MM, rising progressively to 22,5% above 30MM), but deductible from IRPJ and CSLL
 
 
-(*) But it is not quite like this. In Brazil, there is the Simples (progressive rates starting from 4-6% of revenue, up to 4,8MM/year) and also presumed profit (revenue up to 78MM/year)
+(*) But it is not quite like this. In Brazil, there is the Simples (progressive rates starting from 4-6% of revenue, up to 4.8MM/year) and also presumed profit (revenue up to 78MM/year)
 
 ---
 class: middle
@@ -152,20 +152,20 @@ class: middle
 
 (iii) **Inheritance taxation:** in the US, there is a 40% tax on inheritances above $11MM, in Brazil, it is state tax with a maximum rate of 8%
 
-(iv) **Property tax:** There is the IPVA, state tax at a rate (SP) of 4% of the car (2% others) and IPTU, which is a municipal tax that in São Paulo varies from 0-1,6% of the property value (progressive rate)
+(iv) **Property tax:** There is the IPVA, state tax at a rate (SP) of 4% of the car (2% others) and IPTU, which is a municipal tax that in São Paulo varies from 0 to 1.6% of the property value (progressive rate on imputed housing value)
 
 (v) **Wealth tax:** levied on people's total net worth; it exists in only a few countries (not in Brazil)
 
-At this end of the discipline, we will focus entirely on the capital taxation: this week we will study (ii), the following week (iii)-(v), and on the last week, topic (i)
+These next 3 weeks we will focus entirely on the capital taxation: this week we will study (ii), the following week (iii)-(v), and on the last week, topic (i)
 
 
 ---
 class: middle
 ## Life-cycle model
 
-Individuals live 2 periods, work $l$ in the first one and do not work in the second one (retirement) and consume $c_1$ in the first and $c_2$ in the second: $$U(c_1, c_2, l) = u(c_1, l) + \beta u(c_2)$$
+Individuals live 2 periods, supply $l$ work hours in the first one and do not work in the second one (retirement). They consume $c_1$ in the first and $c_2$ in the second: $$U(c_1, c_2, l) = u(c_1, l) + \beta u(c_2)$$
 
-Then the saving (always in period 1) is $s = wl - c_1$, and consumption as $t=2$ will be $c_2 = (1 + r)s$, which $rs$ is the capital income
+Then the saving (always in period 1) is $s = wl - c_1$, and consumption at the second period, $t=2$, will be $c_2 = (1 + r)s$, where $rs$ is the capital income
 
 This generates an **intertemporal budget constraint**: $$c_1 + \frac{c_2}{1 + r} = wl$$
 
@@ -184,11 +184,21 @@ $$[c_2]: - \frac{1}{1 + r} \frac{\partial u}{\partial c_1} + \beta \frac{\partia
 class: middle
 ## Life-cycle hypothesis
 
-If $\beta = 1/(1 + r)$ (which will occur in equilibrium in complete and frictionless markets), then individuals *smooth consumption perfectly* throughout the life-cycle (**life-cycle hypothesis**)
+If $\beta = 1/(1 + r)$ (which will occur in equilibrium in complete and frictionless markets), then individuals *smooth consumption perfectly* throughout the life-cycle (this result is known as the **life-cycle hypothesis**)
 
-The life-cycle hypothesis is: (i) disproved by the data; and (ii) very important in macro, because it is a necessary condition for important theories, such as *Ricardian equivalence*
+The life-cycle hypothesis is: (i) disproved in the data; and (ii) very important in macro, because it is a necessary condition for important theories, such as the *Ricardian equivalence*
 
 In the real world, where the richest 1% have 50% of the wealth, it is hard to believe that billionaires are saving and investing to smooth consumption &mdash; but it probably roughly accounts for the 90% in the "bottom"
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae0310-12-20.png")
+```
+
+Consumption smoothing with a concave income profile during life implies a **life-cycle** of wealth accumulation: positive savings during working age and then negative savings during retirement until wealth riches zero at death
 
 ---
 class: middle
@@ -331,12 +341,21 @@ It is common for individuals to have at the same time low net savings with a low
 ---
 class: middle
 
-```{r, echo=FALSE, fig.show="hold", out.width="50%"}
-knitr::include_graphics("figs/eae0310-12-18.png")
-knitr::include_graphics("figs/eae0310-12-18b.png")
+```{r, echo=FALSE, out.width = '95%'}
+knitr::include_graphics("figs/feapub8.png")
 ```
 
-As we saw in the last class, the share of the richest 1% income in the US has more than doubled since the 80s, reaching 20% &mdash; it was due to the tripling of salaries and the growth of corporate income, a good part of it is also potentially labor compensation `r Citep(myBib, "smith2019capitalists")`
+Since the 1970s, the ultra rich has a higher savings rate than the rich, and a much higher rate than middle class and the poor, which in USA save almost nothing `r Citep(myBib, "saez2016wealth")` 
+
+---
+class: middle
+
+```{r, echo=FALSE, fig.show="hold", out.width="50%"}
+knitr::include_graphics("figs/eae0310-12-16.png")
+knitr::include_graphics("figs/eae0310-12-16b.png")
+```
+
+`r Citep(myBib, "smith2019capitalists")` argue that part of the capital income actually *comes from work of managing firms* by the entrepreneur, even for medium-sized companies &mdash; this would be shown by the fact that they lose a good part of their market value when the owner dies or retires
 
 ---
 class: middle
@@ -351,11 +370,11 @@ If we calculate (from the previous analysis) that 75% of the income of this type
 class: middle
 
 ```{r, echo=FALSE, fig.show="hold", out.width="50%"}
-knitr::include_graphics("figs/eae0310-12-16.png")
-knitr::include_graphics("figs/eae0310-12-16b.png")
+knitr::include_graphics("figs/eae0310-12-18.png")
+knitr::include_graphics("figs/eae0310-12-18b.png")
 ```
 
-`r Citep(myBib, "smith2019capitalists")` argue that part of the capital income actually *comes from work of managing firms* by the entrepreneur, even for medium-sized companies &mdash; this would be shown by the fact that they lose a good part of their market value when the owner dies or retires
+As we saw in the last class, the share of the richest 1% income in the US has more than doubled since the 80s, reaching 20% &mdash; it was due to the tripling of salaries and the growth of corporate income, a good part of it is also potentially labor compensation `r Citep(myBib, "smith2019capitalists")`
 
 ---
 class: middle

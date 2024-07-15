@@ -84,32 +84,34 @@ Note that these punishments will occur without prejudice to an administrative pr
 
 In this course, we will study how the government should design its tax system in order to minimize distortions in the economy and achieve its objectives (perhaps the main one is to redistribute income), as well as how to best implement its main spending policies, namely social insurance and assistance, education and health.
 
-1. **Normative economics and cost-benefit analysis**: @gruber, chaps. 1 and 2 (review), chap. 8. @atkinson, chap. 11. [13/03, 15/03].
-8. **Introduction to taxation**: @gruber, chap. 18, @kleven. [15/05, 17/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-8-intro-taxacao.html)
-9. **Tax incidence**: @gruber, chap. 19, @allcott. [22/05, 24/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-9-incidencia.html)
-10. **Deadweight loss and optimal consumption taxation**: @gruber, chap. 20. [29/05, 31/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-10-peso-morto.html)
+1. **Normative economics and cost-benefit analysis**: @gruber, chaps. 1 and 2 (review), chap. 8. @atkinson, chap. 11. [13/03, 15/03]. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-1-introduction.html)
+8. **Introduction to taxation**: @gruber, chap. 18, @kleven. [15/05, 17/05]. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-2-intro-taxation.html)
+9. **Tax incidence**: @gruber, chap. 19, @allcott. [22/05, 24/05]. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-3-incidence.html)
+10. **Deadweight loss and optimal consumption taxation**: @gruber, chap. 20. [29/05, 31/05]. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-4-excess-burden.html)
 
 First seminar night: papers [1], [2], and [3].
 
-5. **Labor income taxes**: @gruber, chap. 21. [05/06, 07/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-11-imposto-renda.html)
-6. **Taxation on savings**: @gruber, chap. 22. [12/06, 14/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-12-taxacao-poupanca.html)
+5. **Labor income taxes**: @gruber, chap. 21. [05/06, 07/06]. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-5-labor-income.html)
+6. **Taxation on savings**: @gruber, chap. 22. [12/06, 14/06]. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-6-taxing-savings.html)
 
 
-Midterm exam: **05/07**. [[List 1]](https://www.pedroforquesato.com/files/eae0310_lista_2_2023.pdf) (Topics 1-6.)
+Midterm exam: **05/07**. [[List 1]](https://www.pedroforquesato.com/files/eae1234_exercise_list_1_2024.pdf) (Topics 1-6.)
 
 
-7. **Taxation on wealth**: @gruber, chap. 23, @scheuer. [19/06, 21/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-13-imposto-riqueza.html)
-8. **Corporate taxes**: @gruber, chap. 24, @kopczuk2020business. [26/06, 28/06]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-14-imposto-corporativo.html)
+7. **Taxation on wealth**: @gruber, chap. 23, @scheuer. [19/06, 21/06]. [[Slides]]()
+8. **Corporate taxes**: @gruber, chap. 24, @kopczuk2020business. [26/06, 28/06]. [[Slides]]()
 
 Second seminar night: papers [5], [7] and [8].
 
-9. **Social security and health**: @gruber, chap. 12. [24/04, 26/04]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-6-seguridade-social.html)
-10. **Social assistance**: @gruber, chap. 17, @banerjee. [03/05, 08/05]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-7-assistencia-social.html)
-11. **Public provision of goods and education**: @gruber, chap. 7 (review) e 11. [17/04, 19/04]. [[Slides]](https://www.pedroforquesato.com/eae0310/eae0310-5-bens-publicos.html) + 3-lobbying, corruption, PPP, privatization
+9. **Social security and health**: @gruber, chap. 12. [24/04, 26/04]. [[Slides]]()
+10. **Social assistance**: @gruber, chap. 17, @banerjee. [03/05, 08/05]. [[Slides]]()
+11. **Public provision of goods and education**: @gruber, chap. 7 (review) e 11. [17/04, 19/04]. [[Slides]]() 
 
 Third seminar night: papers [4], [6], and [9].
 
-Final exam: **05/07**. [[List 2]](https://www.pedroforquesato.com/files/eae0310_lista_2_2023.pdf)  [[Final exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_2_2022.pdf) (Topics 7-11.)
+Final exam: **05/07**. [[List 2]](https://www.pedroforquesato.com/files/eae1234_exercise_list_2_2024.pdf)   (Topics 7-11.)
+
+Exams from previous years (please be mindful that previous offerings were in Portuguese and that the discipline program changed substantially): <br> [[Midterm exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_1_2022.pdf) [[Final exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_2_2022.pdf) <br> [[Midterm exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_1_2023.pdf) [[Final exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_2_2023.pdf)
 
 Retake test: **17/07**.
 
