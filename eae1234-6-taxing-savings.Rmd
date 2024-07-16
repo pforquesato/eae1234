@@ -317,26 +317,35 @@ But inequality in capital income also comes from differences in inheritance, pat
 
 It is often difficult to distinguish labor income from capital income (e.g., owner of the firm who is also CEO, "pejotização" &mdash; taxing capital is important to increase the tax base and reduce tax avoidance/evasion
 
-Rates of return vary a lot between individuals and over time, and they are correlated with income: rising from the 10th to the 90th percentile of net worth increases the rate of return on investments by 1.5 p.p. `r Citep(myBib, "fagereng2020heterogeneity")`
+Rates of return vary a lot between individuals and over time, and they are correlated with wealth: rising from the 10th to the 90th centile of net worth increases the return on investments by 18 p.p. (10 p.p. after-tax) `r Citep(myBib, "fagereng2020heterogeneity")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '100%', fig.align="center"}
+knitr::include_graphics("figs/eae1234-6-1.png")
+```
+
+This difference comes mostly because of different asset portfolios: the bottom 20% have negative net wealth, and a real rate of return that is strongly negative, since debt usually has a higher rate of return than their assets &mdash; at the top, financial and business wealth becomes more important `r Citep(myBib, "fagereng2020heterogeneity")` 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%', fig.align="center"}
 knitr::include_graphics("figs/eae0310-12-15.png")
 ```
 
-Something that is not taken into account in the models we have seen, but which is an important stylized fact is that richer people have not only more wealth, but a higher rate of return on wealth as well, which tends to increase wealth inequality over time `r Citep(myBib, "fagereng2020heterogeneity")`
+But even within narrow asset classes, wealthy people earn higher returns &mdash;  the fact that richer people have not only more wealth, but a higher rate of return on wealth as well, tends to increase inequality over time `r Citep(myBib, "fagereng2020heterogeneity")`
 
 ---
 class: middle
 ## Other savings theories
 
-With incomplete markets, people need to save money not only to smooth consumption over time, but also in different states of nature (**precautionary savings model**)
+With incomplete markets, people are not perfectly insured, and they need to save money not only to smooth consumption over time, but also between different states of nature (**precautionary savings model**)
 
-Sometimes individuals would like to save more, but have **self-control** difficulties: experiments show that *nudges* or *commitment mechanisms* can increase savings
+Sometimes individuals would like to save more, but they have **self-control** problems: experiments show that *nudges* or *commitment mechanisms* can increase savings
 
-It is common for individuals to have at the same time low net savings with a low rate of return (e.g. private pension or housing) and debt with a high interest rate
+It is common for individuals to have at the same time a small positive (gross) wealth with a low rate of return (e.g. private pension or housing) and short-term debt with a high interest rate
 
 ---
 class: middle
@@ -345,7 +354,7 @@ class: middle
 knitr::include_graphics("figs/feapub8.png")
 ```
 
-Since the 1970s, the ultra rich has a higher savings rate than the rich, and a much higher rate than middle class and the poor, which in USA save almost nothing `r Citep(myBib, "saez2016wealth")` 
+Since the 1970s, the ultra rich has a higher savings rate than the rich, and a much higher rate than the middle class and the poor, which in the USA save almost nothing `r Citep(myBib, "saez2016wealth")` 
 
 ---
 class: middle
@@ -355,16 +364,16 @@ knitr::include_graphics("figs/eae0310-12-16.png")
 knitr::include_graphics("figs/eae0310-12-16b.png")
 ```
 
-`r Citep(myBib, "smith2019capitalists")` argue that part of the capital income actually *comes from work of managing firms* by the entrepreneur, even for medium-sized companies &mdash; this would be shown by the fact that they lose a good part of their market value when the owner dies or retires
+`r Citep(myBib, "smith2019capitalists")` argue that part of what is measured as capital income actually comes from *labor* of management by the entrepreneur, even for medium-sized companies &mdash; this would be shown by the fact that these companies lose a good part of their market value when the owner retires or dies
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '50%', fig.align='center'}
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-12-17.png")
 ```
 
-If we calculate (from the previous analysis) that 75% of the income of this type of business is labor factor, the proportion of the 0,1% that receives most of the income per wage increases from 23% to more than half, and for the 1% to 80% `r Citep(myBib, "smith2019capitalists")`
+If we estimate (from the previous analysis) that 75% of the owner's income from this type of business is labor income, than the proportion of the 0.1% that receives most of their income from labor increases from 23% to more than half, and for the top 1% it rises to 80% `r Citep(myBib, "smith2019capitalists")`
 
 ---
 class: middle
@@ -374,17 +383,17 @@ knitr::include_graphics("figs/eae0310-12-18.png")
 knitr::include_graphics("figs/eae0310-12-18b.png")
 ```
 
-As we saw in the last class, the share of the richest 1% income in the US has more than doubled since the 80s, reaching 20% &mdash; it was due to the tripling of salaries and the growth of corporate income, a good part of it is also potentially labor compensation `r Citep(myBib, "smith2019capitalists")`
+As we saw in the last class, the share of the richest 1% income in the US has more than doubled since the 80s, reaching 20% &mdash; it was due to the tripling of wages at the top 1% (CEO compensation) and the growth of corporate income, a good part of it is also potentially remunerating labor `r Citep(myBib, "smith2019capitalists")`
 
 ---
 class: middle
 ## Tax incentives for savings
 
-The low savings rate in Brazil (15% in 2020) and low retirement savings lead governments to institute many savings subsidy programs
+The low savings rate in Brazil (15% in 2020) and low share of retirement savings led governments to institute many savings subsidy programs
 
-In Brazil, companies can deduct contributions for employees' private pension from IRPJ and CSLL &mdash; there is also the "regressive table", with lower rates for longer savings maturities (up to 10%)
+In Brazil, companies can deduct contributions for employees' private pension from IRPJ and CSLL &mdash; there is also the "regressive table" for taxing some forms of financial wealth, with lower rates for longer savings maturities
 
-Another tax incentive is **deferred payment** on the IRPF: paying the same tax rate only at the end of maturity has a lower tax cost than in each period, because the individual is left with the interest on the tax due
+Another tax incentive is **deferred payment** on the IRPF: paying the same tax rate only at the end of an investmet maturity has a lower tax cost than in each period, because the individual is left with the interest on the tax due
 
 ---
 class: middle
