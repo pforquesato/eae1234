@@ -122,6 +122,25 @@ While only 10% of income for 90% of the bottom comes from capital, 60% of income
 
 ---
 class: middle
+
+```{r, echo=FALSE, out.width = '50%', fig.show="hold"}
+knitr::include_graphics("figs/eae1234-6-2.png")
+knitr::include_graphics("figs/eae1234-6-2b.png")
+```
+
+And this is problematic because during the past 40 years globally the tax rate on capital income has decreased significantly, while the labor tax rate remained mostly constant... `r Citep(myBib, "bachas2022capital")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics("figs/progressivity-us.jpg")
+```
+
+... which starkly decreased the progressivity of the tax system: today the American tax system can be considered proportional (not progressive), and at the top 1% actually regressive `r Citep(myBib, "saez2019triumph")` 
+
+---
+class: middle
 ## Dynamics of wealth
 
 If the wealth in $t$ is $W_t$ and the rate of return $r_t$, then the capital return is $r_t W_{t-1}$ and: $$W_t = (1 + r_t) W_{t-1} + S_t + I_t$$
@@ -450,17 +469,17 @@ class:middle
 # References
 <small>
 ```{r refs2, echo=FALSE, results="asis"}
-PrintBibliography(myBib, start=6)
+PrintBibliography(myBib, start=6, end=10)
 ```
 </small>
 
 
-<!-- --- -->
-<!-- class: middle -->
-<!-- ## Relação entre taxação de renda e consumo -->
+---
+class:middle
+# References
+<small>
+```{r refs3, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=11)
+```
+</small>
 
-<!-- Como vimos, ao longo da vida, taxação de renda é equivalente à taxação de consumo + taxação de heranças &mdash; a proposta (por conservadores) de trocar taxação de renda por consumo é chamada de **fundamental tax reform** -->
-
-<!-- Essa mudança geraria uma taxação "uma vez só" na riqueza, já que ela compraria menos no futuro (assim como inflação não esperada); também é taxação dupla da geração que sofre a mudança -->
-
-<!-- O problema principal entretanto é outro: taxação de consumo não é progressiva, e na verdade é regressiva, já que ricos consomem proporção menor da renda -->

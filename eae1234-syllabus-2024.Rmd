@@ -31,7 +31,7 @@ In this course, we will study in what situations and how the government should a
 
 ### Learning Assessments
 
-1. Two exams, covering each half of the course, worth 40% of the course average each. Each exam consists of 7 discursive questions and 3 analytical exercises. (Learning Objectives 1 and 2.)
+1. Two exams, covering each half of the course, worth 40% of the course average each. Each exam consists of discursive questions and a few analytical exercises. (Learning Objectives 1 and 2.)
 2. A group presentation, covering a JEP paper: 20% of the average. (Learning Objectives 3 and 4.)
 3. Two exercise lists: each list turned in *completely* done adds 0.5 point (**extra credit**) to the final grade (there is no partial credit). (Learning objective 2.) 
 4. Two argumentative essays (opinion articles) with peer correction (6500 characters): each one adds *up to* 0.5 points (**extra credit**). All grades will come from the student's essay assessment, but essays will only be credited if *both* activities are done properly. (Learning Objectives 3 and 4.)
@@ -93,7 +93,7 @@ First seminar night: papers [1], [2], and [3]: **12/09**.
 5. **Labor income taxes**: @gruber, chap. 21. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-5-labor-income.html)
 6. **Taxation on savings**: @gruber, chap. 22. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-6-taxing-savings.html)
 
-Midterm exam: **03/10**. [[List 1]](https://www.pedroforquesato.com/files/eae1234_exercise_list_1_2024.pdf) (topics 1-6).
+Midterm exam: **03/10**. [[List 1]](https://www.pedroforquesato.com/files/eae1234_exercise_list_1_2024.pdf)
 
 7. **Taxation on wealth**: @gruber, chap. 23, @scheuer. [[Slides]]()
 8. **Corporate taxes**: @gruber, chap. 24, @kopczuk2020business. [[Slides]]()
@@ -107,7 +107,7 @@ Third seminar night: papers [4], [6], and [9]: **07/11**.
 10. **Social assistance**: @gruber, chap. 17, @banerjee. [[Slides]]()
 11. **Public provision of goods and education**: @gruber, chap. 7 (review) e 11. [12/11, 14/11]. [[Slides]]() 
 
-Final exam: **28/11**. [[List 2]](https://www.pedroforquesato.com/files/eae1234_exercise_list_2_2024.pdf)   (whole course, with a focus on topics 7-11).
+Final exam: **28/11**. [[List 2]](https://www.pedroforquesato.com/files/eae1234_exercise_list_2_2024.pdf)
 
 Exams from previous years (please be mindful that previous offerings were in Portuguese and that the program of the discipline changed substantially from last year): <br> [[Midterm exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_1_2022.pdf) [[Final exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_2_2022.pdf) <br> [[Midterm exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_1_2023.pdf) [[Final exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_2_2023.pdf)
 
