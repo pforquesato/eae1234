@@ -198,7 +198,7 @@ class: middle
 knitr::include_graphics("figs/eae0310-12-20.png")
 ```
 
-Consumption smoothing with a concave income profile during life implies a **life-cycle** of wealth accumulation: positive savings during working age and then negative savings during retirement until wealth riches zero at death
+Consumption smoothing with a concave income profile during life implies a **life-cycle** of wealth accumulation: positive savings during working age and then negative savings during retirement until wealth reaches zero at death
 
 ---
 class: middle
@@ -223,11 +223,11 @@ In the US, the wealth of the richest also grows continuously until death, contra
 class: middle
 ## Equivalence between consumption and income taxation
 
-Now, consider a consumption tax $\tau_C$. The budget constraint becomes $(1 + \tau_C) \left( c_1 + \frac{c_2}{1 + r} \right) = wl$
+Now, consider a consumption tax $\tau_C$. The budget constraint becomes $$(1 + \tau_C) \left( c_1 + \frac{c_2}{1 + r} \right) = wl$$
 
-Instead, if we apply a tax on (labor) income $\tau_L$, the BC is now $c_1 + \frac{c_2}{1 + r} = (1 - \tau_L)wl$
+Instead, if we apply a tax on (labor) income $\tau_L$, the BC is now $$c_1 + \frac{c_2}{1 + r} = (1 - \tau_L)wl$$
 
-If $(1 + \tau_C) = 1/(1 - \tau_L)$, the taxes are equivalent: we have already seen that this equivalence holds statically &mdash; this is a simplified example of (linear) taxes equivalence on income and on consumption **and inheritances** throughout the life-cycle (in steady-state)
+If $(1 + \tau_C) = 1/(1 - \tau_L)$, the taxes are equivalent: we have already seen that this equivalence holds statically &mdash; this is a simplified example of the equivalence between (linear) taxes on income and on consumption **and inheritances** throughout the life-cycle (in steady-state)
 
 ---
 class: middle
@@ -278,7 +278,7 @@ class: middle
 knitr::include_graphics("figs/eae0310-12-10b.png")
 ```
 
-A tax on return on capital makes consumption in period 2 more expensive: **rotates** BC to the slope $- (1 + r(1 - \tau_K))$ (Saez)
+A tax on capital returns makes consumption in period 2 more expensive: **rotates** BC to the slope $- (1 + r(1 - \tau_K))$ (Saez)
 
 ---
 class: middle
@@ -313,11 +313,11 @@ In this case, taxing capital would distort the saving decision unnecessarily, si
 class: middle
 ## Optimal tax in life-cycle model
 
-But inequality in capital income also comes from differences in inheritance, patience and rates of return: taxation of labor income is not enough to redistribute wealth, and there is room for taxation of capital
+But inequality in capital income also comes from differences in inheritance, patience and rates of return: taxation of labor income is not enough to redistribute wealth, and there is room for taxing capital
 
 It is often difficult to distinguish labor income from capital income (e.g., owner of the firm who is also CEO, "pejotização" &mdash; taxing capital is important to increase the tax base and reduce tax avoidance/evasion
 
-Rates of return vary a lot between individuals and over time, and they are correlated with income: rising from the 10th to the 90th percentile of net worth increases the rate of return on investments by 10p.p. `r Citep(myBib, "fagereng2020heterogeneity")`
+Rates of return vary a lot between individuals and over time, and they are correlated with income: rising from the 10th to the 90th percentile of net worth increases the rate of return on investments by 1.5 p.p. `r Citep(myBib, "fagereng2020heterogeneity")`
 
 ---
 class: middle
