@@ -253,9 +253,9 @@ class: middle
 
 Overall, government in Brazil spends 45.9% of GDP accross its 3 spheres of government [[Boletim COFOG/2022]](https://sisweb.tesouro.gov.br/apex/f?p=2501:9::::9:P9_ID_PUBLICACAO:48752) &mdash; about 34% of GDP from the federal government, 13.6% states and 9.6% municipalities (with double counting)
 
-In Brazilian federal pact, the federal government is responsible for the social protection (39.3% of the federal budget, mostly retirement and PBF), the states for the security policy, and  municipalities for the primary health care services
+In Brazilian federal pact, the federal government is responsible for social protection (39.3% of the federal budget, mostly retirement and PBF), the states for security policy, and municipalities for primary health care services
 
-In education, the federal government provides university education, high school is frequently provided by state governments, and municipalities offer the childcare and primary schools (roughly speaking)
+In education, the federal government provides university education, high school is frequently provided by state governments, and municipalities offer childcare and primary schools (roughly speaking)
 
 ---
 class: middle
@@ -591,7 +591,7 @@ So far we had a more conceptual discussion of **normative analysis**, which in e
 
 But this theory is not directly applicable: public sector managers often do not explicitly maximize social welfare functions to decide public policies (although academic researchers often do!)
 
-The need to assist in practical policy decisions has generated more applied methods of normative analysis &mdash; but conceptual understanding is important to comprehend its limitations
+The need to assist policy-makers in practical policy decisions has generated more applied methods of normative analysis &mdash; but conceptual understanding is important to comprehend its limitations
 
 ---
 class: middle
@@ -619,7 +619,7 @@ class: middle
 
 If a good (including labor) is commercialized in a *perfectly competitive* market, then its opportunity cost is its price &mdash; but suppose that the public sector pays R$2k and the private sector only pays R$1.2k (public-private differential)? 
 
-Then the opportunity cost is only R$1.2k! If workers are willing to work (in the private sector) for that wage, then that is their marginal utility cost of working: what the *society* loses by using that labor
+Then the opportunity cost is only R$1.2k! If similar workers are willing to work (in the private sector) for that wage, then that is their marginal utility cost of working: what the *society* loses by using that labor
 
 We always need to differentiate between **economic costs** and **transfer of economic incomes**: the *economic cost* of the labor is R$1.2k, but we are also transferring R$800 of income to these workers
 
@@ -632,7 +632,7 @@ Unlike the firm, the public wants to improve the well-being of *everyone* in the
 
 Furthermore, future expenditures (e.g. building maintenance) must be brought to *present value* (MatFin): here the "economic" difficulty is choosing the correct **social discount rate** 
 
-The opportunity cost of using social savings for a governmental project is the rate of return on that savings in the private sector *before taxes* (or debt financing if financed by public debt)
+The opportunity cost of using social savings for a government project is the rate of return on that savings in the private sector *before taxes* (or the cost of debt financing if financed by public debt)
 
 ---
 class: middle
@@ -640,7 +640,7 @@ class: middle
 
 A subway station at USP would reduce the travel time for most students and employees, but how do we calculate the benefit of this reduction (to compare with the monetary costs)?
 
-**If** the labor market is perfectly competitive and **if** the worker freely chooses the hours worked *and* the work is not (particularly) unpleasant, then he will choose to work until the wages equals his willingness to pay for leisure
+**If** the labor market is perfectly competitive and **if** the worker freely chooses the hours worked *and* the work is not (particularly) unpleasant, then they will choose to work until the wage equals his willingness to pay for leisure
 
 A simpler solution would be to merely ask people how much they would pay for more free time, but this also creates problems &mdash; changing the order or wording of the questions frequently changes substantially the response
 
@@ -648,11 +648,11 @@ A simpler solution would be to merely ask people how much they would pay for mor
 class: middle
 ## The value of time
 
-The natural solution for those who has studied microeconomics is to use **revealed preference**: people reveal their value of time by their *economic choices* when they pay to save them time
+The natural solution for those who has studied microeconomics is to use **revealed preference**: people reveal their value of time by their *economic choices* when they choose to pay money to save them time
 
-For example, the market price of housing (the manner how apartments closer to city center are more expensive) reveals the society's willingness to pay for living closer or farther away from work
+For example, the market price of housing (the manner how apartments closer to city center are more expensive) reveals the society's willingness to pay for taking longer to get to work
 
-Comparing the line at gas stations with and without a price cap, `r Citep(myBib, "deacon1985rationing")` estimate that Americans are willing to wait 15 minutes to save on average US$5, which is close to the US wage (then) of US$20 an hour
+Comparing the line at gas stations with and without a price cap, `r Citep(myBib, "deacon1985rationing")` estimate that Americans are willing to wait 15 minutes to save on average US$5, which is close to the US average wage (back then) of US$20 an hour
 
 
 ---
@@ -703,7 +703,7 @@ As in MatFin, future income/utility streams should be discounted to present valu
 
 For example, every $1 of global warming costs 100 years from now is worth ¢14 today if the discount rate is 2% p.a., ¢5 if 3%, and ¢2 if 4%
 
-Another problem: the cost of 100 years from now will not affect the same people who decide today, but their grandchildren or great-grandchildren
+Also, less global warning 100 years from now will not affect the same people who pay the costs today, but their grandchildren or great-grandchildren (and if we assume the economy will grow during the next 100 years, they will be significantly richer than the people today)
 
 ---
 class: middle

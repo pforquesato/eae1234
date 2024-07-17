@@ -1,0 +1,494 @@
+---
+title: "EAE-1234: PUBLIC SECTOR ECONOMICS"
+author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
+institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
+date: "Topic 8: Corporate Taxes<br/>2024/2"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: inverse, middle, center
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "alphabetic",
+           cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+myBib <- ReadBib("./esp_bib.bib", check = FALSE)
+```
+
+# Corporate Taxes
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '50%', fig.align='center'}
+knitr::include_graphics("figs/eae0310-12-19.png")
+```
+
+Brazil has [comparatively high](https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates) corporate taxation, reaching 34% (see slide from class 12); on the other hand, it does not tax the distribution of dividends &mdash; note that some countries have regional corporate taxes (in the US around 4% and in Canada reaching 15%), while Brazil only charges corporate taxes at the federal level
+
+---
+class: middle
+## Corporations
+
+**Corporations** are for-profit organizations owned by shareholders with *limited liability*: if the corporation goes bankrupt, the shareholder loses the value of his ownership stake, but is not responsible for unpaid debts
+
+Corporations are "legal people", but this obviously does not exist: corporations do not pay taxes, *only people* &mdash; and to understand corporate taxes we have to understand their **incidence**
+
+Analogously to the public sector, publicly traded and less concentrated firms have an **agency problem**, due to the separation between *ownership and control*: the owners of the firm are the shareholders, but the managers are the CEOs
+
+---
+class: middle
+## Corporations
+
+While **owners** would be interested in maximizing their profit, **managers** are interested in higher wages, visibility, and power
+
+Recently, economists have questioned whether owners are really only interested in maximizing their profits `r Citep(myBib, "hart2017companies")` &mdash; and note that only under extremely strong conditions, corporations' maximization of shareholder profits would be the best for society [[Friedman’s Legacy: From Doctrine to Theorem]](https://www.promarket.org/2020/10/13/milton-friedman-legacy-doctrine-theorem/)
+
+Several countries such as Germany have a corporate law structure focused on the interests of *stakeholders*: everyone impacted by the company's actions, such as workers, consumers and the local community
+
+---
+class: middle
+## Corporate finance
+
+Companies finance productive investments through 3 mechanisms: *debt*, *equity* and *retained earnings*
+
+**Debt** financing promises a fixed payment for any firm's economic achievement (apart from *default*) &mdash; this does not generate moral hazard, as the entrepreneur is still a **residual claimant** of the firm's success
+
+But it generates an *adverse selection* problem, since entrepreneurs have more knowledge about the expected return of an investment than external investors, and they will choose debt when the investment quality is poor (because of **limited liability**)
+
+---
+class: middle
+## Corporate finance
+
+The company can also sell an **ownership share**, which pays a proportion of the venture's return to the external investor
+
+Now, *adverse selection* is less important, but equity generates a *moral hazard* problem, as it lowers the entrepreneur's incentives: the costs of effort in project success remain the same, but now he receives only a smaller share of the benefits (his ownership share in the firm)
+
+Because of this, shareholders generally have greater internal influence (e.g., voting power) in the operation of the firm (insiders) than creditors (outsiders), while creditors have priority in the disposal of assets in the case of bankruptcy
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%'}
+knitr::include_graphics("figs/eae0310-14-4.png")
+```
+
+There are three forms of firm financing that can be affected by taxation: retained earnings or raising money through equity (internal sources in blue) and debt (external source in orange) &mdash; the last one pays interest, while equity can be paid by dividends or capital gains `r Citep(myBib, "gruber")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '60%'}
+knitr::include_graphics("figs/eae0310-14-16.png")
+```
+
+*Corporate taxation * $\tau_c$ is levied on revenue with deduction for costs of input, wages, **interest** and capital depreciation; and *operating profit* (EBIT) is distributed and subjected to income taxation at (potentially different) rates for interest, dividends and capital gains `r Citep(myBib, "gruber")`
+
+---
+class: middle
+## Corporate taxation
+
+When we tax a corporation, we tax **people** who own the factors of production involved in business activity: workers, capitalists, and landowners.
+
+But the *economic incidence* of the tax can also be **forward shifted** for consumers or **backward shifted** for input producers (and then, affect the factors of production of that industry)
+
+But then, why tax companies and not factors directly? A practical reason is that it is *easier to collect*: corporations are large, quite visible, and have detailed accounting
+
+---
+class: middle
+## Taxation of economic profits
+
+From a theoretical point of view, taxation of profits is also desirable: if a firm earns **pure profits**, we would like to tax them entirely, since this taxation does not distort behavior (they are *economic rents*)
+
+As $\Pi = p F(k, l) - wl - rk$, a tax on pure profit $\tau_L$ generates the objective function: $$(1 - \tau_L)\Pi = (1 - \tau_L)p F(k, l) - wl - rk + \tau_L(wl + rk)$$
+
+In other words, it is equivalent to a tax on revenue with deductions for costs with factors of production &mdash; and in both cases $\{k,l\}$ profit maximizers $\Pi$ are the same as $(1 - \tau_L)\Pi$: *there is no productive distortion*
+
+---
+class: middle
+## Reasons for corporate income taxation
+
+Now, note that this only applies if we tax *economic profit* taking into account the **opportunity cost** of factors, while corporate taxation is on *accounting profit*, which takes prices into account
+
+Another reason to tax corporate income is that without it, **retained earnings** could accumulate tax-free forever within the firm, being distributed in the future with taxation only on earnings
+
+By taxing other forms of capital income (dividends, interest, capital gains) but not retained earnings, this creates an implicit subsidy for *corporate income* in relation to other forms of savings (e.g. stocks)
+
+---
+class: middle
+## Reasons for corporate income taxation
+
+And indeed, the evidence seems to point out to retained earnings as the main source of firms' financing, implying that not charging corporate taxes could generate relevant distortions
+
+Furthermore, if we only tax capital income, business owners can make up their personal consumption as business expenses or use their corporate wealth as collateral, never distributing the income and therefore never being taxed
+
+Corporate taxation also increases the **tax base**, decreasing tax evasion with, for e.g., the realization of profits in accounts in tax havens
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '75%'}
+knitr::include_graphics("figs/eae0310-14-1.png")
+```
+
+International competition and lobbying of large companies drastically reduced corporate taxation at the end of the last century in the US (graph) and in most central economies (Saez)
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("figs/eae0310-14-2.png")
+```
+
+And this reduction is associated with a decrease in progressivity of the tax system, since corporate income is a considerable portion at the top of income distribution (Saez)
+
+
+---
+class: middle
+## Depreciation schedules
+
+Taxation of economic profits should discount spending on all factors: labor, input, land, and also capital &mdash; the capital cost is its **economic depreciation**, the loss of value of that capital between $t$ and $t+1$
+
+The problem is that assets have different maturities, and the loss of value is not very observable due to the lack of used machine markets, and the same machine in different uses will have different *physical depreciation*
+
+That is why the government works with **depreciation schedules**: straight-line, accelerated, or immediate (*expensing investments*) &mdash; the important is to remember that *the faster the deductibility of depreciation, the greater is the tax benefit*
+
+---
+class: middle
+
+```{r, echo=FALSE, fig.show="hold", out.width = '50%'}
+knitr::include_graphics("figs/eae0310-14-5.png")
+knitr::include_graphics("figs/eae0310-14-6.png")
+```
+
+Effects of a corporate tax without (a) and with (b) deduction for capital depreciation: in the 1st case, it decreases the marginal product of capital, reducing investment; in the 2nd case, the reduction of expenses with *economic depreciation* $\delta$ lowers the cost of financing $\delta + \rho$, where $\rho$ is the *dividend yield*, with ambiguous effect `r Citep(myBib, "gruber")`
+
+---
+class: middle
+## Effective corporate tax rate
+
+A corporate tax with a depreciation policy generates an **effective corporate tax rate**: the percentage increase in the rate of return before taxes to cover the taxation, which will be less than the statutory tax rate
+
+For example, if the cost of capital is 20%, and the corporate tax rate is 35%, without deductions for depreciation, then the investment needs an internal rate of return of $0.2/(1 - 0.35) = 30.7\%$ to be worth
+
+And then the effective corporate rate is given by: $$ETR = \frac{r_{\text{after tax}} - r_{\text{before tax}}}{r_{\text{after tax}}}$$
+
+---
+class: middle
+## Incidence of corporate taxation
+
+If we want to tax *foreign* capital (invested in the country), corporate taxation is the only way: we cannot tax foreign income (received abroad), but we can tax foreign capital in the firm in national territory
+
+Therefore, taxation on the firm and on the individual generate different effects in *international finance*: (i) charging international investors in local companies, while (ii) charging local investors in international companies
+
+How this will affect the *incidence* of the tax depends on our assumptions about the local and international mobility of capital (and therefore, the elasticity of capital input)
+
+---
+class: middle
+## International incidence
+
+If the capital has **perfect international mobility** and we consider the case of a **small economy** (like Brazil), then national taxation does not affect the international profit rate, which has to be homogeneous: $r^{\text{BR}} = r^*$
+
+And after taxation also equally $(1-\tau_c) r^{\text{BR}} = r^*$ &mdash; that is, there is capital flight until the rate of return go back to the international rate (infinitely elastic input): this flight reduces the marginal productivity of labor and its wages in a competitive market: **the incidence is all on labor**
+
+The taxation of dividends, in this case, affects (levied) entirely on the national capitalist, since taxation does not affect the international rate of return
+
+---
+class: middle
+## International competition
+
+Therefore, countries are under pressure to reduce their corporate taxes in a **race to the bottom**, since lower taxes attract international capital from other countries in a zero-sum game
+
+This feature of corporate taxation generates the potential for international competition and **beggar-thy-neighbor** policies
+
+This generates the need for *international organizations* for cooperation &mdash; there is a real movement in this direction: in 2021, 141 countries agreed to structure a global minimum corporate tax of 15% (but it is still low)
+
+---
+class: middle
+## Incidence in closed economy
+
+If the capital is not internationally movable (*closed economy*), then the profit rate in the corporate sector should equal to the *non-corporate sector* &mdash; with free mobility between them, the corporate sector loses capital and decreases wages 
+
+In the real world, however, because of barriers to entry (not perfectly movable capital), the corporate sector plausibly makes abnormal profits: in this case, corporate capital absorbs all taxation
+
+If the tax is levied on all firms (e.g., no non-corporate sector), then it becomes a usual tax on capital, as a tax on dividends
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '60%'}
+knitr::include_graphics("figs/eae0310-14-20.png")
+```
+
+`r Citep(myBib, "suarez2016benefits")` find that workers actually absorb part of corporate tax cuts (30-35%), and 25-30% for landowners (only 40% for capitalists) in **state** taxation in the US &mdash; capital input is quite elastic and responds to tax cuts with growth in firm size
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("figs/eae0310-14-7.png")
+```
+
+In the US, reduction of 1p.p. in the effective corporate tax rate for companies with domestic production (blue) increased investment by 4,7% of installed capital and decreased debt by 5,3%, compared with companies with less domestic production (dotted) `r Citep(myBib, "ohrn2018effect")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("figs/eae0310-14-8.png")
+```
+
+In Germany, increases in corporate taxation are associated with significant reductions in real wages: workers absorb around half of the incidence of the tax (especially new and less skilled workers) `r Citep(myBib, "fuest2018higher")`
+
+
+---
+class: middle
+## Taxation and corporate finance
+
+A classic result of corporate finance is the **Modigliani-Miller theorem:** without taxation, bankruptcy or asymmetric information, the *capital structure* is irrelevant (i.e., whether *debt* or *equity*)
+
+But since interests on debts are almost always tax deductible, and dividend payments are not, this generates a **tax preference by debt financing**
+
+This generates a paradox: why do firms raise money through equity? Possible answers involve decreasing bankruptcy risk and mitigating the *conflict of interests between shareholders and debt holders*
+
+---
+class: middle
+## Taxation and corporate finance
+
+U.S. state corporate tax increases of an average of 13% led to a 4,5% growth in the proportion of debt in capital structure of companies `r Citep(myBib, "heider2015certain")` &mdash; corroborating the tax preference by debt
+
+Another mystery is that firms pay dividends (**dividend paradox**), when they could reinvest the money and increase the value of the firm, therefore, remunerating investors for less taxed capital gains
+
+The dominant view is that it is again an **agency problem**: since shareholders cannot perfectly control managers, they prefer to "take the money out of their hands"
+
+---
+class: middle
+## Dividend taxation
+
+The effects of dividend taxation *depend on the company's form of financing*: if it finances itself by issuing stocks, the taxes lower the stock price and make investment financing more expensive (a given ownership share raises less money)
+
+On the other hand, if the company finances the investment with retained earnings or debt, dividends do not affect your choice
+
+As for the profit taxation, if it is on economic profit, then there is no behavioral effect of taxation, and the incidence is entirely on shareholders in the short-term &mdash; but in the long-term it depends on the mobility of capital
+
+---
+class: middle
+## Dividend taxation
+
+The old view on taxation of dividends is that by making more expensive the financing by *equity*, this tax would decrease investment
+
+But this view arises from a model that does not explain why dividends exist in the first place: in the agency model, taxing dividends would **increase** investment
+
+The modern view is that corporate investment is mostly made through *retained earnings*: therefore, taxation of dividends has little effect on the level of investment [[Article in Jornal da USP]](https://jornal.usp.br/artigos/afinal-a-taxacao-de-dividendos-reduz-o-investimento/)
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("figs/eae0310-14-3.png")
+```
+
+In the US, the only effect of 23p.p. cut in the taxation of dividends in 2003 was higher payment of dividends to shareholders, compare a group of affected companies (C-corps) with non-affected companies (S-corps) `r Citep(myBib, "yagan2015capital")`
+
+---
+class: middle
+## Simples Nacional
+
+In almost all countries, small companies have a beneficial tax regime &mdash; in Brazil, it is the Simples Nacional, which replaces almost all corporate taxes with a single tax on revenue
+
+`r Citep(myBib, "monteiro2012coming")` estimates a Simples effect of 13p.p. (almost 50%) in formalizing retail stores, but no effect on other sectors
+
+As there is a ceiling for participation in Simples, the program can generate "flattening" of the size of firms, generating economic inefficiencies
+
+---
+class: middle
+## Payroll taxes
+
+A form of hybrid taxation between income tax and corporate tax are payroll taxes &mdash; in the model they are equivalent to an income tax, but in practice the incidence tends to vary
+
+In 2011, the government approved the temporary exemption on payroll, which replaces payroll taxation for tax on revenues for several sectors, in practice giving tax benefits of around 0,5% of GDP to them
+
+`r Citep(myBib, "leandro2021payroll")` (among others) point to a negligible effect on employment and wages, but even so, the exemption remains until (at least) 2023
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("figs/eae0310-14-9.png")
+```
+
+But *targeted* reductions in payroll tax can work to stimulate employment in subgroups where unemployment is higher: a payroll tax cut for young people in Sweden (2007-2009) decreased the unemployment rate of this group by 5 p.p. (33%) `r Citep(myBib, "saez2019payroll")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '75%'}
+knitr::include_graphics("figs/eae0310-14-10.png")
+```
+
+Firms with more young people received a *tax windfall* and increased their employment by 4,6%, in addition to sales and profits after the reform, compared to less affected firms (control group) `r Citep(myBib, "saez2019payroll")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '75%'}
+knitr::include_graphics("figs/eae0310-14-11.png")
+```
+
+This increase in firms increased net wages by 1,9-2,6%, but gross wages remained the same because of the payroll tax reduction, indicating that the incidence was entirely on labor `r Citep(myBib, "saez2019payroll")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("figs/eae0310-14-18.png")
+```
+
+Corporate taxation also affects innovation: higher state taxation of personal and corporate income both reduce the number of patents (elasticity of 0.8-1.8 and 1.3-2.8, respectively) and induce state mobility of investors `r Citep(myBib, "akcigit2022taxation")`
+
+---
+class: inverse, middle, center
+
+# Gabriel Zucman (2014). "Taxing across Borders: Tracking Personal Wealth and Corporate Profits"
+
+---
+class: middle
+## Tax heavens
+
+We have seen how the "ultra-rich" use **tax havens** to evade taxes on capital and wealth, but perhaps even more relevant is their use by multinational corporations
+
+`r Citep(myBib, "torslov2018missing")` estimate that 14% of corporate tax revenue in Brazil is evaded by using tax havens (23% in the US) [[World missing profits database]](https://missingprofits.world/)
+
+18% of all profits made by American companies (inside or outside the US) are now made in tax havens, and they pay almost no taxes (on average 3%) [[Our article in Valor]](https://www.pedroforquesato.com/files/paraisos.jpeg)
+
+---
+class: middle
+## International corporate taxation
+
+Corporate taxation is "simple" in a closed economy, but much more complex in an international context &mdash; Bruins et al (1923)  proposed 3 principles for **international corporate taxation**:
+
+1. Corporate taxes should be paid to the source (country) where the income is generated (**source-based taxation**) rather than based on the firm's residence
+2.  In intra-firm (international) commercial relationships, corporations should use **arm's length pricing**: "trade" goods between themselves as if "at market price(*)" and calculate their profit separately
+3. International taxation, unlike international trade, it should be dealt with *bilateral agreements*, and not multilaterally
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("figs/eae0310-14-12.png")
+```
+
+If until the early 1970s the proportion of profits of American companies made outside the US was small, it has increased significantly in the last decades (*globalization*), reaching 35% in 2010 &mdash; but 2/3 of this proportion is made in tax havens `r Citep(myBib, "zucman")`
+
+---
+class: middle
+## International corporate taxation
+
+A multitude of bilateral agreements generated a Swiss cheese of *loopholes* that multinational giant companies use to avoid taxes (as the "double Irish Dutch sandwich")
+
+Another common practice is to transfer intangible assets (patents and trademarks) to tax havens and collect royalties from there for their use in countries of economic activity
+
+Multinationals can also manipulate the realization of their profits using loans between subsidiaries and *transfer pricing*, since prices of input traded intra-firm rarely exist in the market
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%'}
+knitr::include_graphics("figs/eae0310-14-13.png")
+```
+
+While the nominal corporate tax rate in the US is 35% because of tax avoidance for tax havens and other *loopholes*, the effective tax rate is 20%, and only 16% paid to the US government `r Citep(myBib, "zucman")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("figs/eae0310-14-14.png")
+```
+
+The proportion of US assets whose owner is registered in tax havens (hedge funds, mutual funds, shell companies) rose from 2% until the 1980s to 9% in 2010 `r Citep(myBib, "zucman")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("figs/eae0310-14-19.png")
+```
+
+Countries often give tax benefits to resources repatriations in tax havens: one of these, in 2005 in the US, made the proportion of profits held in tax havens drop a lot, but this did not generate employment, investment or national R&D, and soon after the proportion held *offshore* continued to grow `r Citep(myBib, "zucman")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("figs/eae0310-14-15.png")
+```
+
+In developing countries the situation is even worse: Zucman estimates that in Latin America 22% of wealth is held in *offshore* accounts in tax havens, and in countries like Russia and the Middle East it reaches more than half `r Citep(myBib, "zucman")`
+
+---
+class: middle
+## Tax evasion and avoidance
+
+Not only does this tax avoidance make the tax system less progressive, but it generates huge inefficiencies: multinationals spend billions (with zero marginal social benefit) manipulating the system to avoid paying taxes
+
+Corporate tax collection has historically remained around 3% of GDP in the US even with the decrease of effective rate, because the proportion of corporate profit in GDP rose from 9% in 1980 to 14% in 2010
+
+If the US solve the problem of tax evasion by tax havens, it would increase the tax burden of the richest 0,1% by 18%
+
+---
+class: middle
+## Reforms
+
+In 2021, it was approved a plan with signature of 141 countries to establish a minimum global corporate tax of 15% &mdash; still well below Brazil and most large economies, but well above tax havens
+
+It comes with the weakening of *source-based taxation* and *arm's length pricing*: new proposals for paying corporate taxes based on a formula of sales, employment and capital
+
+The obvious problem is that different formulas benefit different countries, which generates diverging interests &mdash; but in any case, the solution to this problem has to be global
+
+---
+class:middle
+# References
+<small>
+```{r refs, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=1, end=5)
+```
+</small>
+
+---
+class:middle
+# References
+<small>
+```{r refs2, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=6, end=10)
+```
+</small>
+
+---
+class:middle
+# References
+<small>
+```{r refs3, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=11)
+```
+</small>
+
+<!-- --- -->
+<!-- class: middle -->
+
+<!-- ```{r, echo=FALSE, out.width = '100%'} -->
+<!-- knitr::include_graphics("figs/eae0310-14-17.png") -->
+<!-- ``` -->
+
+<!-- Quanto maior a proporção de dívida no financiamento da firma, maior o **conflito de interesses** entre detentores de dívida e acionistas &mdash; como acionistas "têm pouco a perder", eles aceitam investimentos de má qualidade; em expectativa disso, credores só estariam dispostas a financiar firmas com pouco capital acionário a taxas de juros elevadas `r Citep(myBib, "gruber")` -->
