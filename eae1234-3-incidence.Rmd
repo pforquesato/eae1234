@@ -380,7 +380,7 @@ In the US, of all adults who smoke, 75% start smoking before age 19 &mdash; an a
 
 A survey asked teenage smokers if they would be smoking in 5 years and then checked back 5 years later: from those who said they would have quit by then, 74% were still smoking &mdash; evidence against the *rational addiction* hypothesis
 
-8 out of 10 smokers want to quit, and the average smoker tries to quit once every 8 months  &mdash; **self-control problem**
+8 out of 10 smokers want to quit, and the average smoker tries to quit once every 8 months (**self-control problem**) &mdash; if smokers make mistakes when young and would like to quit but cannot, then smoking also generates a *negative internality*
 
 ---
 class: middle
@@ -388,9 +388,9 @@ class: middle
 
 **Hyperbolic Discount:** People prefer $100 today to $200 in 2 years, but they do *not* prefer $100 in 6 years to $200 in 8 years: but for a rational agent these are the same decision problem!
 
-Another evidence is the demand for **commitment instruments** &mdash; for example, compulsory savings or annual gym membership
+Another evidence is the demand for **commitment instruments**, for example, compulsory savings or annual gym membership
 
-If smokers make mistakes when young and would like to quit but cannot, then smoking also generates **negative internality**
+`r Citep(myBib, "FRIEDSON2023104877")` find that a dollar rise in cigarette taxation at ages 14-17 lowers by 8% the chance of that person smoking as an adult and by 4% their mortality rate (**habit formation**)
 
 ---
 class: middle
@@ -582,9 +582,7 @@ Researchers estimate the healthcare cost for SSBs at ¢1/oz, and the US Dept of 
 class: middle
 ## Empirical estimates
 
-Internalities are more difficult to estimate empirically &mdash; `r Citep(myBib, "allcott2019regressive")` compare with consumption by nutritionists and estimate that people would buy 31-37% fewer SSBs if they had good information about health costs
-
-This corresponds to ¢0,91-2,14/oz of internalities
+Internalities are more difficult to estimate empirically &mdash; `r Citep(myBib, "allcott2019regressive")` compare with consumption by nutritionists and estimate that people would buy 31-37% fewer SSBs if they had good information about health costs, which corresponds to ¢0,91-2,14/oz of internalities
 
 But this internality is correlated with income! In a survey of the harms of SSBs, misinformation is 30% higher in families with incomes of $10,000/year than 100,000/year dollars
 
@@ -639,7 +637,17 @@ class:middle
 # References
 <small>
 ```{r refs2, echo=FALSE, results="asis"}
-PrintBibliography(myBib, start=6)
+PrintBibliography(myBib, start=6, end=10)
+```
+</small>
+
+
+---
+class:middle
+# References
+<small>
+```{r refs3, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=11)
 ```
 </small>
 

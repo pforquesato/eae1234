@@ -82,11 +82,11 @@ Note that here it is valid, and will **always** be true, that compensated demand
 class: middle
 ## Efficiency costs taxation 
 
-We discussed the redistributive effect of taxation: the **incidence** of indirect taxation, which is caused by changes *in the price* of products
+So far we have discussed the redistributive effect of taxation: the **incidence** of indirect taxation, which is caused by changes *in the price* of products
 
-*Efficiency cost* of taxation is measured by the **excess burden** (aka deadweight loss), and it is related to changes *in the quantity* traded
+The *efficiency cost* of taxation, on the other hand, is measured by the **excess burden** (aka deadweight loss), and it is related to changes *in the quantity* traded
 
-Excess burden comes from the fact that taxes change *relative prices* faced by economic agents, changing their behavior &mdash; for example, by making consumption more expensive in relation to leisure (non-taxable), it discourages work
+Excess burden comes from the fact that taxes change *relative prices* faced by the economic agents, changing their behavior &mdash; for example, by making consumption more expensive in relation to leisure (non-taxable), it discourages work
 
 ---
 class: middle
@@ -346,7 +346,7 @@ But this does not work for the transactions with consumers &mdash; it was to try
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '75%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-10-11.png")
 knitr::include_graphics("figs/eae0310-10-10.png")
 ```
@@ -356,14 +356,12 @@ knitr::include_graphics("figs/eae0310-10-10.png")
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '45%', fig.show="hold"}
+```{r, echo=FALSE, out.width = '50%', fig.show="hold"}
 knitr::include_graphics("figs/eae0310-10-12.png")
 knitr::include_graphics("figs/eae0310-10-12b.png")
 ```
 
-Part of the effect comes from consumer complaints &mdash; after a complaint, firms report 7% more sales to the government (Panel A)
-
-Nota Fiscal Paulista led to a 9.3% increase in ICMS (Imposto sobre Circulação de Mercadorias e Serviços) tax revenue in São Paulo, compared to other states (Panel B)  `r Citep(myBib, "naritomi2019consumers")` 
+Part of the effect comes from consumer complaints: after a complaint, firms report 7% more sales to the government (left) &mdash; Nota Fiscal Paulista led to a 9.3% increase in ICMS (Imposto sobre Circulação de Mercadorias e Serviços) tax revenue in São Paulo, compared to other states (right) `r Citep(myBib, "naritomi2019consumers")` 
 
 ---
 class: middle
