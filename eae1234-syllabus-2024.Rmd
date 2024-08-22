@@ -88,7 +88,7 @@ All dates in the schedule are **tentative** and **subject to change**
 9. **Tax incidence**: @gruber, chap. 19, @allcott. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-3-incidence.html)
 10. **Deadweight loss and optimal consumption taxation**: @gruber, chap. 20. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-4-excess-burden.html)
 
-First seminar night: papers [1], [2], and [3]: **12/09**.
+First seminar night: papers [1], [2], and [3]: **12/09**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
 
 5. **Labor income taxes**: @gruber, chap. 21. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-5-labor-income.html)
 6. **Taxation on savings**: @gruber, chap. 22. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-6-taxing-savings.html)
@@ -98,11 +98,11 @@ Midterm exam: **03/10**. [[List 1]](https://www.pedroforquesato.com/files/eae123
 7. **Taxation on wealth**: @gruber, chap. 23, @scheuer. [[Slides]](https://www.pedroforquesato.com/eae1234-7-wealth-taxation.html)
 8. **Corporate taxes**: @gruber, chap. 24, @kopczuk2020business. [[Slides]](https://www.pedroforquesato.com/eae1234-8-corporate-taxes.html)
 
-Second seminar night: papers [5], [7] and [8]: **24/10**.
+Second seminar night: papers [5], [7] and [8]: **24/10**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
 
 9. **Social security and health**: @gruber, chap. 12. [[Slides]](https://www.pedroforquesato.com/eae1234-9-social-security.html)
 
-Third seminar night: papers [4], [6], and [9]: **07/11**.
+Third seminar night: papers [4], [6], and [9]: **07/11**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
 
 10. **Social assistance**: @gruber, chap. 17, @banerjee. [[Slides]](https://www.pedroforquesato.com/eae1234-10-social-assistance.html)
 11. **Public provision of goods and education**: @gruber, chap. 7 (review) e 11. [12/11, 14/11]. [[Slides]](https://www.pedroforquesato.com/eae1234-11-public-goods.html) 
