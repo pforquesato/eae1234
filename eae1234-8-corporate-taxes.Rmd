@@ -35,7 +35,16 @@ class: middle
 knitr::include_graphics("figs/eae0310-12-19.png")
 ```
 
-Brazil has [comparatively high](https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates) corporate taxation, reaching 34% (see slide from class 12); on the other hand, it does not tax the distribution of dividends &mdash; note that some countries have regional corporate taxes (in the US around 4% and in Canada reaching 15%), while Brazil only charges corporate taxes at the federal level
+Brazil has [comparatively high](https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates) corporate taxation, reaching 34% (see slides for topic 6); on the other hand, it does not tax the distribution of dividends &mdash; note that some countries have regional corporate taxes (in the US around 4% and in Canada reaching 15%), while Brazil only charges corporate taxes at the federal level
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '65%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-8-5.jpg")
+```
+
+Over the past 40 years, we have seen a sharp and persistent decrease in the median statutory corporate tax rates, for all (country) income groups &mdash; effectively a *race to the bottom* in corporate taxes, because of international tax competition and *beggar-thy-neighbor* policies `r Citep(myBib, "keen2013theory")`
 
 ---
 class: middle
@@ -43,17 +52,17 @@ class: middle
 
 **Corporations** are for-profit organizations owned by shareholders with *limited liability*: if the corporation goes bankrupt, the shareholder loses the value of his ownership stake, but is not responsible for unpaid debts
 
-Corporations are "legal people", but this obviously does not exist: corporations do not pay taxes, *only people* &mdash; and to understand corporate taxes we have to understand their **incidence**
+Corporations are "legal people" in Brazilian law code, but this obviously does not exist: corporations do not pay taxes, *only people* &mdash; and to understand corporate taxes we need to understand their **incidence**
 
-Analogously to the public sector, publicly traded and less concentrated firms have an **agency problem**, due to the separation between *ownership and control*: the owners of the firm are the shareholders, but the managers are the CEOs
+Analogously to government, publicly traded and less concentrated firms have an **agency problem** due to the *separation between ownership and control*: shareholders are the firm owners, but who manage them are the CEOs
 
 ---
 class: middle
 ## Corporations
 
-While **owners** would be interested in maximizing their profit, **managers** are interested in higher wages, visibility, and power
+While **owners** would be interested in maximizing their profit, **managers** are interested in higher wages and benefits, visibility, and power
 
-Recently, economists have questioned whether owners are really only interested in maximizing their profits `r Citep(myBib, "hart2017companies")` &mdash; and note that only under extremely strong conditions, corporations' maximization of shareholder profits would be the best for society [[Friedman’s Legacy: From Doctrine to Theorem]](https://www.promarket.org/2020/10/13/milton-friedman-legacy-doctrine-theorem/)
+Recently, economists have questioned whether owners are really only interested in maximizing their profits `r Citep(myBib, "hart2017companies")` &mdash; and note that only under extremely strong conditions corporations' maximization of shareholder profits would be the best for society [[Friedman’s Legacy]](https://www.promarket.org/2020/10/13/milton-friedman-legacy-doctrine-theorem/)
 
 Several countries such as Germany have a corporate law structure focused on the interests of *stakeholders*: everyone impacted by the company's actions, such as workers, consumers and the local community
 
@@ -65,17 +74,17 @@ Companies finance productive investments through 3 mechanisms: *debt*, *equity* 
 
 **Debt** financing promises a fixed payment for any firm's economic achievement (apart from *default*) &mdash; this does not generate moral hazard, as the entrepreneur is still a **residual claimant** of the firm's success
 
-But it generates an *adverse selection* problem, since entrepreneurs have more knowledge about the expected return of an investment than external investors, and they will choose debt when the investment quality is poor (because of **limited liability**)
+But it generates an *adverse selection* problem, since entrepreneurs have more knowledge about the risk of an investment than external investors, and they will choose debt when the investment is risky (because of **limited liability**)
 
 ---
 class: middle
 ## Corporate finance
 
-The company can also sell an **ownership share**, which pays a proportion of the venture's return to the external investor
+The company can also sell an **ownership share**, which pays a proportion of the venture's return to the (then) external investor
 
 Now, *adverse selection* is less important, but equity generates a *moral hazard* problem, as it lowers the entrepreneur's incentives: the costs of effort in project success remain the same, but now he receives only a smaller share of the benefits (his ownership share in the firm)
 
-Because of this, shareholders generally have greater internal influence (e.g., voting power) in the operation of the firm (insiders) than creditors (outsiders), while creditors have priority in the disposal of assets in the case of bankruptcy
+Because of *moral hazard*, shareholders generally have greater internal influence (e.g., voting power) in the operation of the firm (insiders) than creditors (outsiders), while creditors because of *adverse selection* have priority in the disposal of assets in the case of bankruptcy
 
 ---
 class: middle
@@ -89,7 +98,7 @@ There are three forms of firm financing that can be affected by taxation: retain
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '60%'}
+```{r, echo=FALSE, out.width = '60%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-16.png")
 ```
 
@@ -101,9 +110,18 @@ class: middle
 
 When we tax a corporation, we tax **people** who own the factors of production involved in business activity: workers, capitalists, and landowners.
 
-But the *economic incidence* of the tax can also be **forward shifted** for consumers or **backward shifted** for input producers (and then, affect the factors of production of that industry)
+But the *economic incidence* of the tax can also be **shifted forward** for consumers or **shifted backward** for input producers (and then, affect the factors of production of that industry)
 
 But then, why tax companies and not factors directly? A practical reason is that it is *easier to collect*: corporations are large, quite visible, and have detailed accounting
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("figs/eae1234-8-1.png")
+```
+
+In most countries (the figure above is for USA) a small percentage of firms are responsible for a large (and growing!) share of the total corporate equity and revenue &mdash; indeed, only the top 0.1% of firms own about 90% of total corporate equity and 2/3 of total revenue (and therefore corporate tax liabilities) [[Source]](https://www.aeaweb.org/research/charts/rising-corporate-concentration-us)
 
 ---
 class: middle
@@ -119,7 +137,7 @@ In other words, it is equivalent to a tax on revenue with deductions for costs w
 class: middle
 ## Reasons for corporate income taxation
 
-Now, note that this only applies if we tax *economic profit* taking into account the **opportunity cost** of factors, while corporate taxation is on *accounting profit*, which takes prices into account
+Now, note that this only applies if we tax *economic profit* taking into account the **opportunity cost** of factors, while corporate taxation is on *accounting profit*, which uses actual prices
 
 Another reason to tax corporate income is that without it, **retained earnings** could accumulate tax-free forever within the firm, being distributed in the future with taxation only on earnings
 
@@ -183,6 +201,16 @@ A corporate tax with a depreciation policy generates an **effective corporate ta
 For example, if the cost of capital is 20%, and the corporate tax rate is 35%, without deductions for depreciation, then the investment needs an internal rate of return of $0.2/(1 - 0.35) = 30.7\%$ to be worth
 
 And then the effective corporate rate is given by: $$ETR = \frac{r_{\text{after tax}} - r_{\text{before tax}}}{r_{\text{after tax}}}$$
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%'}
+knitr::include_graphics("figs/eae1234-8-4.png")
+```
+
+`r Citep(myBib, "pires2023tributaccao")`
 
 ---
 class: middle
@@ -250,7 +278,6 @@ knitr::include_graphics("figs/eae0310-14-8.png")
 ```
 
 In Germany, increases in corporate taxation are associated with significant reductions in real wages: workers absorb around half of the incidence of the tax (especially new and less skilled workers) `r Citep(myBib, "fuest2018higher")`
-
 
 ---
 class: middle
@@ -356,6 +383,26 @@ knitr::include_graphics("figs/eae0310-14-18.png")
 ```
 
 Corporate taxation also affects innovation: higher state taxation of personal and corporate income both reduce the number of patents (elasticity of 0.8-1.8 and 1.3-2.8, respectively) and induce state mobility of investors `r Citep(myBib, "akcigit2022taxation")`
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("figs/eae1234-8-2.png")
+```
+
+`r Citep(myBib, "feinmann2022employer")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("figs/eae1234-8-3.png")
+knitr::include_graphics("figs/eae1234-8-3b.png")
+```
+
+`r Citep(myBib, "feinmann2022employer")`
 
 ---
 class: inverse, middle, center
