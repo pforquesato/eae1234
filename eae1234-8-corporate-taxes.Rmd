@@ -139,7 +139,7 @@ class: middle
 
 Now, note that this only applies if we tax *economic profit* taking into account the **opportunity cost** of factors, while corporate taxation is on *accounting profit*, which uses actual prices
 
-Another reason to tax corporate income is that without it, **retained earnings** could accumulate tax-free forever within the firm, being distributed in the future with taxation only on earnings
+Another reason to tax corporate income is that without it, **retained earnings** could accumulate tax-free forever within the firm, being distributed in the future with taxation only on simple interest
 
 By taxing other forms of capital income (dividends, interest, capital gains) but not retained earnings, this creates an implicit subsidy for *corporate income* in relation to other forms of savings (e.g. stocks)
 
@@ -156,7 +156,7 @@ Corporate taxation also increases the **tax base**, decreasing tax evasion with,
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '85%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-1.png")
 ```
 
@@ -165,7 +165,7 @@ International competition and lobbying of large companies drastically reduced co
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-2.png")
 ```
 
@@ -176,11 +176,11 @@ And this reduction is associated with a decrease in progressivity of the tax sys
 class: middle
 ## Depreciation schedules
 
-Taxation of economic profits should discount spending on all factors: labor, input, land, and also capital &mdash; the capital cost is its **economic depreciation**, the loss of value of that capital between $t$ and $t+1$
+Taxation of economic profits should tax revenues net of expenses on all factors of production: labor, input, land, and also capital &mdash; its **economic depreciation**, the loss of value of that capital between $t$ and $t+1$
 
-The problem is that assets have different maturities, and the loss of value is not very observable due to the lack of used machine markets, and the same machine in different uses will have different *physical depreciation*
+The problem is that assets have different maturities, and the loss of value is not well observable due to the lack of used machine markets, and the same machine in different uses will have different rates of *physical depreciation*
 
-That is why the government works with **depreciation schedules**: straight-line, accelerated, or immediate (*expensing investments*) &mdash; the important is to remember that *the faster the deductibility of depreciation, the greater is the tax benefit*
+That is why the government works with **depreciation schedules**: straight-line, accelerated (or front-loaded), or immediate (*expensing investments*) &mdash; the important is to remember that *the faster the deductibility of depreciation, the greater is the tax benefit*
 
 ---
 class: middle
@@ -190,43 +190,43 @@ knitr::include_graphics("figs/eae0310-14-5.png")
 knitr::include_graphics("figs/eae0310-14-6.png")
 ```
 
-Effects of a corporate tax without (a) and with (b) deduction for capital depreciation: in the 1st case, it decreases the marginal product of capital, reducing investment; in the 2nd case, the reduction of expenses with *economic depreciation* $\delta$ lowers the cost of financing $\delta + \rho$, where $\rho$ is the *dividend yield*, with ambiguous effect `r Citep(myBib, "gruber")`
+Effects of a corporate tax without (a) and with (b) deduction for capital depreciation: in the 1st case, it decreases the marginal product of capital, reducing investment; in the 2nd case, the allowance for expenses with present discounted value $z$ of an investment (depending on the depreciation schedule) and a investment tax credit $\alpha$ decreases the cost of capital $\delta$ (*economic depreciation*) plus $\rho$ (the *dividend yield*), with ambiguous effect `r Citep(myBib, "gruber")`
 
 ---
 class: middle
 ## Effective corporate tax rate
 
-A corporate tax with a depreciation policy generates an **effective corporate tax rate**: the percentage increase in the rate of return before taxes to cover the taxation, which will be less than the statutory tax rate
+A corporate tax with a depreciation policy generates an **effective corporate tax rate**: the percentage increase in the rate of pre-tax return to capital that is necessitated by taxation to reach the no-tax return
 
-For example, if the cost of capital is 20%, and the corporate tax rate is 35%, without deductions for depreciation, then the investment needs an internal rate of return of $0.2/(1 - 0.35) = 30.7\%$ to be worth
+For example, if the cost of capital is 20%, and the corporate tax rate is 35%, without deductions for depreciation, then the investment needs an internal rate of return of $0.2/(1 - 0.35) = 30.7\%$ with taxes to be worth doing
 
-And then the effective corporate rate is given by: $$ETR = \frac{r_{\text{after tax}} - r_{\text{before tax}}}{r_{\text{after tax}}}$$
+And then the effective corporate rate (here it is the same 35%, since there is no depreciation policy or tax credit) is given by: $$ETR = \frac{r_{\text{after tax}} - r_{\text{before tax}}}{r_{\text{after tax}}} = \frac{\tau - \tau z - \alpha}{1 - \tau z - \alpha}$$
 
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '90%'}
+```{r, echo=FALSE, out.width = '80%', fig.align="center"}
 knitr::include_graphics("figs/eae1234-8-4.png")
 ```
 
-`r Citep(myBib, "pires2023tributaccao")`
+Because most tax systems involve depreciation schedules and tax credits, the **effective tax rate** is generally much smaller than the oficial rate &mdash; in Brazil, it is estimated to be about 20% (60% of the statutory rate) `r Citep(myBib, "pires2023tributaccao")`
 
 ---
 class: middle
 ## Incidence of corporate taxation
 
-If we want to tax *foreign* capital (invested in the country), corporate taxation is the only way: we cannot tax foreign income (received abroad), but we can tax foreign capital in the firm in national territory
+If we want to tax *foreign* capital (invested in the country), corporate taxation is the only way &mdash; we cannot tax foreign income (received abroad), but we can tax foreign capital while inside the firm (which operates in national territory)
 
-Therefore, taxation on the firm and on the individual generate different effects in *international finance*: (i) charging international investors in local companies, while (ii) charging local investors in international companies
+Therefore, taxation on the firm and on the individual generate different effects in terms of *international finance*: (i) charging international investors in local companies, while (ii) charging local investors in international companies
 
-How this will affect the *incidence* of the tax depends on our assumptions about the local and international mobility of capital (and therefore, the elasticity of capital input)
+How this will affect the *incidence* of the tax depends on assumptions about the local and international mobility of capital (and therefore, the elasticity of capital input)
 
 ---
 class: middle
 ## International incidence
 
-If the capital has **perfect international mobility** and we consider the case of a **small economy** (like Brazil), then national taxation does not affect the international profit rate, which has to be homogeneous: $r^{\text{BR}} = r^*$
+If the capital has **perfect international mobility** and consider the case of a **small economy** (like Brazil), then national taxation does not affect the international profit rate, which has to be homogeneous: $r^{\text{BR}} = r^*$
 
 And after taxation also equally $(1-\tau_c) r^{\text{BR}} = r^*$ &mdash; that is, there is capital flight until the rate of return go back to the international rate (infinitely elastic input): this flight reduces the marginal productivity of labor and its wages in a competitive market: **the incidence is all on labor**
 
@@ -238,7 +238,7 @@ class: middle
 
 Therefore, countries are under pressure to reduce their corporate taxes in a **race to the bottom**, since lower taxes attract international capital from other countries in a zero-sum game
 
-This feature of corporate taxation generates the potential for international competition and **beggar-thy-neighbor** policies
+This feature of corporate taxation creates the potential for international competition to "outbid" other countries in **beggar-thy-neighbor** policies
 
 This generates the need for *international organizations* for cooperation &mdash; there is a real movement in this direction: in 2021, 141 countries agreed to structure a global minimum corporate tax of 15% (but it is still low)
 
@@ -246,20 +246,20 @@ This generates the need for *international organizations* for cooperation &mdash
 class: middle
 ## Incidence in closed economy
 
-If the capital is not internationally movable (*closed economy*), then the profit rate in the corporate sector should equal to the *non-corporate sector* &mdash; with free mobility between them, the corporate sector loses capital and decreases wages 
+If the capital is not internationally mobile (a *closed economy*), then the profit rate in the corporate sector must equal rate of return in the *non-corporate sector* &mdash; with free mobility between them, the corporate sector loses capital and decreases wages 
 
-In the real world, however, because of barriers to entry (not perfectly movable capital), the corporate sector plausibly makes abnormal profits: in this case, corporate capital absorbs all taxation
+In the real world, however, because of barriers to entry (not perfectly mobile capital), the corporate sector plausibly makes abnormal profits: in this case, corporate capital absorbs all taxation
 
 If the tax is levied on all firms (e.g., no non-corporate sector), then it becomes a usual tax on capital, as a tax on dividends
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '60%'}
+```{r, echo=FALSE, out.width = '60%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-20.png")
 ```
 
-`r Citep(myBib, "suarez2016benefits")` find that workers actually absorb part of corporate tax cuts (30-35%), and 25-30% for landowners (only 40% for capitalists) in **state** taxation in the US &mdash; capital input is quite elastic and responds to tax cuts with growth in firm size
+Growth in firm size following a cut in *state* corporate tax rate in the US &mdash; workers actually absorb part of corporate tax cuts (30-35%), and 25-30% for landowners (only 40% for capitalists): capital input is quite elastic and responds to tax cuts with growth in firm size `r Citep(myBib, "suarez2016benefits")`
 
 ---
 class: middle
@@ -268,12 +268,12 @@ class: middle
 knitr::include_graphics("figs/eae0310-14-7.png")
 ```
 
-In the US, reduction of 1p.p. in the effective corporate tax rate for companies with domestic production (blue) increased investment by 4,7% of installed capital and decreased debt by 5,3%, compared with companies with less domestic production (dotted) `r Citep(myBib, "ohrn2018effect")`
+In the US, reduction of 1 p.p. in the effective corporate tax rate for companies with domestic production (blue) increased investment by 4.7% of installed capital and decreased debt by 5.3%, compared with companies with less domestic production (dotted) `r Citep(myBib, "ohrn2018effect")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '70%', fig.align="center"}
 knitr::include_graphics("figs/eae0310-14-8.png")
 ```
 
@@ -283,9 +283,9 @@ In Germany, increases in corporate taxation are associated with significant redu
 class: middle
 ## Taxation and corporate finance
 
-A classic result of corporate finance is the **Modigliani-Miller theorem:** without taxation, bankruptcy or asymmetric information, the *capital structure* is irrelevant (i.e., whether *debt* or *equity*)
+A classic result of corporate finance is the **Modigliani-Miller theorem:** without taxation, bankruptcy, or asymmetric information, the *capital structure* is irrelevant (i.e., whether financed by *debt* or *equity*)
 
-But since interests on debts are almost always tax deductible, and dividend payments are not, this generates a **tax preference by debt financing**
+But since interest on debt is almost always tax deductible, and dividend payments are not, this generates a tax system's **preferential treatment for debt over equity**
 
 This generates a paradox: why do firms raise money through equity? Possible answers involve decreasing bankruptcy risk and mitigating the *conflict of interests between shareholders and debt holders*
 
@@ -293,9 +293,9 @@ This generates a paradox: why do firms raise money through equity? Possible answ
 class: middle
 ## Taxation and corporate finance
 
-U.S. state corporate tax increases of an average of 13% led to a 4,5% growth in the proportion of debt in capital structure of companies `r Citep(myBib, "heider2015certain")` &mdash; corroborating the tax preference by debt
+Evidence is that U.S. state corporate tax increases of an average of 13% led to a 4.5% growth in the proportion of debt in capital structure of companies `r Citep(myBib, "heider2015certain")` &mdash; corroborating the tax preference for debt
 
-Another mystery is that firms pay dividends (**dividend paradox**), when they could reinvest the money and increase the value of the firm, therefore, remunerating investors for less taxed capital gains
+Another mystery is that firms pay dividends (**dividend paradox**), when they could reinvest the money and increase the value of the firm, therefore, remunerating investors with less taxed capital gains
 
 The dominant view is that it is again an **agency problem**: since shareholders cannot perfectly control managers, they prefer to "take the money out of their hands"
 
@@ -303,40 +303,40 @@ The dominant view is that it is again an **agency problem**: since shareholders 
 class: middle
 ## Dividend taxation
 
-The effects of dividend taxation *depend on the company's form of financing*: if it finances itself by issuing stocks, the taxes lower the stock price and make investment financing more expensive (a given ownership share raises less money)
+The effect of dividend taxation *depends on the company's form of financing*: if it finances itself by issuing stocks, the taxes lower the stock price and make investment financing more expensive (a given ownership share raises less money)
 
-On the other hand, if the company finances the investment with retained earnings or debt, dividends do not affect your choice
+On the other hand, if the company finances the investment with retained earnings or debt, dividends do not affect their choice
 
-As for the profit taxation, if it is on economic profit, then there is no behavioral effect of taxation, and the incidence is entirely on shareholders in the short-term &mdash; but in the long-term it depends on the mobility of capital
+Like with profit taxation, if the tax is on economic profit, then there is no behavioral effect of taxation, and the incidence is entirely on shareholders in the short-term &mdash; but in the long-term it depends on the mobility of capital
 
 ---
 class: middle
 ## Dividend taxation
 
-The old view on taxation of dividends is that by making more expensive the financing by *equity*, this tax would decrease investment
+The old view on taxation on dividends is that by making more expensive corporate financing by equity, dividend taxes would decrease investment
 
-But this view arises from a model that does not explain why dividends exist in the first place: in the agency model, taxing dividends would **increase** investment
+But this view arises from a model that does not explain why dividends exist in the first place: in the agency model, taxing dividends would **increase** investment &mdash; since it incentivizes reivesting profits inside the firm
 
 The modern view is that corporate investment is mostly made through *retained earnings*: therefore, taxation of dividends has little effect on the level of investment [[Article in Jornal da USP]](https://jornal.usp.br/artigos/afinal-a-taxacao-de-dividendos-reduz-o-investimento/)
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '70%', fig.align="center"}
 knitr::include_graphics("figs/eae0310-14-3.png")
 ```
 
-In the US, the only effect of 23p.p. cut in the taxation of dividends in 2003 was higher payment of dividends to shareholders, compare a group of affected companies (C-corps) with non-affected companies (S-corps) `r Citep(myBib, "yagan2015capital")`
+In the US, the only effect of 23 p.p. cut in the taxation of dividends in 2003 was higher payment of dividends to shareholders, comparing a group of affected companies (C-corps) with non-affected companies (S-corps) `r Citep(myBib, "yagan2015capital")`
 
 ---
 class: middle
 ## Simples Nacional
 
-In almost all countries, small companies have a beneficial tax regime &mdash; in Brazil, it is the Simples Nacional, which replaces almost all corporate taxes with a single tax on revenue
+In almost all countries, small companies have beneficial tax regimes &mdash; in Brazil, it is the *Simples Nacional*, which replaces all corporate and sales taxes with a single tax on revenue
 
-`r Citep(myBib, "monteiro2012coming")` estimates a Simples effect of 13p.p. (almost 50%) in formalizing retail stores, but no effect on other sectors
+The idea is that the tax system is too complex for small companies to handle, incentivizing informality &mdash; `r Citep(myBib, "monteiro2012coming")` estimate a Simples effect of 13 p.p. (almost 50%) in formalizing retail stores, but no effect on other sectors
 
-As there is a ceiling for participation in Simples, the program can generate "flattening" of the size of firms, generating economic inefficiencies
+As there is a ceiling in firm size to participate in Simples, the program can generate an inefficient "flattening" of the size of firms
 
 ---
 class: middle
@@ -344,80 +344,76 @@ class: middle
 
 A form of hybrid taxation between income tax and corporate tax are payroll taxes &mdash; in the model they are equivalent to an income tax, but in practice the incidence tends to vary
 
-In 2011, the government approved the temporary exemption on payroll, which replaces payroll taxation for tax on revenues for several sectors, in practice giving tax benefits of around 0,5% of GDP to them
+In 2011, the government approved the temporary exemption on payroll, which replaces payroll taxation for tax on revenues for several sectors (participation is optional), in practice giving tax benefits (a **tax expenditure**) of around 0.5% of GDP to these sectors
 
-`r Citep(myBib, "leandro2021payroll")` (among others) point to a negligible effect on employment and wages, but even so, the exemption remains until (at least) 2023
+`r Citep(myBib, "leandro2021payroll")` (among others) point to a negligible effect on employment and wages, but even so, the exemption is scheduled to phase out only in 2025 (hopefully)
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '70%', fig.align="center"}
 knitr::include_graphics("figs/eae0310-14-9.png")
 ```
 
-But *targeted* reductions in payroll tax can work to stimulate employment in subgroups where unemployment is higher: a payroll tax cut for young people in Sweden (2007-2009) decreased the unemployment rate of this group by 5 p.p. (33%) `r Citep(myBib, "saez2019payroll")`
+Payroll tax reductions did not stimulate employment in Brazil, but *targeted* reductions in that tax have been shown to work in subgroups where unemployment is higher: a payroll tax cut for young people in Sweden (2007-09) reduced the unemployment rate of this group by 5 p.p. (33%) `r Citep(myBib, "saez2019payroll")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '75%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-10.png")
 ```
 
-Firms with more young people received a *tax windfall* and increased their employment by 4,6%, in addition to sales and profits after the reform, compared to less affected firms (control group) `r Citep(myBib, "saez2019payroll")`
+Firms with more young people received a *tax windfall* and increased their employment by 4.6%, in addition to higher sales and profits after the reform, compared to less affected firms (the control group) `r Citep(myBib, "saez2019payroll")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '75%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-11.png")
 ```
 
-This increase in firms increased net wages by 1,9-2,6%, but gross wages remained the same because of the payroll tax reduction, indicating that the incidence was entirely on labor `r Citep(myBib, "saez2019payroll")`
+This growth in employment increased net wages by 1.9-2.6%, but gross wages remained the same (because the tax decreased), indicating that the incidence was entirely on labor `r Citep(myBib, "saez2019payroll")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-18.png")
 ```
 
-Corporate taxation also affects innovation: higher state taxation of personal and corporate income both reduce the number of patents (elasticity of 0.8-1.8 and 1.3-2.8, respectively) and induce state mobility of investors `r Citep(myBib, "akcigit2022taxation")`
+Corporate taxation also affects innovation: lower state taxation of personal and corporate income (higher net-of-tax rate) both increase the number of patents and encourage inventor in-migration `r Citep(myBib, "akcigit2022taxation")`
 
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("figs/eae1234-8-2.png")
 ```
 
-`r Citep(myBib, "feinmann2022employer")`
+In Brazil, employee's social security contributions are capped at the pension ceiling, but for employers it is not &mdash; this generates incentives to collude (and report lower wages), since employers are paying contributions that do not benefit the employee `r Citep(myBib, "feinmann2022employer")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '50%', fig.show='hold'}
 knitr::include_graphics("figs/eae1234-8-3.png")
 knitr::include_graphics("figs/eae1234-8-3b.png")
 ```
 
-`r Citep(myBib, "feinmann2022employer")`
+In a survey, about 25% of Brazilian formal employees admit to engaging in *payments under the table* (PUT), which account to on average about 20% of their salaries &mdash; a form of partial tax evasion characteristic of developing countries `r Citep(myBib, "feinmann2022employer")`
 
----
-class: inverse, middle, center
-
-# Gabriel Zucman (2014). "Taxing across Borders: Tracking Personal Wealth and Corporate Profits"
 
 ---
 class: middle
 ## Tax heavens
 
-We have seen how the "ultra-rich" use **tax havens** to evade taxes on capital and wealth, but perhaps even more relevant is their use by multinational corporations
+We have seen how the "ultra-rich" use **tax havens** to evade taxes on capital and wealth, but perhaps even more relevant is the use of tax havens by multinational corporations
 
 `r Citep(myBib, "torslov2018missing")` estimate that 14% of corporate tax revenue in Brazil is evaded by using tax havens (23% in the US) [[World missing profits database]](https://missingprofits.world/)
 
-18% of all profits made by American companies (inside or outside the US) are now made in tax havens, and they pay almost no taxes (on average 3%) [[Our article in Valor]](https://www.pedroforquesato.com/files/paraisos.jpeg)
+18% of all profits made by American companies (inside or outside the US) are now realized in tax havens, and they pay almost no taxes (on average 3%) [[Our article in Valor]](https://www.pedroforquesato.com/files/paraisos.jpeg)
 
 ---
 class: middle
@@ -432,11 +428,11 @@ Corporate taxation is "simple" in a closed economy, but much more complex in an 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-12.png")
 ```
 
-If until the early 1970s the proportion of profits of American companies made outside the US was small, it has increased significantly in the last decades (*globalization*), reaching 35% in 2010 &mdash; but 2/3 of this proportion is made in tax havens `r Citep(myBib, "zucman")`
+If until the early 1970s the proportion of profits of American companies made outside the US was small, it has grown significantly in the last decades (*globalization*), reaching 35% in 2010 &mdash; but 2/3 of this international profit share is realized in tax havens `r Citep(myBib, "zucman")`
 
 ---
 class: middle
@@ -455,30 +451,30 @@ class: middle
 knitr::include_graphics("figs/eae0310-14-13.png")
 ```
 
-While the nominal corporate tax rate in the US is 35% because of tax avoidance for tax havens and other *loopholes*, the effective tax rate is 20%, and only 16% paid to the US government `r Citep(myBib, "zucman")`
+While the nominal corporate tax rate in the US is 35%, because of tax avoidance in tax havens and other *loopholes*, the effective tax rate is 20%, and only 80% of that is paid to the US government `r Citep(myBib, "zucman")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-14.png")
 ```
 
-The proportion of US assets whose owner is registered in tax havens (hedge funds, mutual funds, shell companies) rose from 2% until the 1980s to 9% in 2010 `r Citep(myBib, "zucman")`
+The share of US assets whose owner is registered in a tax haven (hedge funds, mutual funds, shell companies) rose from 2% by the 80s to 9% in 2010 `r Citep(myBib, "zucman")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-19.png")
 ```
 
-Countries often give tax benefits to resources repatriations in tax havens: one of these, in 2005 in the US, made the proportion of profits held in tax havens drop a lot, but this did not generate employment, investment or national R&D, and soon after the proportion held *offshore* continued to grow `r Citep(myBib, "zucman")`
+Countries often give tax benefits to repatriation of resources in tax havens: one such event, in 2005 in the US, made the share of profits realized in tax havens to drop, but this did not generate employment, investment or national R&D, and soon after the proportion held *offshore* continued to grow `r Citep(myBib, "zucman")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-14-15.png")
 ```
 
@@ -490,9 +486,9 @@ class: middle
 
 Not only does this tax avoidance make the tax system less progressive, but it generates huge inefficiencies: multinationals spend billions (with zero marginal social benefit) manipulating the system to avoid paying taxes
 
-Corporate tax collection has historically remained around 3% of GDP in the US even with the decrease of effective rate, because the proportion of corporate profit in GDP rose from 9% in 1980 to 14% in 2010
+Corporate tax collection has historically remained around 3% of GDP in the US even with the decrease of effective rate, because the share of corporate profit in GDP rose from 9% in 1980 to 14% in 2010
 
-If the US solve the problem of tax evasion by tax havens, it would increase the tax burden of the richest 0,1% by 18%
+And it matters: if the US solved the problem of tax evasion by tax havens, it would increase the tax burden of the richest 0.1% by 18%
 
 ---
 class: middle
@@ -503,6 +499,28 @@ In 2021, it was approved a plan with signature of 141 countries to establish a m
 It comes with the weakening of *source-based taxation* and *arm's length pricing*: new proposals for paying corporate taxes based on a formula of sales, employment and capital
 
 The obvious problem is that different formulas benefit different countries, which generates diverging interests &mdash; but in any case, the solution to this problem has to be global
+
+---
+class: middle
+## Tax Cuts and Jobs Act
+
+In 2017, Donald Trump enacted the largest business tax cut in US history &mdash; projected to reduce revenue by US$100-150 billion a year, which accounts nominally to 17% of Brazilian budget (~3-4% of American one)
+
+It cut statutory tax rate from 35% to 21%, and allowed for immediate write-off of equipment purchases, giving further tax benefits, as we have seen
+
+Proponents of the change defended this tax cut would increase investments, create jobs (vide the tax cut name) and increase wages &mdash; and that this additional economic growth would offset some of the revenue costs of the policy
+
+---
+class: middle
+## Lessons
+
+ `r Citep(myBib, "chodorow2024lessons")` review the evidence evaluating this tax cut and point to 5 lessons we learned from its consequences:
+
++ Tax cuts are very expensive: the policy cut corporate tax revenue by 40%
++ Corporate tax affects investments: more affected firms raised investment by 8-14% (but that is not near enough to offset the policy costs)
++ Reductions in taxation of profits abroad by corporations also raise their investments domestically
++ Effects on economic growth and wages are smaller than proponents advertise: while the Council of Economic Advisers predicted wages would grow by 4-9k dollars, they actually increased only 750
++ "Economic bang for fiscal buck" depends on the specific provisions: investment incentives have large impact, while corporate income tax cuts only enrich old capital   
 
 ---
 class:middle
@@ -527,7 +545,17 @@ class:middle
 # References
 <small>
 ```{r refs3, echo=FALSE, results="asis"}
-PrintBibliography(myBib, start=11)
+PrintBibliography(myBib, start=11, end=15)
+```
+</small>
+
+
+---
+class:middle
+# References
+<small>
+```{r refs4, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=16)
 ```
 </small>
 
