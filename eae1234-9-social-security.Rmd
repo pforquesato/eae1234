@@ -31,19 +31,19 @@ myBib <- ReadBib("./esp_bib.bib", check = FALSE)
 class: middle
 ## Social security
 
-We have already discussed two market failures that (plausibly) require state intervention: non-excludable goods and externalities. The third one is **credit restrictions**
+Intermediate microeconomics discusses two market failures that (plausibly) require state intervention: non-excludable goods and externalities. The third one is **credit restrictions**
 
 Note that even though credit restriction receives less attention in micro, it represents most of the state's expenses! 
 
-In Brazil, the federal government spends ~12% of GDP (1/3 of the budget) on social security &mdash; another ~4% of GDP is public spending on health, another form of public insurance
+In Brazil, the federal government spends ~12% of GDP (1/3 of the budget) on social security &mdash; another ~4% of GDP is public spending on public health services, which is another form of public insurance
 
 ---
 class: middle
 ## Social Security
 
-Nowadays, almost all states offer many forms of social insurance. In Brazil, INSS offers:
+Nowadays, almost all governments offer various forms of social insurance &mdash; in Brazil, the *Instituto Nacional do Seguro Social* (INSS) offers:
 
-1. Retirement
+1. Retirement plan
 2. Unemployment insurance
 3. Sick pay, workers’ compensation, and reclusion aid
 4. Benefit for people with disabilities (Continued Provision Benefit, BPC)
@@ -66,9 +66,9 @@ For example, I would always like to transfer income from *possible worlds* where
 class: middle
 ## Risk and insurance
 
-An **actuarially fair insurance premium** is in which that price is exactly equal to the expected damage cost
+An **actuarially fair insurance premium** is a insurance plan in which its price is exactly equal to the insurer’s expected payout
 
-In practice, the insurer may charge a **risk premium**, which is the difference between the expected utility and the *certainty equivalent*
+In practice, the insurer may charge a **risk premium**, which is the difference between the expected payout and the *certainty equivalent*
 
 As consumers are risk averse and the insurer is not, transferring the agent’s risk to the firm results in an efficiency gain &mdash; there is a trade surplus
 
@@ -80,9 +80,9 @@ Consider an adverse event with probability $q$ which implies an economic cost $d
 
 Then the expected utility of the individual is: $$\mathbb{E}U = (1 - q) u(W - p) + q u(W - p + b - d)$$
 
-The expected profit of the insurer (neutral to the risk) is: $\mathbb{E}\Pi = p - qb$
+The expected profit of the (risk neutral) insurer is: $\mathbb{E}\Pi = p - qb$
 
-If there is perfect competition with free entry, we have $\mathbb{E}\Pi = 0$, that is $p = qb \iff b = p/q$ (*actually fair premium*)
+If there is perfect competition with free entry, we have $\mathbb{E}\Pi = 0$, that is $p = qb \iff b = p/q$ (namely, the *actuarially fair premium*)
 
 ---
 class: middle
@@ -120,7 +120,7 @@ But the most relevant question here for us is not why people buy insurance, but 
 
 And the answer to this is not in risk aversion, but in **informational asymmetry**: consumers in an insurance market almost always have more information about their risks than the insurer
 
-There are two types of relevant informational asymmetry in the insurance market: **unobservable characteristics** (adverse selection) and **unobservable actions** (moral hazard): let us start with the first one
+There are two types of relevant informational asymmetry in the insurance market (any market really): **unobservable characteristics** (adverse selection) and **unobservable actions** (moral hazard): let us start with the first one
 
 ---
 class: middle
@@ -129,27 +129,27 @@ class: middle
 knitr::include_graphics("figs/eae0310-6-3.png")
 ```
 
-Imagine two *types* of agents: careful ones (0.5% chance of crashing their car) and careless ones (5%), with 100 individuals each. If the insurer manages to separate the types, the result is efficient. But if there is asymmetric information **adverse selection** occurs, both when the firm tries a *separating policy* (everyone buys less) and *pooling* (the good type is excluded) `r Citep(myBib, "gruber")`
+Imagine two *types* of agents: careful ones (0.5% chance of crashing their car) and careless ones (5%), with 100 individuals each. If the insurer manages to separate the types, the result is efficient. But if there is asymmetric information, **adverse selection** occurs, both when the firm tries a *pooling* (everyone buys less) or a *separating* policy (the good type is excluded) `r Citep(myBib, "gruber")`
 
 ---
 class: middle
 ## Information asymmetry in the insurance market
 
-At the limit, the **adverse selection** groups with increasingly higher risk can *unravel the entire market* 
+At the limit, **adverse selection** can exclude more and more low risk individuals, leaving a pool with increasingly higher risk until it *unravels the entire market* 
 
-As we have seen, if consumers are risk averse, they are willing to pay above the actuarially fair rate. If it is high enough for lower risk agents to remain in the market, there may be a **pooling equilibrium**
+As we have seen, if consumers are risk averse, they are willing to pay above the actuarially fair rate &mdash; if their risk aversion is high enough for lower risk agents to remain in the market, there may be a **pooling equilibrium**
 
-Insurers can also try (and they do try) to **screen** consumers for risk: offering a premium-coverage menu with an option that is cheap but covers little damage, and thus is only worthwhile for agents with lower risk (**separating equilibrium**)
+Insurers can also try (and they certainly do try) to **screen** consumers for risk: offering a premium-coverage menu with an option that is cheap but covers little damage, and thus is only worthwhile for agents with lower risk, and another with high coverage but expensive (a **separating equilibrium**)
 
 ---
 class: middle
 ## Information asymmetry in the insurance market
 
-But notice that the separating equilibrium *is still inefficient!* Low-risk consumers receive little coverage when the optimum would be to be full insurance
+But notice that this separating equilibrium *is still inefficient!* Low-risk consumers receive little coverage when the optimum would be to be full insurance
 
-**Adverse selection** occurs because with a single price, lower risk individuals decide to exit the market. A "simple" way to solve the problem is to force them to buy insurance
+**Adverse selection** occurs because with a single price, lower risk individuals decide to exit the market: a "simple" way to solve the problem is to force them to buy insurance
 
-Note that in the last case in the table, if everyone buys it, the firm would have zero profit, and the market would be efficient (in this case lower risk consumers would be subsidizing the higher risk insurance)
+Note that in the last case in the table, if everyone buys it, the firm would have zero profit, and the market would be efficient (in this case lower risk consumers would be subsidizing the higher risk individuals' insurance)
 
 ---
 class: middle
@@ -168,7 +168,7 @@ class: middle
 knitr::include_graphics("figs/eae0310-6-12.png")
 ```
 
-Competitive supply and demand model *with adverse selection*: negative sloping demand excludes consumers with low willingness to pay from the market, which (with adverse selection) is inefficient because the marginal cost curve is below the demand curve `r Citep(myBib, "einav")`
+Competitive supply and demand model *with adverse selection*: negative sloping demand excludes consumers with low willingness to pay from the market, which (in markets with adverse selection) is inefficient because the marginal cost curve is below the demand curve `r Citep(myBib, "einav")`
 
 ---
 class: middle
@@ -204,19 +204,19 @@ class: middle
 
 We have seen that the main reason for **public insurance** is to solve the adverse selection problem
 
-Another reason is that if I do not have car insurance and crash into someone, I may not have the money to cover their damage, generating a *financial externality* (that is why DPVAT – Personal Injury Caused by Land Motor Vehicles – exits)
+Also, if I do not have car insurance and crash into someone, I may not have the money to cover their damage, generating a *financial externality* (that is why DPVAT – Seguro Obrigatório para Proteção de Vítimas de Acidentes de Trânsito – exits)
 
-Another reason is that governments may not be able to *credibly commit* to not intervene in the bad state of nature in case the agent does not buy insurance (**Samaritan's dilemma**)
+Another reason for public insurance is that governments may not be able to *credibly commit* to not intervene in the bad state of nature in case the agent does not buy insurance (**Samaritan's dilemma**)
 
 ---
 class: middle
 ## Self-insurance
 
-Frequently, consumers of highest risk are also the neediest (or are most at risk because *they are* needy), and the efficient market solution would involve them paying much more
+Frequently, consumers of highest risk are also the neediest (or sometimes they are most at risk *because* they are needy), and the efficient market solution would involve them paying much more
 
 There are many ways in which families can *smooth consumption* without formal insurance: they can use their savings, increase their partners' work, or borrow from banks or family members &mdash; one risk is that public insurance would be **crowding out** their self-insurance
 
-In practice, families often act in a *myopic way*, giving too much value to the present and it would be less than the rational &mdash; governments can act to correct *internalities*
+In practice, families often act in a *myopic way*, giving too much value to the present: governments can act to correct *internalities*
 
 ---
 class: middle
@@ -226,7 +226,7 @@ knitr::include_graphics("figs/eae0310-6-4.png")
 knitr::include_graphics("figs/eae0310-6-4b.png")
 ```
 
-Difference in duration of unemployment by amount of unemployment insurance &mdash; poorest quartile (a) vs richest quartile (d): lower unemployment insurance makes the poorest find jobs faster but does not have the same effect on the richest, which plausibly already manage to smooth consumption with prior savings `r Citep(myBib, "chetty2008moral")`
+Difference in unemployment duration by level of unemployment insurance &mdash; poorest quartile (a) vs richest quartile (d): less unemployment insurance makes the poorest find jobs faster but does not have the same effect on the richest, which plausibly already manage to smooth consumption with prior savings `r Citep(myBib, "chetty2008moral")`
 
 ---
 class: middle
@@ -241,19 +241,19 @@ Evidence of myopic behavior and lack of consumption smoothing: in Brazil, *laid-
 class: middle
 ## Moral hazard
 
-Another essential concept of asymmetric information is the behavioral effect that insurance has on consumers' risk taking (**moral hazard**)
+Another essential concept of asymmetric information in the insurance market is the effect that insurance has on consumers' risk taking (**moral hazard**)
 
-`r Citep(myBib, "carvalho2018unintended")` estimate that 11-13% of layoffs are influenced by the existence of unemployment insurance
+`r Citep(myBib, "carvalho2018unintended")` estimate that in Brazil 11-13% of layoffs are influenced by the existence of unemployment insurance
 
-Without moral hazard, optimal insurance would be full. In reality, the **optimal level of insurance** equates the *benefit* of consumption smoothing with the *harm* of generating moral hazard
+As we have seen, without moral hazard, optimal insurance would be full &mdash; in reality, the **optimal level of insurance** equates the *benefit* of consumption smoothing with the *harm* of generating moral hazard
 
 ---
 class: middle
 ## Optimal unemployment insurance with moral hazard
 
-Considering the case of unemployment insurance: we want to smooth the consumption of those who receive a negative employment shock, but if the **replacement rate** is 100%, nobody would look for a job(*)
+Let's consider the case of unemployment insurance: we want to smooth the consumption of those who receive a negative employment shock, but if the **replacement rate** is 100%, nobody would look for work
 
-Consider an individual who has probability $p$ to be unemployed, that has consumption $c_e = w - t$ when employed (which $w$ is the salary and $t$ is the tax) and $c_u = b$ when unemployed, with $b$ as benefit
+Consider an individual who has probability $p$ to be unemployed, that has consumption $c_e = w - t$ when employed (where $w$ is the salary and $t$ is the tax) and $c_u = b$ when unemployed, with $b$ as benefit
 
 So his utility is: $$\mathbb{E}U = (1 - p)u(c_e) + pu(c_u) = (1 - p)u(w - t) + pu(b)$$
  
@@ -261,19 +261,19 @@ So his utility is: $$\mathbb{E}U = (1 - p)u(c_e) + pu(c_u) = (1 - p)u(w - t) + p
 class: middle
 ## Optimal unemployment insurance with moral hazard
 
-Government has **balanced budget**: $(1 - p)\cdot t = p \cdot b$, or $t = b \cdot p/(1-p)$
+Government has a **balanced budget**: $(1 - p) t = p b$, or $t = b p/(1-p)$
 
-The policy that maximizes welfare, then solves: $$\max_b \mathbb{E}U = (1 - p)u\left( w - b\frac{p}{1 - p} \right) + pu(b)$$
+The policy that maximizes welfare then solves: $$\max_b \mathbb{E}U = (1 - p)u\left( w - b\frac{p}{1 - p} \right) + pu(b)$$
 
 Without moral hazard, we have the same result as before, *full insurance*: $$pu^{\prime}(c_u) - (1 - p)\frac{p}{1 - p}u^{\prime}(c_e) = 0 \Rightarrow c_u = c_e$$ 
+But moral hazard implies that $dp/db \neq 0$! The higher the wage replacement rate, the more likely individuals are to be unemployed
  
 ---
 class: middle
 ## Optimal unemployment insurance with moral hazard
 
-But moral hazard implies that $dp/db \neq 0$! The higher the wage replacement rate, the more likely individuals are to be unemployed
 
-It generates a **fiscal externality**: the higher the unemployment insurance, the higher the taxation we will need to finance it, both *mechanically*, but also due to the *behavioral effect*
+There is a **fiscal externality**: the higher the unemployment insurance, the higher the taxation we will need to finance it, both *mechanically*, but also due to the *behavioral effect*
 
 $$\max_b \mathbb{E}U = (1 - p)u\left( w - b\frac{p(b)}{1 - p(b)} \right) + pu(b)$$
 The result equates the benefit of smoothing with the harm of moral hazard — full insurance is no longer optimal: $$\frac{u^{\prime}(c_u) - u^{\prime}(c_e)}{u^{\prime}(c_e)} = \frac{1}{1 - p}\epsilon_{p,b} \text{ which }\epsilon_{p,b} = \frac{b}{p}\frac{dp}{db}$$ 
@@ -282,11 +282,11 @@ The result equates the benefit of smoothing with the harm of moral hazard — fu
 class: middle
 ## Retirement
 
-The social security system collects payroll taxes from the active population to transfer to the elderly &mdash; these people, not being able to work, would have no source of income, and the savings they made in their **life cycle** could run out ("risk of living too long" )
+Social security collects payroll taxes from workers to transfer to the elderly &mdash; these people, not being able to work, would have no source of income, and their savings during the **life cycle** could run out ("risk of living too long" )
 
-What is the reason for government intervention in this market? In principle, the financial market can sell *annuities*
+What is the reason for government intervention in this market? In principle, the financial market can sell *annuities* (insurance for living too long)
 
-But again, we have the problem of **adverse selection**: only those who are in good health and expect to live a long time would buy an annuity (versus a normal saving account)
+But again, we have an **adverse selection** problem: only those who are in good health and expect to live a long time would buy an annuity as opposed to a (presumably better paying) normal savings account
 
 ---
 class: middle
@@ -295,15 +295,13 @@ class: middle
 knitr::include_graphics("figs/adrelino.jpg")
 ```
 
-Adrelino, 121 years old: The terror of INSS
-
 ---
 class: middle
 ## Retirement
 
-As we have seen, in these situations the government can do better than the market, because it can *force* people to buy, solving the adverse selection problem
+As we have seen, in these situations the government can do better than the market, because the government can *force* people to buy insurance, solving the adverse selection problem (similarly to how it deals with public goods)
 
-But in practice, the main reason for retirement is to attack *internalities*: the fact that people in general do not save as much as they would need to have a decent life in old age
+But in practice, the main reason for retirement is probably to solve *internalities*: the fact is that people in general do not save as much as they would need to have a decent life in old age
 
 Research in Italy and the UK estimate that every $1 of social security reduces private savings (**crowding out**) by 30-40¢
 
@@ -314,37 +312,37 @@ class: middle
 knitr::include_graphics("figs/eae0310-6-6.png")
 ```
 
-Increased social security in the US is associated with a significant reduction in poverty among the elderly `r Citep(myBib, "gruber")` &mdash; in Brazil, only 2,7% of the elderly are below the poverty line, against 11,5% in the national average (and 20,3% between 0-4 years) (CPS/FGV)
+Increased social security is associated with a significant reduction in poverty among the elderly in the US `r Citep(myBib, "gruber")` &mdash; in Brazil, only 2.7% of the elderly are below the poverty line, against the national average of 11.5% (and 20.3% for kids less than 4 years old) (CPS/FGV)
 
 ---
 class: middle
 ## Social security reform
 
-Every decade, the problem of the sustainability of the social security sector and reforms comes back to the public debate. [The last one was in 2019](https://www.gov.br/inss/pt-br/assuntos/noticias/confira-as-principais-mudancas-da-nova-previdencia):
+Every decade, the problem of the sustainability of Brazilian retiremet system and reforms to decrease social security payments come back to the public debate. [The last one was in 2019](https://www.gov.br/inss/pt-br/assuntos/noticias/confira-as-principais-mudancas-da-nova-previdencia):
 
-1.  The reform, among other things, increased the minimum age (65/62) and requires age and contribution time (20/15)
-2. The payment is now based on average wages (previously the highest 80%): 60% + 2% per year above the minimum age
-3. The INSS tax is now progressive: 7,5% for the minimum wage, up to 14% (but only up to the RGPS ceiling), and up to 22% for the RPPS
+1.  The reform, among other things, increased the minimum age (65/62) and now retirement requires both minimum age and contribution time (20/15)
+2. The payment is now based on average wages (previously the highest 80%): 60% + 2% per year above the minimum contribution time
+3. The INSS tax is now progressive: 7.5% for minimum wage earners, up to 14% (but only up to the RGPS ceiling) in the private sector, and up to 22% for the RPPS (public employees)
 
 ---
 class: middle
 ## Social security reform
 
-Much is said about "social security deficit", but in contrast to the private pension, which is financed by a fund saved by the worker himself during his life, public social security works *without a constituted fund* (**pay-as-you-go pension plan**)
+Much is said about the "social security deficit", but this is not well defined: in contrast to private pension plans, which are financed by a fund saved by the beneficiaries themselves during their lives, public social security works *without a constituted fund* (a **pay-as-you-go pension plan**)
 
 Thus, there is no real *economic* difference between the INSS contribution and general government financing (taxes)
 
-There are three real problems in the system: *progressiveness*, *sustainability* and *disincentive to work*
+There are three real problems in the system: *progressivity*, *sustainability* and *disincentives to work*
 
 ---
 class: middle
-## Incidence
+## Progressivity
 
-To calculate retirement *incidence* we need to calculate **net pension wealth**: the present value of *expected* benefits divided by the present value of payments
+To estimate *incidence* of retirement expenses, we need to calculate **social security wealth** (SSW): the present value of *expected* benefits divided by the present value of payments
 
-Retirement has **intergenerational incidence** effects: the first generations are the big winners, and the last ones (if any) are the big losers
+Retirement has **intergenerational incidence** effects: the first generations are the big winners (since they receive them but did not pay), and the last ones (if any) are the big losers &mdash; as is the case with all restrictive reforms in the benefit
 
-Women also have higher SSW: they pay the same but retire earlier (they receive benefits for longer)
+Women also have higher SSW: they pay the same but retire earlier (and thus they receive benefits for longer)
 
 ---
 class: middle
@@ -353,13 +351,13 @@ class: middle
 knitr::include_graphics("figs/trad_eae0310-6-19.png")
 ```
 
-In Brazil, social security is not progressive: in general, benefits are even more concentrated than the (already extremely unequal) distribution of income &mdash; this lack of progressivity comes mainly (but not only) from the Regime Próprio `r Citep(myBib, "silveira2020impactos")`
+In Brazil, social security is not progressive: in general, benefits are even more concentrated than the (already extremely unequal) distribution of income &mdash; this lack of progressivity comes mainly (but not only) from the RPPS `r Citep(myBib, "silveira2020impactos")`
 
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/trad_eae0310-6-7.png")
 ```
 
@@ -368,11 +366,11 @@ knitr::include_graphics("figs/trad_eae0310-6-7.png")
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("figs/trad_eae0310-6-8.png")
 ```
 
-Transfers to the elderly become unsustainable with changes in the age pyramid, which increase the proportion of recipients in relation to payers ([IBGE](https://educa.ibge.gov.br/professores/educa-atividades/20818-producao-textual-o-envelhecimento-da-populacao.html))
+Transfers to the elderly become unsustainable as the age pyramid changes, which increases the share of recipients in relation to payers ([IBGE](https://educa.ibge.gov.br/professores/educa-atividades/20818-producao-textual-o-envelhecimento-da-populacao.html))
 
 ---
 class: middle
@@ -382,12 +380,12 @@ knitr::include_graphics("figs/eae0310-6-17a.png")
 knitr::include_graphics("figs/eae0310-6-17b.png")
 ```
 
-In France, in (a), almost 70% of the elderly retire exactly at the minimum age, showing that retirement distorts behavior (**disincentive to work**). Similarly, a reduction in the minimum age in Germany in 1973, panel (b), lowered the average retirement age in the country `r Citep(myBib, "gruber")`
+In France, in (a), almost 70% of the elderly retire exactly at the minimum age, showing that social security distorts behavior (**disincentive to work**). Similarly, a reduction in the minimum age in Germany in 1973, panel (b), lowered the average retirement age in the country `r Citep(myBib, "gruber")`
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '50%'}
+```{r, echo=FALSE, out.width = '50%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-6-16.png")
 ```
 
@@ -400,15 +398,17 @@ class: middle
 knitr::include_graphics("figs/eae0310-6-9.png")
 ```
 
-Social security generates **implicit taxation**  on the work of the elderly &mdash; when comparing countries, those with a higher implicit taxation have a lower proportion of elderly working `r Citep(myBib, "gruber")`
+Social security generates an **implicit taxation**  on the work of the elderly &mdash; when comparing countries, those with higher implicit taxation have a lower proportion of elderly working `r Citep(myBib, "gruber")`
 
 ---
 class: middle
 ## Unemployment insurance
 
-Those who receive unemployment insurance in Brazil are the *formal workers* dismissed (involuntarily) without just cause who worked 12 months in the last 18 (1st request), 9/12 (2nd), or in the last 6 months (3rd+)
+*Formal workers* dismissed (involuntarily) without just cause who worked 12 months in the last 18 (1st request), 9/12 (2nd), or in the last 6 months (3rd+) receive unemployment insurance in Brazil
 
-The value is 80-50% of the average of the last 3 months of work (**replacement rate**), with a maximum of $2,106 (2022), and the worker is paid for 3 (up to 1 year), 4 (up to 2) or 5 months (more than 2 years of work)
+The value is 80% (up to $2,041, 50% thereafter) of the average wage of the last 3 months of work (**replacement rate**), with a maximum of $2,313 (2024), and the worker is paid for 3 (up to 1 year), 4 (up to 2) or 5 months (more than 2 years of work)
+
+Unemployment benefit can never be below the minimum wage in Brazil ($1,412 in 2024), however
 
 ---
 class: middle
@@ -417,7 +417,7 @@ class: middle
 knitr::include_graphics("figs/eae0310-6-18.png")
 ```
 
-The duration of unemployment insurance in Brazil is much shorter than most developed countries, but the replacement rate (up to the ceiling) is comparable `r Citep(myBib, "gruber")`
+The duration of unemployment insurance in Brazil (at most 5 months) is much shorter than most developed countries (but not USA), but the replacement rate (50-80% up to the ceiling) is comparable `r Citep(myBib, "gruber")`
 
 ---
 class: middle
@@ -427,7 +427,7 @@ As discussed, the optimal level of unemployment insurance is the one that equate
 
 Meyer (1989) compared increases in unemployment insurance across US states and found that a 10% benefit raise increases unemployment duration by 8% &mdash; but what is the normative effect of this? Longer duration can be efficient if it generates a **better job match quality**
 
-Families can also smooth consumption without smoothing utility if they have to generate income in a more costly way (e.g., night jobs or degrading activities)
+Note that families can also smooth consumption without smoothing utility if they have to generate income in a more costly way (e.g., night jobs or degrading activities)
 
 ---
 class: middle
@@ -443,11 +443,21 @@ In Brazil, a longer duration of unemployment insurance makes people unemployed f
 class: middle
 ## Health insurance
 
-Health spending in Brazil was 9,2% of GDP (2017), with 3,9% public spending (SUS) and 5,4% private spending (27% of the population is covered by the private sector)
+Health spending in Brazil was 9.2% of GDP (2017), with 3.9% public spending (SUS) and 5.4% private spending (27% of the population is covered by the private sector)
 
 The level of spending as a % of GDP is about the OECD average, but the public sector participation is much lower &mdash; even in the US, $\approx 50\%$ of health expenses are public (Medicare and Medicaid): more than in Brazil!
 
-The government can intervene by obliging (and subsidizing) the purchase of health insurance (Germany) or directly offer the service (NHS, SUS), either directly by the government or through dealers
+The government can intervene by obliging (and generally subsidizing) the purchase of health insurance (Germany) or directly offer the service (NHS, SUS), either directly by the government or through dealers
+
+---
+class: middle
+
+```{r, echo=FALSE, fig.align='center', out.width="70%"}
+knitr::include_graphics("figs/eae1234-9-1.png")
+```
+
+Even for those with private health insurance, in 2015 80% of them had transplants, 60% dialysis and 30% treated cancer in publicly-provided SUS (the private plans reimburse the government at 150% of SUS price) `r Citep(myBib, "guidetti2024private")`
+
 
 ---
 class: middle
@@ -461,11 +471,11 @@ Around 20% of the hospitals that serve the SUS are private, and 30% are philanth
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '60%'}
+```{r, echo=FALSE, out.width = '60%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-6-11.png")
 ```
 
-If the medical consultation costs `$`100, the individual consumes Q1, but if the *copayment* is only `$`10, he consumes Q2 (**moral hazard**) &mdash; but the normative effect is not obvious: if the cost reflects in willingness to pay, then without insurance, poor people (low disposition) will consume fewer medical services `r Citep(myBib, "gruber")`
+If a medical consultation costs $100, the individual consumes Q1, while if the *copayment* is only $10, he consumes Q2 (**moral hazard**) &mdash; but the normative effect is not obvious: without insurance, poor people (low willingness to pay) would consume fewer medical services than perhaps socially optimal `r Citep(myBib, "gruber")`
 
 ---
 class:middle
