@@ -1,5 +1,5 @@
 ---
-title: "EAE-1234: PUBLIC SECTOR ECONOMICS"
+title: "EAE-1234: PUBLIC ECONOMICS"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
 date: "Topic 8: Corporate Taxes<br/>2024/2"
