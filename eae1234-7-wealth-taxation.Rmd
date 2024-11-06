@@ -297,6 +297,16 @@ One view is the *benefits tax view*, the **Tiebout model**: the (local) tax on h
 
 The idea is that in Tiebout's model, people "vote with their feet", and therefore, cities have to keep the local tax equal to the benefit of living there
 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '95%'}
+knitr::include_graphics("figs/feapub7.png")
+```
+
+The wealth of the "bottom" 90% has a very different composition than the wealth of the top 10%, being almost entirely composed by retirement savings (*social security wealth*) and housing `r Citep(myBib, "saez2016wealth")` 
+
 ---
 class: middle
 ## Empirical evidence
@@ -316,8 +326,6 @@ knitr::include_graphics("figs/eae1234-7-7.png")
 ```
 
 A reform in ITCMD in Brazil in 2015 affecting 13 of the 27 states caused a sizable change in timing for gifts in antecipation for the tax change, that took 3 years to recover, and a midterm rise in tax evasion for inheritances `r Citep(myBib, "locks2023behavioral")`
-
-
 
 ---
 class: middle

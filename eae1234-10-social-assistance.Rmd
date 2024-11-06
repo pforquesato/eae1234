@@ -33,14 +33,14 @@ class: middle
 
 As we have seen, due to the diminishing marginal utility of wealth, even without direct redistributive reasons, income transfer from the rich to the poor increases social welfare
 
-The private sector cannot solve this problem entirely with private contributions (donations), as there is a **free rider** effect &mdash; there is room for government intervention, because *social assistance is a public good*
+Societies dislike poverty, but the private sector cannot solve it entirely with private contributions (donations), as there is a **free rider problem** &mdash; there is room for government intervention, because *social assistance is a public good*
 
 This assistance can be in cash or *in-kind* &mdash; the most obvious is food (e.g. food stamps), but it can also be education, health, and housing
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-7-2.png")
 ```
 

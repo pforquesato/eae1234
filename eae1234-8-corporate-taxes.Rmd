@@ -319,6 +319,16 @@ But this view arises from a model that does not explain why dividends exist in t
 
 The modern view is that corporate investment is mostly made through *retained earnings*: therefore, taxation of dividends has little effect on the level of investment [[Article in Jornal da USP]](https://jornal.usp.br/artigos/afinal-a-taxacao-de-dividendos-reduz-o-investimento/)
 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics("figs/eae0310-14-21.png")
+```
+
+Sources of corporate financing for (non-financial) American companies, share of the total &mdash; in the real world, almost all investment is financed by retained earnings and depreciation funds: therefore dividend taxes affect little the cost of financing of firms `r Citep(myBib, "brealey2006corporate")`
+
 ---
 class: middle
 
