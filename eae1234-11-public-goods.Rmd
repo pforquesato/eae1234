@@ -298,7 +298,6 @@ knitr::include_graphics("figs/trad_eae0310-3-10.png")
 
 Brazil has almost eliminated formal illiteracy (4-8%), but functional illiteracy is still prevalent, reaching 30% of the population aged 15-64 years old &mdash; only 12% of Brazilians are considered proficient in literacy (able to write texts and interpret graphs and tables) `r Citep(myBib, "pela2021anuario")`
 
-
 ---
 class: middle
 
@@ -482,6 +481,15 @@ knitr::include_graphics("figs/eae0310-3-13.png")
 
 ---
 class: middle
+
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-11-6.png")
+```
+
+A reform that changed the algorithm for calculating GPAs in Sweden led to students with the same ability graduating with different GPAs &mdash; this higher grade on the diploma leads to higher incomes in years 1 and 2, but this effect fades with time, while the effect of the "true GPA" (knowledge) endures `r Citep(myBib, "hansen2024grades")` 
+
+---
+class: middle
 ## Higher Education
 
 Basic education in almost all countries is provided almost entirely by the state &mdash; in Brazil, in SP around 80%, and in other states even more `r Citep(myBib, "pela2021anuario")`
@@ -626,6 +634,15 @@ class:middle
 # References
 <small>
 ```{r refs3, echo=FALSE, results="asis"}
-PrintBibliography(myBib, start=11)
+PrintBibliography(myBib, start=11, end=15)
+```
+</small>
+
+---
+class:middle
+# References
+<small>
+```{r refs4, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=16)
 ```
 </small>
