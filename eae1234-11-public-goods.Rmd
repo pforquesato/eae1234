@@ -27,8 +27,6 @@ myBib <- ReadBib("./esp_bib.bib", check = FALSE)
 
 # Public goods
 
-+ 3-lobbying, corruption, PPP, privatization
-
 ---
 class: middle
 ## Public goods
@@ -213,6 +211,51 @@ The provision of only public goods that are useful to the majority of local resi
 
 Expenditures that generate significant spatial externalities should be centralized, as in this case, they will be underprovided at the local level, and which have relevant economies of scale
 
+
+---
+class: middle
+## Corruption
+
+Political economy also studies situations when the government does not want (or does not succeed) to act in the public interest, which we call **government failures**
+
+Perhaps the main of these government failures is *corruption* &mdash; but note that if corruption is only transfer of economic incomes to politicians and other agents, it does not generate inefficiencies
+
+Consider two scenarios: (i) politician A's salary is `$`30, but he receives `$`10 for fuel overbilling; or (ii) politician A's salary is `$`40
+
+Or even: (i) monopolist B builds a construction with an economic cost of `$`800, receives `$`1000 from the government and pays `$`200  to shareholders; or (ii) he pays `$`200 in bribe instead
+
+---
+class: middle
+## Corruption
+
+In practice, corruption is (almost) never pure income transfer: illegal activities usually involve generating deadweight loss for its concealment
+
+Corruption is also often linked to the choice of public policies that favor *special interests* against the common good &mdash; furthermore, it encourages low cost-benefit investments that are easy to corrupt
+
+Another economic cost of corruption is that it encourages more bureaucracy (*red tape*) in the public service: if opening a firm takes 90 days, there is room to ask for a bribe to make it in 10 days
+
+---
+class: middle
+## Corruption
+
+In the real world, corruption has relevant negative effects: `r Citep(myBib, "ferraz2012corrupting")` find that in Brazilian municipalities where corruption was found in audits, grades are 0.35 std lower and (dropout) rates are higher
+
+Still, it is important to correctly measure the importance of corruption for public sector productivity
+
+`r Citep(myBib, "bandiera2009active")` show that in Italy *active* waste (corruption) represents only 17% of general public sector waste, the rest is *passive* waste (lack of effort, incompetence, lack of autonomy, avoidance of complaints or investigations)
+
+---
+class: middle
+## Corruption
+
+A way to keep corruption in check is **electoral accountability**: if politicians want to keep their mandates, they will avoid being corrupted in case it costs them votes
+
+Analyzing random CGU audits, `r Citep(myBib, "ferraz2008exposing")` show that information about corruption indeed drastically reduces the chances of reelection
+
+Furthermore, politicians with electoral incentives (who can be reelected) steal 27% less than those who cannot `r Citep(myBib, "ferraz2011electoral")`
+
+`r Citep(myBib, "campante2014isolated")` show that, in the US, states with capitals far from large urban centers (less *accountability*) have more cases of corruption
+
 ---
 class: inverse, middle, center
 
@@ -249,11 +292,21 @@ But Brazil still performs well below the OECD average in Pisa, with no clear con
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '90%'}
+```{r, echo=FALSE, out.width = '100%'}
 knitr::include_graphics("figs/trad_eae0310-3-10.png")
 ```
 
 Brazil has almost eliminated formal illiteracy (4-8%), but functional illiteracy is still prevalent, reaching 30% of the population aged 15-64 years old &mdash; only 12% of Brazilians are considered proficient in literacy (able to write texts and interpret graphs and tables) `r Citep(myBib, "pela2021anuario")`
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-11-5.png")
+```
+
+In Brazil, gross enrollment rates in primary education increased steadily, although very slowly, across the last 100 years, reaching universal enrollment only in the 80s &mdash; since then, gross enrollments are above 100%, representing basic education for older groups `r Citep(myBib, "kang2019political")`
 
 ---
 class: middle
@@ -284,6 +337,16 @@ Education is a choice of parents for the benefit (mostly) of their children &mda
 Since education is a normal good, rich families will always be more *willing to pay* for education than poorer families: private education acts as a force against **social mobility**
 
 "Less economic" reason: education is a human right, a fundamental freedom or ability (Sen)
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("figs/eae1234-11-1.png")
+```
+
+In Brazil, private schools are on average better than public schools for basic education, although there is significant overlap &mdash; for higher education, on the other hand, it is the opposite `r Citep(myBib, "mello2023affirmative")`
 
 ---
 class: middle
@@ -334,6 +397,15 @@ Vouchers have generated a huge and ongoing debate. A review of the empirical lit
 
 ---
 class: middle
+
+```{r, echo=FALSE, out.width = '90%'}
+knitr::include_graphics("figs/eae1234-11-2.png")
+```
+
+The introduction of public school quotas in Brazil led to a significant outflow of students from private schools to public schools, increasing this movement by 31% &mdash; these students coming from low socioeconomic background and low quality private schools `r Citep(myBib, "mello2023affirmative")`
+
+---
+class: middle
 ## How much to invest in education?
 
 We have discussed so far how public money should be spent on education, but how do we decide *how much* to spend?
@@ -341,6 +413,16 @@ We have discussed so far how public money should be spent on education, but how 
 We can use the cost-benefit analysis that we saw in Class 2 &mdash; calculating the costs is a direct application of that class, but what about the benefits?
 
 It depends on measuring **returns to education**:  is it easy to see that people with higher education earn more, but do they earn more *because* of higher education?
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-11-4.png")
+```
+
+Education spending for basic education (primary + secondary level) as a share of GDP in Brazil remained very small for the entire dictatorship period, increasing sharply and steadily after redemocratization `r Citep(myBib, "kang2019political")`
 
 ---
 class: middle
@@ -407,6 +489,15 @@ Basic education in almost all countries is provided almost entirely by the state
 The same applies to technical education, which now accounts for 20% of high school enrollment in Brazil
 
 On the other hand, Higher Education is usually mainly private &mdash; in Brazil, in 2019, 82% of admissions to Higher Education were at private ones, a higher proportion even than in the US `r Citep(myBib, "da2019notas")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("figs/ivy-league.jpg")
+```
+
+In United States, elite colleges are extremely concentrated in income: 15% of ivy league+ students' parents come from the top 1%, a 77x higher chance of attending elite schools than the bottom 20%, which account for only 3.8% of students
 
 ---
 class: middle
@@ -525,6 +616,16 @@ class:middle
 # References
 <small>
 ```{r refs2, echo=FALSE, results="asis"}
-PrintBibliography(myBib, start=6)
+PrintBibliography(myBib, start=6, end=10)
+```
+</small>
+
+
+---
+class:middle
+# References
+<small>
+```{r refs3, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=11)
 ```
 </small>
