@@ -4,7 +4,7 @@
     <title>EAE-1234: PUBLIC ECONOMICS</title>
     <meta charset="utf-8" />
     <meta name="author" content="Pedro Forquesato http://www.pedroforquesato.com Office 217/FEA2 - pforquesato@usp.br" />
-    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
   </head>
@@ -22,7 +22,7 @@ class: center, middle, inverse, title-slide
 ### School of Economics, Business and Accounting<br/>University of São Paulo
 ]
 .date[
-### Topic 4: Excess burden and consumption taxation<br/>2024/2
+### Topic 7: Tax incidence, deadweight loss, and consumption taxation<br/>2025/2
 ]
 
 ---
@@ -31,58 +31,195 @@ class: inverse, middle, center
 
 
 
+# Tax incidence
+
+---
+class: middle
+## Equity implications of taxation
+
+To understand whether a tax increases or reduces inequality, we have to understand who *ultimately* pays for it &amp;mdash; this is the study of **tax incidence**
+
+Of course, the law determines who formally pays the tax, but the market adjusts pre-tax and post-tax prices according to the *behavioral reaction* of consumers and producers
+
+Therefore, even if a payroll tax is paid by the company, if it reduces the demand wage in response, then who is actually paying for the tax is the worker
+
+---
+class: middle
+## Incidence
+
+The first rule of incidence is that *under the micro assumptions*, **statutory incidence** does not matter for the **economic incidence** of taxes
+
+If who disburses money is the consumer, the firm, or the worker, it should not matter how the market price adjusts to the tax, since it does not affect economic incentives &amp;mdash; and these depend only on net and gross prices
+
+But [SMT12] show that in Greece, changes in the payroll tax affect only those who actually pay for it (that is, the economic incidence equals the statutory incidence) &amp;mdash; there is another example further on in which this rule fails
+
+---
+class: middle
+## Incidence
+
+Important, but sometimes overlooked, is that **tax shifting takes place through the market** &amp;mdash; it is not (in competitive markets) an intentional decision by agents to shift the tax elsewhere, but the effects of market changes in the supply and demand curves
+
+If the price (net of the tax) does not change with the tax introduction, then the real incidence is equal to the formal incidence
+
+When we analyze not only consumers and producers of a specific good, but also other *substitute and complementary goods* and *factors of production*, we do a **general equilibrium incidence analysis**
+
+---
+class: middle
+## Partial equilibrium incidence
+
+Even so, we will focus on the *partial equilibrium incidence*, because it is more intuitive and it generally provides us a good approximation
+
+Consider an initial tax situation `\(t = 0\)`, and add a fixed (infinitesimal) tax to be paid by the consumer `\(dt\)` &amp;mdash; if before the equilibrium condition was `\(S(p) = D(p)\)`, now we add a **tax wedge** to the market
+
+The market is still in equilibrium! But in the equilibrium with taxes, supply `\(S\)` equals demand `\(D\)` *with different prices*: the condition now becomes: `$$S(p^p) = D(p^c) = D(p^p + dt)$$` 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-15.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+A tax that burdens the consumer (in the labor market, the firm, panel b) shifts the demand curve down, as now the good is 1$ "less desirable" &amp;mdash; if it burdens the supplier (in labor market, the worker, panel a), the tax shifts the supply curve up, since now the marginal cost is $1 higher
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-1.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Partial equilibrium incidence &amp;mdash; without tax, `\(p^p = p^c = p\)` (Saez) 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-2.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+On the other hand, the tax creates a **tax wedge**: now `\(p^c = p^p + dt &gt; p^p\)`  (Saez) 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-3.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+The reduction in consumption makes firms operate in regions with lower MC, and eventually the price of the producer drops in response (Saez) 
+
+---
+class: middle
+## Partial equilibrium incidence
+
+The market equilibrium condition is `\(S(p^p) = D(p^p + dt)\)`. Differentiating both sides in relation to `\(t\)`:
+
+`$$S^{\prime}(p^p)\frac{dp^p}{dt} = D^{\prime}(p^p + dt)\left(1 + \frac{dp^p}{dt}\right)$$`
+
+`$$\Rightarrow \frac{dp^p}{dt} \left[ S^{\prime}(p^p) - D^{\prime}(p^p + dt)  \right] = D^{\prime}(p^p + dt)$$`
+`$$\therefore \ \frac{dp^p}{dt} = \frac{D^{\prime}(p^p + dt)}{S^{\prime}(p^p) - D^{\prime}(p^p + dt)}$$`
+---
+class: middle
+## Partial equilibrium incidence
+
+Elasticities are very useful in public sector economics because they are usually *sufficient statistics* for the behavior of producers and consumers (in competitive markets)
+
+Defining `\(p^c = p^p + dt\)`, remember that `\(\epsilon_S = \frac{p^p}{S(p^p)} S^{\prime}(p^p)\)` and: `$$\epsilon_D = \frac{p^c}{D(p^c)} D^{\prime}(p^c) = \frac{p^p + dt}{D(p^p + dt)} D^{\prime}(p^p + dt)$$`
+
+As `\(dt\)` is small, we can multiply the top and bottom numbers by `\(p/Q\)`: 
+`$$\frac{dp^p}{dt} = \frac{D^{\prime}(p^p + dt) p/D(p)}{S^{\prime}(p^p)p/S(p) - D^{\prime}(p^p + dt)p/D(p)} = \frac{\epsilon_D}{\epsilon_S - \epsilon_D}$$`
+
+---
+class: middle
+## Partial equilibrium incidence
+
+Note that given `\(\frac{dp^p}{dt} = \frac{\epsilon_D}{\epsilon_S - \epsilon_D}\)` and `\(p^c = p^p + dt\)`, we have: `$$-1 \leq \frac{dp^p}{dt} \leq 0 \text{ and  } \frac{dp^c}{dt} = \frac{d(p^p + dt)}{dt} = 1 + \frac{dp^p}{dt} \in [0, 1]$$`
+
+Consumers bear the full incidence of the tax when `\(dp^p/dt = 0\)`, and therefore `\(dp^c/dt = 1\)`, which happens if `\(\epsilon_D = 0\)` or `\(\epsilon_S = \infty\)`
+
+Producers bear all the incidence of the tax when `\(dp^p/dt = -1\)`,  that is, if `\(\epsilon_D = - \infty\)` or `\(\epsilon_S = 0\)`
+
+General rule: **the more inelastic side of the market bears most of the taxes**
+
+---
+class: middle
+## Pass-through
+
+The change in the price to the consumer caused by the tax is called tax **pass-through** rate: `$$\rho \equiv dp^c/dt = 1 + dp^p/dt$$`
+
+It is believed that in the long run most industries operate at constant marginal costs (due to constant returns to scale): an (almost) infinitely elastic supply curve
+
+It implies a **pass-through** rate of `\(\approx 1\)`: consumption taxes would be borne almost entirely by consumers &amp;mdash; empirical evidence is consistent with pass-throughs between 0.8-1.0 for most taxes on consumer goods
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-4.png" width="50%" /&gt;&lt;img src="figs/eae0310-9-4b.png" width="50%" /&gt;
+
+When demand is infinitely inelastic, the pass-through rate `\(dp^c/dt\)` is 1 (**full shifting**). When it is infinitely elastic, the incidence is all on the producer [Gru16] 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-5.png" width="85%" /&gt;
+
+And the opposite occurs with the supply curve: the more elastic, the greater the pass-through [Gru16] 
+
+---
+class: middle
+## Incidence on competitive markets 
+
+*In competitive markets* we can approximate incidence by ignoring the **excess burden** (it is in *second order*) when calculating the welfare cost for consumers and producers
+
+Although important (and the topic of next week), the excess burden is relatively small: Harberger (1959) estimated the deadweight loss of corporate taxation at ~8% of revenue; estimates for indirect taxes are similar (3-5%)
+
+Thus, the loss of consumer surplus becomes `\(\rho dt \cdot Q\)` (which `\(\rho\)` is the **pass-through**) and the loss from the producer `\((1 - \rho)dt \cdot Q\)` &amp;mdash; both add up to (approximately) the government revenue `\(R(dt) = Qdt\)`
+
+---
+class: middle
+## General equilibrium incidence
+
+If the partial equilibrium analysis gives us a good intuition for tax incidence, it can be misleading if we do not consider the *general equilibrium effects* of taxation
+
+A tax on beer sales affects the prices not only of beer, but also of substitute alcoholic drinks and input materials, as well as also burdens the capital and labor employed in the sector
+ 
+Imagine a municipal tax on restaurants: if the demand is infinitely elastic, restaurants pay all the tax &amp;mdash; but restaurants cannot pay taxes, *only people pay taxes!*
+
+---
+class: middle
+## General equilibrium incidence
+
+When we say that "restaurants bear the tax", in reality, we mean that *the factors of production* employed in production by restaurants bear the taxes
+
+If the labor supply for restaurants is infinitely elastic and short-term capital infinitely inelastic (since invested capital is not convertible), then the incidence is all on restaurant owners
+
+If we have several goods, the incidence will also depend on how *intensive* each factor is used in the production of the taxed goods (in relation to others)
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-7.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+[BC19] analyzes the effect of a VAT cut in France of 14 p.p., finding a **pass-through** rate of 9,7%, which is the opposite of what we would expect given the argument that the incidence of consumer taxes is almost entirely on the consumer &amp;mdash; there is evidence of *asymmetric incidence* of tax increases and decreases, at least in the short/medium term
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-8.png" width="85%" /&gt;
+
+They find an incidence of 19% on wages, 60% on profit, 13% on the cost of raw materials, and only 8% was reverted to a reduction in consumer prices [BC19] 
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-4-2.png" width="90%" /&gt;
+
+In the real world, economic incidence often *depends* on statutory incidence, due to **bounded rationality**: in the US, taxes generally "appear" only in the cash register &amp;mdash; in an experiment, [CLK09] found that compared to appearing on the price tag, the tax "in the cash register" only has 35% **salience**
+
+---
+class: middle
+
+&lt;img src="figs/eae0310-9-14.png" width="45%" /&gt;&lt;img src="figs/eae0310-9-14b.png" width="45%" /&gt;
+
+In the same way, at state level, increases in the *excise tax*, which appears on the price tag, are related to drops in beer consumption, but increases in *sales tax*, which does not appear (only in the cash register) much less [CLK09]
+
+---
+class: inverse, middle, center
+
 # Efficiency costs of taxation 
-
----
-class: middle
-## Preface: consumer theory
-
-`\(u(c_x, c_y)\)` as the utility below and assume that `\(p_y = 1\)`: then, the budget constraint is `\(Y = p_x c_x + c_y\)` and therefore `\(c_y = Y - p_x c_x\)` 
-
-`$$u(c_x, c_y) = \ln c_x + \ln c_y$$` 
-
-This gives us the FOC: `$$\frac{1}{c_x} = \frac{p_x}{Y - p_x c_x} \Rightarrow Y - p_x c_x = p_x c_x \Rightarrow x(p_x, Y) \equiv c_x = \frac{Y}{2p_x}$$`
-
-`$$\therefore V(p_x, Y) = \ln \left( \frac{Y}{2p_x} \right) + \ln \left( \frac{Y}{2} \right)$$` 
-
-
-
----
-class: middle
-## Preface: consumer theory
-
-In the previous slide, `\(x(p_x, Y)\)` is the **Marshallian demand** (from Alfred Marshall, in 1890) of good `\(x\)` and `\(V(p_x, Y)\)` is the **indirect utility function**
-
-`$$V(p_x, Y) = \ln \left( \frac{Y}{2p_x} \right) + \ln \left( \frac{Y}{2} \right) \equiv \bar{u}$$`
-
-`$$\therefore \exp \left\{ \bar{u} \right\} = \left( \frac{Y}{2p_x} \right) \cdot \left( \frac{Y}{2} \right) \Rightarrow Y \equiv e(p_x, \bar{u}) = 2\sqrt{p_x e^{\bar{u}}}$$`
-
-This is the **expenditure function** `\(e(p_x, \bar{u})\)`, which allows us to maintain the utility `\(\bar{u}\)` constant
-
-
----
-class: middle
-## Preface: consumer theory
-
-In this case, Marshallian demand is negatively sloped, but it does not always need to be the case: if the good is inferior, then the **income effect** `\(x(p_x, Y) \cdot \partial x(p_x, Y) / \partial Y &lt; 0\)` can offset the **substitution effect**, generating positively sloping demand (this is Slutsky equation, from 1915)
-
-Note that **Roy's identity** is valid in this example (phew!): `$$x(p_x, Y) = - \partial_{p_x} V(p_x, Y) / \partial_Y V(p_x, Y)$$`
-
-`$$\frac{\partial V(p_x, Y)}{\partial p_x} = -\frac{2}{2 p_x} \text{ and } \frac{\partial V(p_x, Y)}{\partial Y} = \frac{2}{Y}$$`
-`$$\therefore x(p_x, Y) = - \frac{\partial_{p_x} V(p_x, Y)}{\partial_Y V(p_x, Y)} = \frac{Y}{2 p_x}$$`
-
----
-class: middle
-## Preface: consumer theory
-
-**Shephard's Lemma** (1953) says that the **compensated demand** (or Hicksian, by John Hicks in 1939) for a good is the derivative of the expenditure function in relation to the price of that good &amp;mdash; hence,
-
-`$$x^c(p_x, \bar{u}) = \frac{\partial e(p_x, \bar{u})}{\partial p_x} = \sqrt{\frac{e^{\bar{u}}}{p_x}}$$`
-
-Compensated demand is called like this because it represents the consumption of the good `\(x\)` given variations in the good's price that are *compensated* in a way to keep the consumer's utility constant in `\(\bar{u}\)`: what matters are only the relative prices (**substitution effect**), since the income effect is offset in utility
-
-
-Note that here it is valid, and will **always** be true, that compensated demand is *negatively sloped*: `\(\partial x^c(p_x, \bar{u}) / \partial p_x &lt; 0\)`
 
 ---
 class: middle
@@ -98,57 +235,27 @@ Excess burden comes from the fact that taxes change *relative prices* faced by t
 class: middle
 ## Equivalent variation
 
-Being `\(e \left( p_0, V(p_0 + t, Y) \right)\)` the **expenditure function**, which measures the necessary income to reach with initial prices `\(p_0\)` the same utility `\(\bar{u}_1 = V(p_0 + t, Y)\)` that the individual with income `\(Y\)` has after introduction of a tax `\(t &gt;0\)` (utility that is lower, since purchasing power has fallen)
+We measure excess burden using the **equivalent variation**, a *money-metric* representation of welfare: how large a loss of income would have to be to have the same effect on the agent's utility as the introduction of the tax
 
-So, the **equivalent variation** is how large a loss of income would have to be to have the same effect on the agent's utility as the introduction of the tax:
+An EV of `\(-100\)` means that introducing the consumption tax on a given good has the same effect for that consumer as taking R$100 from his income (in a lump-sum manner)
 
-`$$EV = e \left( p_0, V(p_0 + t, Y) \right) - Y \leq 0$$`
-
-An EV of `\(-100\)` means that introducing the consumption tax on a given good has the same effect for the consumer as taking R$ 100 from his income
+It is natural that if someone gives R$1 to the government, they will have a welfare loss of (at least) R$1 &amp;mdash; but it will actually be larger than that, because transferring income between economic agents is costly (*leaky bucket*)
 
 ---
 class: middle
 ## Lump-sum taxation and deadweight loss
 
-It is natural that if someone gives R$ 1 to the government, he will have a welfare loss of (at least) R$ 1 &amp;mdash; but it will actually be larger than that, because transferring income between economic agents is costly (*leaky bucket*)
+This difference between the EV and government revenue is the excess burden: the loss of income equivalent to the loss of welfare (in monetary measure) generated by the tax that is *in excess of the revenue collected*
 
-This difference is *excess burden*: the loss of income equivalent to the loss of welfare (in monetary measure) generated by the tax that is **in excess of the revenue collected**:
+In this sense, *lump-sum taxation* does not generate deadweight loss, since the EV of removing R$100 reais in a person's income is exactly R$100, by the definition of equivalent variation
 
-`$$EB = |EV| - R(t) = Y - e \left( p_0, V(p_0 + t, Y) \right) - t x(p_0 + t, Y)$$` 
-
-*Lump-sum taxation* does not generate deadweight loss &amp;mdash; this is clear from the definition of equivalent variance: `$$e \left(p_0, V(p_0, Y - T)\right) = Y - T \text{ and therefore, } EV = T = R(t)$$`
-
----
-class: middle
-
-&lt;img src="figs/trad_eae0310-10-7b.png" width="100%" style="display: block; margin: auto;" /&gt;
-
----
-class: middle
-
-&lt;img src="figs/trad_eae0310-10-7c.png" width="100%" style="display: block; margin: auto;" /&gt;
-
----
-class: middle
-## Excess burden is always positive
-
-Excess burden measured by the equivalent (or compensating) variation will always be well-defined and positive, since the *Law of Demand* always holds for **compensated demand**
-
-This is a direct application of **Shephard's Lemma**: the equivalent variation `\(EV = e \left( p_0, V(p_1, Y) \right) - Y\)` is the integral of compensated demand `\(x^{c}(p, \bar{u}_1)\)` `$$EV = \int_{p_0}^{p_0 + t} x^{c}(p, \bar{u}_1)dp$$` 
-
-While government revenue is `\(t x(p_1, Y) = tx^c(p_1, V(p_1, Y))\)`, that is, `\(tx^c(p_1, \bar{u}_1)\)` 
-
----
-class: middle
-
-&lt;img src="figs/eae0310-10-6.png" width="100%" style="display: block; margin: auto;" /&gt;
-
+While consumption taxes change **relative prices**, and agents respond by "running away" from the tax &amp;mdash; but this has a cost in terms of welfare that does not generate revenue (unlike with a lump-sum transfer)
 
 ---
 class: middle
 ## Excess burden and equivalent variation
 
-The deadweight loss arises from a **decrease in quantity**: agents respond by "running away" from the tax, but this has a cost in terms of welfare that does not generate revenue (unlike with a lump-sum transfer)
+The deadweight loss arises from a **decrease in quantity**: the loss of trade surplus for trades that still happen equals the government revenue, but some trades that stop happening lower surplus without generating any revenue
 
 The definition of excess burden as equivalent variation is useful because it has a clear interpretation: it is how much *excess* loss of income (beyond the government revenue) that would be *equivalent* to the implemented tax
 
@@ -353,7 +460,7 @@ This is the field of study of **optimal taxation**: what are the characteristics
 
 ---
 class: middle
-## Optimal consumption rate
+## Optimal consumption tax rate
 
 The study of optimal consumer taxation began with Frank Ramsey, who made several relevant discoveries in mathematics, philosophy and economics before his tragic death at the age of 26
 
@@ -396,7 +503,7 @@ Unfortunately, these two assumptions make the result not very applicable in the 
 
 ---
 class: middle
-## Indirect tax and inequality
+## Indirect taxes and inequality
 
 The **inverse elasticity rule** has cruel distributional implications: if there are two goods, rice and caviar, as the demand for rice is more inelastic, the inverse elasticity rule implies taxing more the rice, and less the caviar
 
@@ -421,7 +528,7 @@ In a simulation with uniform taxation of 10%, having informal trade not taxed (r
 
 ---
 class: middle
-## Indirect taxation and inequality
+## Indirect taxes and inequality
 
 We have seen that there is a reason to want to redistribute income through consumption tax, taxing less goods consumed by the poorest (and vice versa)
 
@@ -433,7 +540,7 @@ In the *budget constraint* of consumers a *proportional* income tax is equivalen
 
 ---
 class: middle
-## Indirect tax and inequality
+## Indirect taxes and inequality
 
 But this is only valid if **ability** is the only source of inequality &amp;mdash; if there are other relevant dimensions of heterogeneity (e.g., initial wealth or intertemporal discount rate), the targeting principle is no longer applicable
 
@@ -443,7 +550,7 @@ In the UK, it is estimated that removing VAT exemption and increasing *means-tes
 
 ---
 class: middle
-## Indirect taxation and labor supply
+## Indirect taxes and labor supply
 
 Another problem with **Ramsey rule** is that it assumes that we can look at each market separately, which we know is not true: there are important *general equilibrium* effects (cross elasticities)
 
@@ -462,6 +569,7 @@ Homogeneous taxation also makes sense for political economy reasons, as it avoid
 
 It also **expands the tax base**: even though equivalent, income taxation allows **withholding** and consumption tax better affects self-employed workers &amp;mdash; and a single rate does not allow manipulation of categories 
 
+
 ---
 class:middle
 # References
@@ -470,26 +578,35 @@ class:middle
 direct versus indirect taxation". In: _Journal of public Economics_
 6.1-2 (1976), pp. 55-75.
 
+[BC19] Y. Benzarti and D. Carloni. "Who really benefits from
+consumption tax cuts? Evidence from a large VAT reform in France". In:
+_American Economic Journal: Economic Policy_ 11.1 (2019), pp. 38-63.
+
 [BGJ20] P. Bachas, L. Gadenne, and A. Jensen. _Informality, Consumption
 Taxes, and Redistribution_. Tech. rep. National Bureau of Economic
 Research, 2020.
 
+[CLK09] R. Chetty, A. Looney, and K. Kroft. "Salience and taxation:
+Theory and evidence". In: _American economic review_ 99.4 (2009), pp.
+1145-77.
+
 [DM71] P. A. Diamond and J. A. Mirrlees. "Optimal taxation and public
 production I: Production efficiency". In: _The American economic
 review_ 61.1 (1971), pp. 8-27.
+&lt;/small&gt;
 
+
+---
+class:middle
+# References
+&lt;small&gt;
 [GN18] F. Gérard and J. Naritomi. "Value Added Tax in developing
 countries: Lessons from recent research". In: _IGC Growth Brief Series_
 15 (2018).
 
 [Gru16] J. Gruber. _Public finance and public policy_. 5th ed.
 Macmillan, 2016.
-&lt;/small&gt;
 
----
-class:middle
-# References
-&lt;small&gt;
 [Hin99] J. R. Hines. "Three sides of Harberger triangles". In: _Journal
 of Economic Perspectives_ 13.2 (1999), pp. 167-188.
 
@@ -498,11 +615,221 @@ Mirrlees review_. Oxford University Press, 2010.
 
 [Nar19] J. Naritomi. "Consumers as tax auditors". In: _American
 Economic Review_ 109.9 (2019), pp. 3031-72.
+&lt;/small&gt;
 
+
+---
+class:middle
+# References
+&lt;small&gt;
 [OS15] W. E. Oates and R. M. Schwab. "The window tax: A case study in
 excess burden". In: _Journal of Economic Perspectives_ 29.1 (2015), pp.
 163-80.
+
+[SMT12] E. Saez, M. Matsaganis, and P. Tsakloglou. "Earnings
+determination and taxes: Evidence from a cohort-based payroll tax
+reform in Greece". In: _The Quarterly Journal of Economics_ 127.1
+(2012), pp. 493-533.
 &lt;/small&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width = '75%'} --&gt;
+&lt;!-- knitr::include_graphics("figs/eae0310-9-6.png") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- Com salário mínimo, a incidência legal do imposto pode importar &amp;mdash;  [Gru16]  --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Monopoly incidence --&gt;
+
+&lt;!-- When there is some prior imperfection, monopoly power, or initial tax, **the deadweight loss is no longer negligible**: so the loss of consumer and producer surplus **adds up** to more than the government revenue --&gt;
+
+&lt;!-- In fact, the incidence on the consumer continues to be `\(\rho\)`, because it is the increase in the price that he pays, `\(dp^c/dt\)` &amp;mdash; but now the incidence on the producer is `\(1\)`: the monopolist loses an amount equal to *all* government revenue [WF13]   --&gt;
+
+&lt;!-- Perhaps, it seems counterintuitive that the greater the market power, the more the incidence is on the producer &amp;mdash;  but note that *the greater the surplus, the more room there is for the tax to fall on this side of the market* --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Monopoly incidence --&gt;
+
+&lt;!-- Another important characteristic about incidence in non-competitive markets is that *the pass-through can be greater than one* --&gt;
+
+&lt;!-- In monopoly, see that `\(MR = p + \Delta p \cdot Q = p \left(1 + \frac{\Delta p}{p}Q \right)\)`, we have: --&gt;
+
+&lt;!-- `$$MR = p \left( 1 + \frac{1}{\epsilon_D}\right) = MC \Rightarrow p = \frac{MC + dt}{\left( 1 + \frac{1}{\epsilon_D}\right)}$$` --&gt;
+&lt;!-- The tax can be understood as an increase in marginal cost, which is strengthened by the monopoly **mark-up**: if `\(\epsilon_D = -2\)`, for example, `\(p\)` increases by `\(2dt\)` --&gt;
+
+
+&lt;!-- --- --&gt;
+&lt;!-- class: inverse, middle, center --&gt;
+
+&lt;!-- # Allcott, Lockwood, and Taubinsky (2019). “Should We Tax Sugar-Sweetened Beverages? An Overview of Theory and Evidence” --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Sin taxes --&gt;
+
+&lt;!-- **Sin taxes** are taxes with the (main) objective not to collect resources but to discourage undesirable behaviors for the individual and for society, such as smoking or drinking alcohol --&gt;
+
+&lt;!-- A sin tax currently under great discussion is the taxation of sugar-sweetened beverages (SSB). In recent years, 39 countries around the world have implemented these taxes --&gt;
+
+&lt;!-- Problem: as SSBs are more often consumed by poor people, this taxation is regressive (**incidence**) --&gt;
+
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Health damage from soda --&gt;
+
+&lt;!-- &gt; "A tax on soda and juice drinks would disproportionately increase taxes on low-income families in Philadelphia." Bernie Sanders, 2016 em [ALT19] --&gt;
+
+&lt;!-- Important issue: Americans consume on average 6.9% of their total energy consumption from SSBs (154 kcal/day) --&gt;
+
+&lt;!-- They also account for 23% of the average American's sugar consumption --&gt;
+
+&lt;!-- Around half of Americans consume at least one beverage with added sugar per day &amp;mdash; in Brazil, it is 60 liters per year on average --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width = '75%'} --&gt;
+&lt;!-- knitr::include_graphics("figs/eae0310-9-10.png") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- Consumption of SSBs drops significantly with increasing income: both due to *heterogeneity of preferences* and greater knowledge of the harm caused by SSBs [ALT19] --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Health damage from soda --&gt;
+
+&lt;!-- SSBs are harmful to health through three (main) channels: obesity, diabetes, and cardiovascular disease --&gt;
+
+&lt;!-- An extra dose of SSBs per day is associated with a half kg increase in weight every 4 years, a 13% higher risk of developing type 2 diabetes and a 17% higher risk of coronary heart disease --&gt;
+
+&lt;!-- SSBs are associated with costs of R$ 2,9 billion/year in SUS and studies estimate that a rate of ¢1/oz would save 17-23 billion dollars in ten years in the US with reduced medical costs --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Economic reasons for taxing SSBs --&gt;
+
+&lt;!-- SSBs are associated with **fiscal externalities**: not all the cost of bad health is on the individual due to health insurance or public health provision (Medicare in United States, SUS in Brazil) --&gt;
+
+&lt;!-- There are also *positive* fiscal externalities: a (tragic) example is how obesity makes people die younger, reducing social security costs --&gt;
+
+&lt;!-- As in this case externalities and internalities are **heterogeneous**, we have to analyze whether they occur more strongly in individuals who are more or less elastic in price  --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Internalities --&gt;
+
+&lt;!-- But the main reason for taxing SSBs is actually to approach **internalities** --&gt;
+
+&lt;!-- Note that the aforementioned harms to health are *NOT* a reason to tax SSBs &amp;mdash; taxation is not about maximizing people's health (otherwise, we would prohibit a lot of things!), but for solving *rational flaws* --&gt;
+
+&lt;!-- Generally, the two most evoked failures are **informational failures** and **intertemporal inconsistent** and self-control failures --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width = '75%'} --&gt;
+&lt;!-- knitr::include_graphics("figs/eae0310-9-11.png") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- Evidence of *information failures*: "grade" on a questionnaire about nutrition is inversely correlated with consumption of SSBs [ALT19] --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width = '75%'} --&gt;
+&lt;!-- knitr::include_graphics("figs/eae0310-9-12.png") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- And they find the same correlation for a measure of *self-control failures* [ALT19] --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Internalities --&gt;
+
+&lt;!-- Internalities (opposed to externalities) *impact the consumer himself*: if we give more value to poor people's welfare, we must take into account in which proportion the internalities fall on them --&gt;
+
+&lt;!-- In fact, since internalities are indeed greater among the poorest, *correcting internalities is progressive*; therefore, it is not *a priori* obvious that taxing SSBs is worse for the poorest --&gt;
+
+&lt;!-- It will depend on the **elasticity of demand**: if demand is very inelastic, the loss of purchasing power is high and the reduction of internalities is low, so taxing SSBs is bad for the poor &amp;mdash; if demand is elastic, then *vice versa* --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width = '75%'} --&gt;
+&lt;!-- knitr::include_graphics("figs/eae0310-9-13.png") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- Correcting internalities is *progressive*: nutritional information and self-control [graph omitted] are highly correlated with family income [ALT19] --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Incidence --&gt;
+
+&lt;!-- It is also important to analyze the incidence of the tax: for example, if the **pass-through** is zero, then it is impossible to correct ex-/internalities by taxing SSBs --&gt;
+
+&lt;!-- In general, how the pass-through affects the optimal tax depends on whether society gives more value on the welfare of producers or consumers of SSBs --&gt;
+
+&lt;!-- In practice, the pass-through on non-durable consumer goods is quite high, and (in this application) incidence considerations do not affect the result a lot --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Empirical estimates --&gt;
+
+&lt;!-- To estimate the optimal tax, they need empirical estimates of relevant statistics --&gt;
+
+&lt;!-- They estimate the demand price elasticity for SSBs as -1,4: very elastic! It means that taxing SSBs is a very effective way to change consumer behavior --&gt;
+
+&lt;!-- Researchers estimate the healthcare cost for SSBs at ¢1/oz, and the US Dept of Health estimates that 85-88% of these costs are paid by others (externalities): ¢0,8-0,9/oz of externalities --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Empirical estimates --&gt;
+
+&lt;!-- Internalities are more difficult to estimate empirically &amp;mdash; [ALT19] compare with consumption by nutritionists and estimate that people would buy 31-37% fewer SSBs if they had good information about health costs, which corresponds to ¢0,91-2,14/oz of internalities --&gt;
+
+&lt;!-- But this internality is correlated with income! In a survey of the harms of SSBs, misinformation is 30% higher in families with incomes of $10,000/year than 100,000/year dollars --&gt;
+
+&lt;!-- Given a reasonable weight in the social welfare function, internalities being concentrated in the poorest increase the optimal tax by 20% --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Putting it all together --&gt;
+
+&lt;!-- Adding everything together, [ALT19] calculate the optimal rate for SSBs as ¢1.5/oz (R$0,75 for a 300ml soda drink) --&gt;
+
+&lt;!-- This is ¢0.8/oz of fiscal externality, ¢1/oz of internalities `\(\times\)` 120% because of the progressiveness of internality, reduced by ¢0.5/oz because of the regressiveness of the tax --&gt;
+
+&lt;!-- If the policy maker is philosophically opposed to taxing internalities (they consider it a bad case of *paternalism*), there is still room for *sin taxes*, but they should be much lower: about ¢0.4/oz (R$0,25 per can) --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Principles of "sin taxation" --&gt;
+
+&lt;!-- [ALT19] suggest 7 principles of *sin taxes*: --&gt;
+
+&lt;!-- 1. The objective of a sin tax is not to "maximize health", but to correct internalities and externalities --&gt;
+&lt;!-- 2. Focus the policy where there are stronger int-/externalities &amp;mdash; for example, if children have less self-control and consumption in childhood forms a habit, banning soda drinks in schools (e.g.) is particularly effectful --&gt;
+&lt;!-- 3. It is better to tax grams of sugar than ml of drink (**targeting principle**) --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Principles of "sin taxation" --&gt;
+
+&lt;!-- 4\. Governments should tas diet drinks and juices only if they also cause non-internalized health damages --&gt;
+
+&lt;!-- 5\. Regressivity matters, but we also need to consider the *progressiveness of the internality correction* --&gt;
+
+&lt;!-- 6\. The tax must be as less geographically local as possible, to avoid **leakage**, which reduces the corrective effect --&gt;
+
+&lt;!-- 7\. Sin taxes (at least in the US) seem like a good idea; that is, they increase social welfare, given reasonable social preferences &amp;mdash; such as those that rationalize the government as it is now --&gt;
+
+&lt;!-- [ALT19] estimate that in the US welfare gains from taxing SSBs are $2,4-6,8 billion dollars per year --&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

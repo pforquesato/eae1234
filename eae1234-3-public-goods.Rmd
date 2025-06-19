@@ -1,8 +1,8 @@
 ---
-title: "EAE-1234: PUBLIC SECTOR ECONOMICS"
+title: "EAE-1234: PUBLIC ECONOMICS"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: "Topic 11: Public provision of goods and education <br/>2024/2"
+date: "Topic 3: Public goods and education <br/>2025/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -89,30 +89,17 @@ In the real world, agents expect that others will provide part of public goods, 
 
 The intersection of the response curves indicates the point at which the action of each agent is optimal given the actions of the other agents (**Nash equilibrium**)
 
----
-class: middle
-## Private provision
-
-Consider two families privately contributing to pave a street, a public good $F = f_1 + f_2$. The utility of each individual is $U_i = 2 \ln c_i + \ln F$, with budget constraint $c_i + f_i = 100$. Family $1$ resolves:
-
-$$\max_{f_1} 2 \ln (100 - f_1) + \ln (f_1 + f_2)$$
-
-The first order condition $dU_1/df_1 = 0$ implies: $$\frac{-2}{100 - f_1} + \frac{1}{f_1 + f_2} = 0$$
-
-And then we have that the *response curve* is $f_1^* = (100 - 2f_2)/3$: the higher is $f_2$, lower is $f_1$!
 
 ---
 class: middle
-## Private provision
 
-On the other hand, the socially optimal value is one that respects Samuelson condition: $MRS_{Fc}^1 + MRS_{Fc}^2 = MC_F$
+> Two neighbors may agree to drain a meadow, which they possess in common; because
+’tis easy for them to know each others mind; and each must perceive, that the immediate consequence of his failing in his part, is the abandoning of the whole project.
 
-The marginal cost $dF/df_1 = 1$, it remains to calculate $MRS_{Fc}^1$
+> But ’tis very difficult and indeed impossible, that a thousand persons shou’d agree in any such action; it being difficult for them to concert so complicated a design, and still more difficult for them to execute it; while each seeks a pretext to free himself of the trouble and expense, and wou’d lay the whole burden on others.
 
-$$MRS_{Fc}^1 = \frac{MU_F^1}{MU_c^1} = \frac{1/F}{2/c_1} = \frac{c_1}{2F}$$
-$$\Rightarrow MRS_{Fc}^1 + MRS_{Fc}^2 = \frac{c_1 + c_2}{2F} = \frac{200 - F}{2F}$$
+David Hume, *A Treatise of Human Nature* (1742)
 
-Equaling the two, we have $200 - F = 2F$, i.e., $F = 200/3$ is the optimal provision
 
 ---
 class: middle
@@ -121,7 +108,7 @@ class: middle
 knitr::include_graphics("figs/eae0310-3-17.png")
 ```
 
-In the Nash equilibrium of this game (fix point of the response curves), the private contribution $2 \times 20$ is less than the socially optimal value (*Samuelson condition*) of $200/3$
+In the Nash equilibrium of this game (fixed point of the best-response curves), the private contribution $2 \times 20$ is less than the socially optimal value (*Samuelson condition*) of $200/3$
 
 ---
 class: middle
@@ -141,7 +128,7 @@ One way to empirically study the private provision of public goods is through **
 
 Players have a number of tokens that (privately) decide how many to contribute to a common pot. All money in the common pot is multiplied by $\lambda > 1$ and redistributed to everyone equally
 
-The efficient scenario then is for everyone to contribute all of their tokens, but the only balance is zero contribution (**free riding**) &mdash; in the real world, however, generally 30%-70% of participants contribute (in one study: economics students 20% of tokens, other students 49%)
+The efficient scenario then is for everyone to contribute all of their tokens, but the only equilibrium is zero contribution (**free riding**) &mdash; in the real world, however, generally 30%-70% of participants contribute (in one study: economics students contributed 20% of tokens, other students 49%)
 
 ---
 class: middle
@@ -151,13 +138,13 @@ When there is a public and private provision of a public good, the public provis
 
 In the real world, however, crowd out estimates are small (but not negligible): between ¢13 and ¢20 for $1
 
-Even if the government wants to intervene, it can *grant* (to auction) the service to the private sector &mdash; here the auction works as *ex-ante* competition, even if the concessionaire is a monopolist when offering the service
+Even if the government wants to intervene, it can *grant* (auction) the service to the private sector &mdash; here the auction works as *ex-ante* competition, even if the concessionaire is a monopolist when offering the service
 
 ---
 class: middle
 ## Public provision
 
-Competitive auctions are efficient, but there can be collusion or corruption. If there are difficult quality aspects to observe (or put into contract), there may be a worsening of quality &mdash; for example, private prisons in the US
+Competitive auctions are efficient, but there can be collusion or corruption. If there are quality aspects difficult to observe (or to put into contract), there may be a worsening of quality &mdash; for example, private prisons in the US
 
 The big advantage of the private sector to the public in economic activities is that it has a **residual claimant** &mdash; the capitalist gets all the surplus profit, which mitigates *moral hazard* problems
 
@@ -207,20 +194,18 @@ class: middle
 
 In the real world, spatial mobility is limited, but the Tiebout model gives an intuition of a big difference between federal and local spending: people can more easily move to other cities than countries
 
-The provision of only public goods that are useful to the majority of local residents (*tax-benefit linkages*) should be decentralized, as opposed to benefits to specific groups, such as social assistance
+The provision of public goods that are useful to the majority of local residents (*tax-benefit linkages*) should be decentralized, as opposed to benefits to specific groups, such as social assistance, that are usually federal
 
-Expenditures that generate significant spatial externalities should be centralized, as in this case, they will be underprovided at the local level, and which have relevant economies of scale
+Expenditures that generate significant spatial externalities should be centralized, as they will be underprovided at the local level, and since they might have relevant economies of scale
 
 
 ---
 class: middle
 ## Corruption
 
-Political economy also studies situations when the government does not want (or does not succeed) to act in the public interest, which we call **government failures**
+Political economy also studies situations when the government does not want (or does not succeed) to act in the public interest, which we call **government failures** &mdash; perhaps the main one is *corruption* 
 
-Perhaps the main of these government failures is *corruption* &mdash; but note that if corruption is only transfer of economic incomes to politicians and other agents, it does not generate inefficiencies
-
-Consider two scenarios: (i) politician A's salary is `$`30, but he receives `$`10 for fuel overbilling; or (ii) politician A's salary is `$`40
+But note that if corruption is only transfer of economic incomes to politicians and other agents, it does not generate inefficiencies &mdash; consider two scenarios: (i) politician A's salary is `$`30, but he receives `$`10 for fuel overbilling; or (ii) politician A's salary is `$`40
 
 Or even: (i) monopolist B builds a construction with an economic cost of `$`800, receives `$`1000 from the government and pays `$`200  to shareholders; or (ii) he pays `$`200 in bribe instead
 
@@ -228,7 +213,7 @@ Or even: (i) monopolist B builds a construction with an economic cost of `$`800,
 class: middle
 ## Corruption
 
-In practice, corruption is (almost) never pure income transfer: illegal activities usually involve generating deadweight loss for its concealment
+In practice, corruption is (almost) never pure rent transfers: illegal activities usually involve generating deadweight-loss for its concealment
 
 Corruption is also often linked to the choice of public policies that favor *special interests* against the common good &mdash; furthermore, it encourages low cost-benefit investments that are easy to corrupt
 
@@ -250,9 +235,7 @@ class: middle
 
 A way to keep corruption in check is **electoral accountability**: if politicians want to keep their mandates, they will avoid being corrupted in case it costs them votes
 
-Analyzing random CGU audits, `r Citep(myBib, "ferraz2008exposing")` show that information about corruption indeed drastically reduces the chances of reelection
-
-Furthermore, politicians with electoral incentives (who can be reelected) steal 27% less than those who cannot `r Citep(myBib, "ferraz2011electoral")`
+Analyzing random CGU audits, `r Citep(myBib, "ferraz2008exposing")` show that information about corruption indeed drastically reduces the chances of reelection &mdash; furthermore, politicians with electoral incentives (who can be reelected) steal 27% less than those who cannot `r Citep(myBib, "ferraz2011electoral")`
 
 `r Citep(myBib, "campante2014isolated")` show that, in the US, states with capitals far from large urban centers (less *accountability*) have more cases of corruption
 
@@ -265,20 +248,20 @@ class: inverse, middle, center
 class: middle
 ## Education
 
-When we learn in micro about the public sector, the justification for its performance is in these last two classes **public goods** and **externalities**
+When we learn in microeconomics about government intervention, the usual justification is in solving market failures, most commonly providing **public goods** and resolving **externalities** (last two topics)
 
 If until the beginning of the 20th century, it was true that government action was almost entirely for the provision of public goods (security, defense, infrastructure), today it is not anymore: only 5-10% of the current Brazilian government budget follows these justifications
 
-Now let us discuss one of the main expenditures of modern governments, which is **not** a public good: education
+One of the main expenditures of modern governments that is **not** a public good is education
 
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/trad_eae0310-3-9.png")
 ```
 
-Years of schooling (18-29 years) have increased in Brazil, rising from 10 to 12 years of schooling in the last decade &mdash; but in a very uneven way, with blacks, Northeast people and the poor having much lower education (although the difference has been reduced) `r Citep(myBib, "pela2021anuario")`
+Years of schooling (18-29 years) have increased in Brazil, rising from 10 to 12 years of schooling in the last decade &mdash; but in a very uneven way, with blacks, Northeast people and the poor having much lower education (although the difference has been reducing) `r Citep(myBib, "pela2021anuario")`
 
 ---
 class: middle
@@ -311,17 +294,17 @@ In Brazil, gross enrollment rates in primary education increased steadily, altho
 class: middle
 ## Public education
 
-Education is *excludable* and (mostly) *rival*: it is a **private good**! Even so, in most countries it is majoritarily offered by the government
+Education is *excludable* and (mostly) *rival*: it is a **private good**! Even so, in most countries it is almost entirely supplied by the government
 
 Education makes citizens more productive, which: (i) increases the productivity of colleagues; (ii) it increases the taxes they pay, a **fiscal externality** &mdash; many investments in education "pay for themselves"
 
-*If* the worker does not receive all of their marginal product (for example, *monopsony power in the labor market*), education also generates *positive externality*
+*If* the worker does not receive all of their marginal product (for example, *monopsony power in the labor market*), education also generates *positive externalities*
 
 ---
 class: middle
 ## Public education
 
-Another *positive externality* generated by education is increasing *civic capital*. Educated people (plausibly) vote better, commit fewer crimes, and dishonest attitudes, etc
+Another *positive externality* generated by education is increasing *civic capital*. Educated people (plausibly) vote better, commit fewer crimes, have less dishonest attitudes, etc
 
 Education involves present expenditures and future returns. People will be willing to make these investments if the NPV (certainty equivalent) is positive (*and if they act rationally*)
 
@@ -331,7 +314,7 @@ But if they do not have capital, they will only be able to invest with **complet
 class: middle
 ## Public education
 
-Education is a choice of parents for the benefit (mostly) of their children &mdash; the family cannot always be trusted to make decisions in the best interests of their children: that is why in most countries education is **mandatory**
+Education is a choice of parents for the benefit (mostly) of their children, and the family cannot always be trusted to make decisions in the best interests of their children: that is why in most countries education is **mandatory**
 
 Since education is a normal good, rich families will always be more *willing to pay* for education than poorer families: private education acts as a force against **social mobility**
 
@@ -351,7 +334,7 @@ In Brazil, private schools are on average better than public schools for basic e
 class: middle
 ## Interactions between the public and private market
 
-Education is provided for free by the public sector and bought by the private sector &mdash; greater investment in the public sector generates **crowding out** of the private sector: at the limit, it could even make education worse
+Education is provided for free by the public sector and charged by the private sector &mdash; greater investment in the public sector generates **crowding out** of the private sector: in the limit, it could even make education worse
 
 [Dinerstein & Smith (2021)](https://www.aeaweb.org/research/public-private-schools-funding-reform) estimate that in NYC $1,000 per student leads to a 6% drop in the number of private schools in the neighborhood &mdash; 1/5 of the increase in demand for public schools generates the closing of private schools, expelling students who did not want to change
 
@@ -360,11 +343,11 @@ One way to mitigate this problem is with the use of **educational vouchers**
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '90%'}
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-3-4.png")
 ```
 
-Entry of a public sector in education: family $X$ (poor) spends almost nothing on education and increases his spending, family $Z$ (rich) does not change behavior &mdash; but the possibility of free public education makes the family $Y$ ("middle class") **reduce**  their educational spending `r Citep(myBib, "gruber")`
+Entry of government supply in education: family $X$ (poor) spends almost nothing on education and increases his spending, family $Z$ (rich) does not change behavior &mdash; but the possibility of free public education makes the family $Y$ ("middle class") **reduce**  their educational spending `r Citep(myBib, "gruber")`
 
 ---
 class: middle
@@ -409,9 +392,9 @@ class: middle
 
 We have discussed so far how public money should be spent on education, but how do we decide *how much* to spend?
 
-We can use the cost-benefit analysis that we saw in Class 2 &mdash; calculating the costs is a direct application of that class, but what about the benefits?
+We can use the cost-benefit analysis that we saw in Topic 1 &mdash; calculating the costs is a direct application of that class, but what about the benefits?
 
-It depends on measuring **returns to education**:  is it easy to see that people with higher education earn more, but do they earn more *because* of higher education?
+The literature that discusses the benefits of educating yourself (and others) is the study of **returns to education**:  is it easy to see that people with higher education earn more, but do they earn more *because* of higher education?
 
 
 ---
@@ -421,7 +404,7 @@ class: middle
 knitr::include_graphics("figs/eae1234-11-4.png")
 ```
 
-Education spending for basic education (primary + secondary level) as a share of GDP in Brazil remained very small for the entire dictatorship period, increasing sharply and steadily after redemocratization `r Citep(myBib, "kang2019political")`
+Education spending for basic education (primary + secondary level) as a share of GDP in Brazil remained very low during the entire dictatorship, increasing sharply and steadily after redemocratization `r Citep(myBib, "kang2019political")`
 
 ---
 class: middle
@@ -430,7 +413,7 @@ class: middle
 knitr::include_graphics("figs/trad_eae0310-3-6.png")
 ```
 
-Public expenditure on education in Brazil as a percentage of GDP grew by 40% since 2005, with growth focused on early childhood education and especially high school (240%) &mdash; the country spends on higher education a proportion of GDP only lower than for the initial years of elementary school, although the number of students is many times lower `r Citep(myBib, "pela2021anuario")`
+Public expenditure on education in Brazil as a percentage of GDP grew by 40% since 2005, with growth focused on early childhood education and especially high school (240%) &mdash; the country spends on higher education a proportion of GDP only lower than for the initial years of elementary school, although the number of students is many times smaller `r Citep(myBib, "pela2021anuario")`
 
 ---
 class: middle
@@ -464,7 +447,7 @@ In the US, the increase in the supply of workers with higher education in relati
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-3-12.png")
 ```
 
@@ -473,7 +456,7 @@ In the US, students must pass a test to graduate from high school. `r Citep(myBi
 ---
 class: middle
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-3-13.png")
 ```
 
@@ -496,7 +479,7 @@ Basic education in almost all countries is provided almost entirely by the state
 
 The same applies to technical education, which now accounts for 20% of high school enrollment in Brazil
 
-On the other hand, Higher Education is usually mainly private &mdash; in Brazil, in 2019, 82% of admissions to Higher Education were at private ones, a higher proportion even than in the US `r Citep(myBib, "da2019notas")`
+On the other hand, Higher Education is usually mainly private &mdash; in Brazil, in 2019, 82% of admissions to Higher Education were at private institutions, a higher percentage than even in the US `r Citep(myBib, "da2019notas")`
 
 ---
 class: middle
@@ -523,7 +506,7 @@ class: middle
 
 In Brazil, the government establishes FIES, which **finances** private university courses at subsidized interest (zero for families up to 3 mw/person), offering around 200,000 contracts per year
 
-As in the US, the default rate of the program is huge: 52% in 2021 &mdash; education is a risky investment (although the expected present value is quite high) and students rarely have collateral
+As in the US, the default rate of the program is enormous: 52% in 2021 &mdash; education is a risky investment (although the expected present value is quite high) and students rarely have collateral
 
 The government also **directly manages** 108 universities (63 federal, 40 state, and 5 municipal) and 143 colleges, accounting for 559,000 admissions per year
 
@@ -531,11 +514,11 @@ The government also **directly manages** 108 universities (63 federal, 40 state,
 class: middle
 ## Government intervention in Brazil
 
-PROUNI offers 140 thousand of **full scholarships** in private universities for students with income up to 1,5 mw/person (full-time) and 3 mw/person (50%) &mdash; note that the 1st threshold places the family in the richest 25% and the 2nd in the richest 10% of the country
+PROUNI offers 140,000 **full scholarships** in private universities for students with income up to 1.5 mw/person (full) and 3 mw/person (50%) &mdash; note that the 1st threshold places the family in the richest 25% and the 2nd in the richest 10% of the country
 
-In total, there are 3,6 million new entrants and 1,2 million graduate students in Brazilian higher education per year, such that the number of HE students represents 48,6% of the population aged 18-24
+In total, there are 3.6 million new entrants and 1.2 million graduate students in Brazilian higher education per year, such that the number of HE students represents 48.6% of the population aged 18-24
 
-But only 23,8% of this aged 18-24 population is in universities, a percentage that has grown by 50% in the last 8 years &mdash; 50% in the richest quartile and 13,2% in the poorest quartile `r Citep(myBib, "pela2021anuario")`
+But only 23.8% of this aged 18-24 population is in universities, a percentage that has increased by 50% in the last 8 years &mdash; 50% in the richest quartile and 13.2% in the poorest quartile `r Citep(myBib, "pela2021anuario")`
 
 ---
 class: middle
@@ -568,7 +551,7 @@ The judgment of the constitutionality of quotas by the STF (Supreme Federal Cour
 ---
 class: middle
 
-```{r, echo=FALSE, out.width="90%"}
+```{r, echo=FALSE, out.width="100%"}
 knitr::include_graphics("figs/trad_eae0310-5-9.png")
 ```
 
@@ -581,7 +564,7 @@ class: middle
 knitr::include_graphics("figs/trad_eae0310-3-15.png")
 ```
 
-In 2001, 3/4 of undergraduates were white, while only 1 in 5 were black, a proportion that doubled in 14 years, and today 43% of college students are black (while this group represents 56% of the population) &mdash; but it is hard to precise how much of this trend is due to quotas (TD2569/IPEA)
+In 2001, 3/4 of undergraduates were white, while only 1 in 5 were black, a percentage that doubled in 14 years, and today 43% of college students are black or brown (while this group represents 56% of the population) &mdash; but it is unlikely that much of this trend is due to quotas (TD2569/IPEA)
 
 ---
 class: middle
@@ -590,7 +573,7 @@ class: middle
 knitr::include_graphics("figs/trad_eae0310-3-16.png")
 ```
 
-Although racial inequality has declined, white students aged 18-24 still attend higher education as a proportion of the population of appropriate age (TD2569/IPEA)
+Although racial inequality has declined, for white students aged 18-24 attending higher education is still double as likely as for black students (TD2569/IPEA)
 
 ---
 class: middle
@@ -608,7 +591,153 @@ class: middle
 knitr::include_graphics("figs/eae0310-5-6.png")
 ```
 
-Individuals from affected minorities attended more community colleges and worse graduations, having persistent loss of future income `r Citep(myBib, "bleemer2022affirmative")` &mdash; `r Citep(myBib, "ribeiro2016affirmative")` finds similar results for the effect of quotas at UERJ in the OAB exam (Ordem dos Advogados do Brasil - Order of Attorneys of Brazil)
+Individuals from affected minorities attended more community colleges and graduated less, having persistent loss of future income `r Citep(myBib, "bleemer2022affirmative")` &mdash; `r Citep(myBib, "ribeiro2016affirmative")` finds similar results for the effect of quotas at UERJ in the OAB exam (Ordem dos Advogados do Brasil - Order of Attorneys of Brazil)
+
+
+---
+class: inverse, middle, center
+
+# Acemoglu & Robinson (2013). "Economics versus Politics: Pitfalls of Policy Advice"
+
+---
+class: middle
+## Third-best
+
+We have seen that the allocation in the Second Welfare Theorem is called **first-best**. In the real world, we do not have *lump-sum transfers* (due to informational asymmetries), so we usually have to settle for **second-best**.
+
+The political economy literature introduces a new complication: economic allocations can be constrained from the best possible not only by informational differences, but also by *political constraints*.
+
+We call the allocations that maximize social welfare given the available instruments and political possibilities **third-best**
+
+---
+class: middle
+## Good economics can be bad politics
+
+`r Citep(myBib, "acemoglu")` argue that public policy proposals that ignore their political consequences can do more harm than good, even if they lead to economic efficiency gains
+
+In the presence of political economy considerations, *cost-benefit analysis* is not enough! When developing public policies we must identify situations in which economics and politics come into conflict
+
+Failure to take this into account is a large part of the reason for the failure of policy prescriptions for development in the second half of the 20th century
+
+---
+class: middle
+## Intertemporal political dependence 
+
+Think of a (“benevolent”) administrator making a public policy decision in two periods: if there is no connection between the periods, then he will simply choose at each moment the policy that maximizes instantaneous social welfare
+
+But in general decisions in the first period will change the **correlation of forces** in the second period
+
+So we must take into account that: (i) economic and political power are connected; and (ii) too much concentration of political power in one group can have deleterious effects
+
+---
+class: middle
+## Political incentive compatibility
+
+In this sense, we should avoid public policies that give more power to already dominant groups or weaken groups that counterbalance them.
+
+Example: breaking union monopolies can increase efficiency by reducing market failures(*), but weakens unions that politically counterbalance the power of the richest.
+
+Another danger is that removing market failures that generate economic rent for certain groups can change the **political incentive compatibility constraints** &mdash; the lack of income to distribute to support groups weakens the government and generates institutional instability.
+
+---
+class: middle
+## Rent-seeking behavior
+
+*Economic rents* generate incentives for political organization (often pejoratively called **rent-seeking behavior**)
+
+On the negative side, rent-seeking causes companies and individuals to direct economic investment resources to *political lobbying*
+
+But this political organization is not always negative for society: economists must take into account when formulating public policies how economic policies affect the incentives for political organization of different groups
+
+---
+class: middle
+## Rent-seeking behavior
+
+> Because elites know that violence will reduce their own rents, they have incentives not to fight. Furthermore, each elite understands that other elites face similar incentives. In this way, the political system of a natural state manipulates the economic system to produce rents that then secure political order.
+
+> [T]he appropriate counterfactual from eliminating rents is not a competitive market economy... but a society in disorder and violence.
+
+`r Citep(myBib, "north2013shadow")` apud `r Citep(myBib, "acemoglu")`
+
+---
+class: middle
+## Labor unions
+
+The (economic) purpose of unions is to create monopoly power in the supply of labor and thus generate *economic rents* for their members (potentially at the cost of higher unemployment).
+
+Unions can also generate other distortions, such as impeding technological advances (e.g. ticket collectors or gas station attendants): for this reason, a common policy recommendation for a long time was to restrict union power.
+
+More recently, their role as a counterbalance to employers' **monopsony power** and as a redistributor of income has been emphasized (*2nd FTWE fallacy*).
+
+---
+class: middle
+## Labor unions
+
+But unions not only bargain for higher wages, they are also politically active &mdash; counterbalancing (only partly!) the disproportionate political power of corporate **interest groups**
+
+For example, unions have been extremely important historically (and still today) in the establishment and consolidation of Western democracies
+
+As unions are forms of institutional organization of workers, they facilitate **collective action** and prevent free rider behavior in politics
+
+---
+class: middle
+## Labor unions
+
+> I think we can’t separate economic and political factors... The (...) struggle was over wages, but in struggling for wages, the working class won a political victory (Lula in Keck, 1992, apud `r Citep(myBib, "acemoglu")`)
+
+In the US, for example, anti-union policies have halved the proportion of unionized workers since 1950: this is now widely believed to be part of the explanation for rising inequality in that country.
+
+More arguably, it may be part of the explanation for the stratospheric rise in CEO pay and the financial deregulation that led to the 2008 crisis.
+
+---
+class: middle
+## Natural resources
+
+Political economy already predicts that the way in which natural resources are accessed matters: Botswana with deep-sea diamonds (GDP pc 15k PPP) vs Sierra Leone with river diamonds (GDP pc 1.7k PPP)
+
+But economic choices matter too! River diamonds create a **tragedy of the commons**, as we have seen
+
+One possible solution is to assign *exclusive property rights* (Sierra Leone), another possible solution is to let small miners organize themselves into cooperatives and the like (Australia)
+
+---
+class: middle
+## Natural resources
+
+Generally, economists favor the first option as more efficient(*)
+
+But this ignores the political effects! Communes favor the organization of workers to maintain and increase their *economic income* &mdash; including politically, with the pursuit of **de jure political power** (e.g. suffrage)
+
+While in the first case, the gigantic value of exclusive property rights over natural resources gives their owners incentives to use military force and rigid political control (*autocracy*) to maintain their monopoly
+
+---
+class: middle
+## Inequality and politics
+
+Political economy is another reason why the 2nd FTWE is a fallacy &mdash; changes in income distribution affect the correlation of forces in society, and change which allocations are politically feasible in the future.
+
+In the US, deregulation of the financial sector at an initially (economically) reasonable degree dramatically increased the political power of the sector, which then politically influenced more drastic changes (**slippery slope**).
+
+Between 1980 and 2005, profits in the financial sector grew 800%, and campaign donations rose to $260 million (2.6x more than the 2nd largest donor, the healthcare sector).
+
+---
+class: middle
+## Russia privatization
+
+The prevailing view in the 1990s was that privatizing Russian state-owned enterprises was not only good economically, but also politically (*good economics is good politics*)
+
+> [A]t least in Russia, political influence over economic life was the fundamental cause of economic inefficiency, and the principal objective of economic reform was, therefore, to depoliticize economic life... Privatization fosters depoliticization because it robs politicians of control over firms. (Boycko et al, 1995, apud `r Citep(myBib, "acemoglu")`)
+
+But this process created an oligarchic class, which also generated resistance to the reform process and the return of authoritarianism, ending in a *state-led crony capitalism*
+
+---
+class: middle
+## Political compatibility constraints
+
+Economically inefficient policies can be important for sustaining possible governing political coalitions &mdash; `r Citep(myBib, "acemoglu")` give the example of IMF reforms in Ghana: two weeks after they were accepted, the president suffered a military coup and they were reversed (*seesaw effect*)
+
+More controversially, a similar argument can be made about state corruption in Brazil during the 2000s, which made a stable and democratic governing coalition possible
+
+On another front, [Acemoglu et al (2008)](https://voxeu.org/article/central-bank-independence-failures-successes-and-seesaw-effect) argue that central bank independence only works for "intermediate" cases of institutions &mdash; when they are good, it is superfluous, when they are bad, there is resistance and it does not work
 
 ---
 class:middle
@@ -646,3 +775,28 @@ class:middle
 PrintBibliography(myBib, start=16)
 ```
 </small>
+
+<!-- --- -->
+<!-- class: middle -->
+<!-- ## Private provision -->
+
+<!-- Consider two families privately contributing to pave a street, a public good $F = f_1 + f_2$. The utility of each individual is $U_i = 2 \ln c_i + \ln F$, with budget constraint $c_i + f_i = 100$. Family $1$ resolves: -->
+
+<!-- $$\max_{f_1} 2 \ln (100 - f_1) + \ln (f_1 + f_2)$$ -->
+
+<!-- The first order condition $dU_1/df_1 = 0$ implies: $$\frac{-2}{100 - f_1} + \frac{1}{f_1 + f_2} = 0$$ -->
+
+<!-- And then we have that the *response curve* is $f_1^* = (100 - 2f_2)/3$: the higher is $f_2$, lower is $f_1$! -->
+
+<!-- --- -->
+<!-- class: middle -->
+<!-- ## Private provision -->
+
+<!-- On the other hand, the socially optimal value is one that respects Samuelson condition: $MRS_{Fc}^1 + MRS_{Fc}^2 = MC_F$ -->
+
+<!-- The marginal cost $dF/df_1 = 1$, it remains to calculate $MRS_{Fc}^1$ -->
+
+<!-- $$MRS_{Fc}^1 = \frac{MU_F^1}{MU_c^1} = \frac{1/F}{2/c_1} = \frac{c_1}{2F}$$ -->
+<!-- $$\Rightarrow MRS_{Fc}^1 + MRS_{Fc}^2 = \frac{c_1 + c_2}{2F} = \frac{200 - F}{2F}$$ -->
+
+<!-- Equaling the two, we have $200 - F = 2F$, i.e., $F = 200/3$ is the optimal provision -->

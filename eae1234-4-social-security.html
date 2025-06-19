@@ -22,7 +22,7 @@ class: center, middle, inverse, title-slide
 ### School of Economics, Business and Accounting<br/>University of São Paulo
 ]
 .date[
-### Topic 9: Social security and health<br/>2024/2
+### Topic 4: Social security and health<br/>2025/2
 ]
 
 ---
@@ -37,9 +37,9 @@ class: inverse, middle, center
 class: middle
 ## Social security
 
-Intermediate microeconomics discusses two market failures that (plausibly) require state intervention: non-excludable goods and externalities. The third one is **credit restrictions**
+So far we have discussed two market failures that (plausibly) require state intervention: public goods and externalities. A third one is **insurance restrictions**
 
-Note that even though credit restriction receives less attention in micro, it represents most of the state's expenses! 
+Note that even though incomplete insurance markets receive less attention in standard microeconomics, they represent most of the state's expenses! 
 
 In Brazil, the federal government spends ~12% of GDP (1/3 of the budget) on social security &amp;mdash; another ~4% of GDP is public spending on public health services, which is another form of public insurance
 
@@ -49,10 +49,10 @@ class: middle
 
 Nowadays, almost all governments offer various forms of social insurance &amp;mdash; in Brazil, the *Instituto Nacional do Seguro Social* (INSS) offers:
 
-1. Retirement plan
+1. Retirement benefits
 2. Unemployment insurance
 3. Sick pay, workers’ compensation, and reclusion aid
-4. Benefit for people with disabilities (Continued Provision Benefit, BPC)
+4. Benefit for people with disabilities (BPC)
 5. Maternity leave
 6. Pension for death
 
@@ -62,9 +62,9 @@ In addition to these, SUS (Unified Health System) is a form of public provision 
 class: middle
 ## Risk and insurance
 
-Social insurance programs usually also have a *redistributive effect*, but this is not its main objective &amp;mdash; it is to insure *risk averse* citizens against income shocks and allow them to **smooth their consumption**
+Social insurance programs usually also have a *redistributive effect*, but this is not their main objective &amp;mdash; it is to insure *risk averse* citizens against income shocks and allow them to **smooth their consumption**
 
-As the *marginal utility of income* is decreasing, maximizing the intertemporal utility is equivalent to equalizing the marginal utility in different periods (**states of nature**)
+As the *marginal utility of income* is decreasing, maximizing the expected life utility is equivalent to equalizing the marginal utility in different "luck" realizations (**states of nature**)
 
 For example, I would always like to transfer income from *possible worlds* where I did not crash my car to possible worlds where I did crash &amp;mdash; that is exactly what car insurance does
 
@@ -72,57 +72,28 @@ For example, I would always like to transfer income from *possible worlds* where
 class: middle
 ## Risk and insurance
 
-An **actuarially fair insurance premium** is a insurance plan in which its price is exactly equal to the insurer’s expected payout
-
-In practice, the insurer may charge a **risk premium**, which is the difference between the expected payout and the *certainty equivalent*
+An **actuarially fair insurance premium** is a insurance plan whose premium (price) is exactly equal to the insurer’s expected payout &amp;mdash; the risk neutral insurer simply absorbs all risk from the risk averse consumer
 
 As consumers are risk averse and the insurer is not, transferring the agent’s risk to the firm results in an efficiency gain &amp;mdash; there is a trade surplus
 
----
-class: middle
-## Risk and insurance
-
-Consider an adverse event with probability `\(q\)` which implies an economic cost `\(d\)`. The individual with wealth `\(W\)` can hire a premium insurance `\(p\)` that pays `\(b\)`  if the adverse event occurs
-
-Then the expected utility of the individual is: `$$\mathbb{E}U = (1 - q) u(W - p) + q u(W - p + b - d)$$`
-
-The expected profit of the (risk neutral) insurer is: `\(\mathbb{E}\Pi = p - qb\)`
-
-If there is perfect competition with free entry, we have `\(\mathbb{E}\Pi = 0\)`, that is `\(p = qb \iff b = p/q\)` (namely, the *actuarially fair premium*)
+The actuarially fair premium keeps all trade surplus for the consumer &amp;mdash; in the opposite scenario, the insurer charges all the **risk premium**, which is the difference between the expected payout and the *certainty equivalent*
 
 ---
 class: middle
 
-&lt;img src="figs/eae0310-6-2.png" width="75%" /&gt;
+&lt;img src="figs/eae0310-6-2.png" width="50%" /&gt;&lt;img src="figs/eae0310-6-2b.png" width="50%" /&gt;
 
-The utility of a risk averse agent in a lottery `\(\mathbb{E}U(W)\)` is lower than with full insurance `\(U(W_0)\)`. So he is willing to pay `\(W_0 - CE_A\)` to avoid the risk, which `\(CE_A\)` is the **certainty equivalent** (Nicholson &amp; Snyder, 2016)
-
----
-class: middle
-## Risk and insurance
-
-Under the actuarially fair premium, the agent's problem becomes $$ \max_p \mathbb{E}U = (1 - q) u\left(W - p\right) + q u\left(W - p + \frac{p}{q} - d\right)$$
-
-With FOC `\(d\mathbb{E}U/dp = 0\)`, i.e., `$$- (1 - q) u^{\prime}\left(W - p\right) + q\left[ \frac{1}{q} - 1\right] u^{\prime} \left(W - p + \frac{p}{q} - d \right) = 0$$`
-
-That is, the consumer **smooths his consumption** between the states of nature, fully protecting himself from risk: `\(u^{\prime}\left(W - p\right) = u^{\prime} \left(W - p + p/q - d \right)\)`, which is only possible if `\(p/q = d\)`
-
----
-class: middle
-
-&lt;img src="figs/eae0310-6-1.png" width="100%" /&gt;
-
-Imagine that Sam has a 99% chance of not crashing the car, earning `$`30.000, and a 1% chance of crashing, earning zero. If the utility function is concave, when the insurance premium is actuarially fair, the optimal behavior of a risk averse agent is always full insurance [Gru16]
+The utility of a risk averse agent in a lottery is lower than with full insurance, so he is willing to pay up to the **certainty equivalent** to avoid this risk (Nicholson &amp; Snyder, 2016; Bowles &amp; Halliday, 2022)
 
 ---
 class: middle
 ## Information asymmetry in the insurance market
 
-But the most relevant question here for us is not why people buy insurance, but why the State would need to provide it
+But the most relevant question here for us is not why people buy insurance, but why the State should need to provide it
 
 And the answer to this is not in risk aversion, but in **informational asymmetry**: consumers in an insurance market almost always have more information about their risks than the insurer
 
-There are two types of relevant informational asymmetry in the insurance market (any market really): **unobservable characteristics** (adverse selection) and **unobservable actions** (moral hazard): let us start with the first one
+There are two types of relevant informational asymmetry in the insurance market (any market really): **unobservable characteristics** (adverse selection) and **unobservable actions** (moral hazard) &amp;mdash; let us start with the first one
 
 ---
 class: middle
@@ -164,7 +135,7 @@ Hence, the difference between the model with selection and the traditional one i
 ---
 class: middle
 
-&lt;img src="figs/eae0310-6-12.png" width="70%" /&gt;
+&lt;img src="figs/eae0310-6-12.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 Competitive supply and demand model *with adverse selection*: negative sloping demand excludes consumers with low willingness to pay from the market, which (in markets with adverse selection) is inefficient because the marginal cost curve is below the demand curve [EF11]
 
@@ -185,23 +156,13 @@ Extreme cases of adverse selection: in (a) the result is efficient, as companies
 
 ---
 class: middle
-## Selection in insurance markets
-
-The canonical solution to the inefficiency generated by adverse selection is to force everyone to buy insurance (but note that if we add administration costs, then the optimal solution does not necessarily involve full insurance)
-
-Furthermore, if we assume *heterogeneity of preferences*,  then more risk averse agents can be (i) more careful; and (ii) willing to pay more (**advantageous selection**)
-
-With administration costs and advantageous selection, we have the *opposite* of the usual case: inefficiency is an oversupply of insurance
-
----
-class: middle
 ## Public insurance
 
-We have seen that the main reason for **public insurance** is to solve the adverse selection problem
+The main reason for **public insurance** is to solve the adverse selection problem &amp;mdash; the canonical solution then is to force everyone to buy insurance 
 
-Also, if I do not have car insurance and crash into someone, I may not have the money to cover their damage, generating a *financial externality* (that is why DPVAT – Seguro Obrigatório para Proteção de Vítimas de Acidentes de Trânsito – exits)
+Another reason is the existence of *financial externalities*: if I do not have car insurance and crash into someone, I may not have the money to cover their damage (that is why DPVAT – Seguro Obrigatório para Proteção de Vítimas de Acidentes de Trânsito – exits)
 
-Another reason for public insurance is that governments may not be able to *credibly commit* to not intervene in the bad state of nature in case the agent does not buy insurance (**Samaritan's dilemma**)
+A third reason for public insurance is that governments may not be able to *credibly commit* to not intervene in the bad state of nature in case the agent does not buy insurance (**Samaritan's dilemma**)
 
 ---
 class: middle
@@ -231,7 +192,7 @@ Evidence of myopic behavior and lack of consumption smoothing: in Brazil, *laid-
 class: middle
 ## Moral hazard
 
-Another essential concept of asymmetric information in the insurance market is the effect that insurance has on consumers' risk taking (**moral hazard**)
+Another important concept of asymmetric information that is important for the insurance market is the effect that being insured has on unobservable consumer risk taking (hidden actions, or **moral hazard**)
 
 [CCN18] estimate that in Brazil 11-13% of layoffs are influenced by the existence of unemployment insurance
 
@@ -243,17 +204,17 @@ class: middle
 
 Let's consider the case of unemployment insurance: we want to smooth the consumption of those who receive a negative employment shock, but if the **replacement rate** is 100%, nobody would look for work
 
-Consider an individual who has probability `\(p\)` to be unemployed, that has consumption `\(c_e = w - t\)` when employed (where `\(w\)` is the salary and `\(t\)` is the tax) and `\(c_u = b\)` when unemployed, with `\(b\)` as benefit
+Consider an individual who chooses a probability `\(p\)` to be unemployed (search intensity), that has consumption `\(c_e = w - t\)` when employed (where `\(w\)` is the salary and `\(t\)` is the tax) and `\(c_u = b\)` when unemployed, with `\(b\)` as benefit
 
-So his utility is: `$$\mathbb{E}U = (1 - p)u(c_e) + pu(c_u) = (1 - p)u(w - t) + pu(b)$$`
+So his utility is `\(\mathbb{E}U(p) = (1 - p)u(w - t) + pu(b) - \psi (p)\)`
+
+Government has a **balanced budget**: `\((1 - \bar{p}) t = \bar{p} b\)`, or `\(t = b \bar{p}/(1-\bar{p})\)`, where `\(\bar{p}\)` is the average population probability of employment
  
 ---
 class: middle
 ## Optimal unemployment insurance with moral hazard
 
-Government has a **balanced budget**: `\((1 - p) t = p b\)`, or `\(t = b p/(1-p)\)`
-
-The policy that maximizes welfare then solves: `$$\max_b \mathbb{E}U = (1 - p)u\left( w - b\frac{p}{1 - p} \right) + pu(b)$$`
+The policy that maximizes welfare then solves: `$$\max_b \mathbb{E}U(p) = (1 - p)u\left( w - b\frac{\bar{p}}{1 - \bar{p}} \right) + pu(b) - \psi (p)$$`
 
 Without moral hazard, we have the same result as before, *full insurance*: `$$pu^{\prime}(c_u) - (1 - p)\frac{p}{1 - p}u^{\prime}(c_e) = 0 \Rightarrow c_u = c_e$$` 
 But moral hazard implies that `\(dp/db \neq 0\)`! The higher the wage replacement rate, the more likely individuals are to be unemployed
@@ -263,10 +224,10 @@ class: middle
 ## Optimal unemployment insurance with moral hazard
 
 
-There is a **fiscal externality**: the higher the unemployment insurance, the higher the taxation we will need to finance it, both *mechanically*, but also due to the *behavioral effect*
+By the **envelope theorem**, we should ignore `\(dp/db\)`, but there is a **fiscal externality**: the higher the unemployment insurance, the higher the taxation we will need to finance it, both *mechanically*, but also due to the *behavioral effect*
 
-`$$\max_b \mathbb{E}U = (1 - p)u\left( w - b\frac{p(b)}{1 - p(b)} \right) + pu(b)$$`
-The result equates the benefit of smoothing with the harm of moral hazard — full insurance is no longer optimal: `$$\frac{u^{\prime}(c_u) - u^{\prime}(c_e)}{u^{\prime}(c_e)} = \frac{1}{1 - p}\epsilon_{p,b} \text{ which }\epsilon_{p,b} = \frac{b}{p}\frac{dp}{db}$$` 
+`$$\max_b \mathbb{E}U(p; \bar{p}) = (1 - p)u\left( w - b\frac{\bar{p}(b)}{1 - \bar{p}(b)} \right) + pu(b) - \psi (p)$$`
+The result equates the benefit of smoothing with the harm of moral hazard &amp;mdash; full insurance is no longer optimal: `$$\frac{u^{\prime}(c_u) - u^{\prime}(c_e)}{u^{\prime}(c_e)} = \frac{1}{1 - p}\epsilon_{p,b} \text{ which }\epsilon_{p,b} = \frac{b}{\bar{p}}\frac{d\bar{p}}{db}$$` 
 
 ---
 class: middle
@@ -291,7 +252,7 @@ As we have seen, in these situations the government can do better than the marke
 
 But in practice, the main reason for retirement is probably to solve *internalities*: the fact is that people in general do not save as much as they would need to have a decent life in old age
 
-Research in Italy and the UK estimate that every $1 of social security reduces private savings (**crowding out**) by 30-40¢
+In this sense, however, public retirement can only do so much &amp;mdash; research in Italy and the UK estimate that every $1 of social security reduces private savings (**crowding out**) by 30-40¢
 
 ---
 class: middle
@@ -304,7 +265,7 @@ Increased social security is associated with a significant reduction in poverty 
 class: middle
 ## Social security reform
 
-Every decade, the problem of the sustainability of Brazilian retiremet system and reforms to decrease social security payments come back to the public debate. [The last one was in 2019](https://www.gov.br/inss/pt-br/assuntos/noticias/confira-as-principais-mudancas-da-nova-previdencia):
+Every decade, the problem of the sustainability of Brazilian retirement system and reforms to decrease social security payments come back to the public debate. [The last one was in 2019](https://www.gov.br/inss/pt-br/assuntos/noticias/confira-as-principais-mudancas-da-nova-previdencia):
 
 1.  The reform, among other things, increased the minimum age (65/62) and now retirement requires both minimum age and contribution time (20/15)
 2. The payment is now based on average wages (previously the highest 80%): 60% + 2% per year above the minimum contribution time
@@ -379,9 +340,9 @@ class: middle
 
 *Formal workers* dismissed (involuntarily) without just cause who worked 12 months in the last 18 (1st request), 9/12 (2nd), or in the last 6 months (3rd+) receive unemployment insurance in Brazil
 
-The value is 80% (up to $2,041, 50% thereafter) of the average wage of the last 3 months of work (**replacement rate**), with a maximum of $2,313 (2024), and the worker is paid for 3 (up to 1 year), 4 (up to 2) or 5 months (more than 2 years of work)
+The value is 80% (up to $2,041, 50% thereafter) of the average wage of the last 3 months of work (**replacement rate**), with a maximum of $2,313 (2024), and the worker is paid for 3 (up to 1 year), 4 (up to 2) or 5 months (more than 2)
 
-Unemployment benefit can never be below the minimum wage in Brazil ($1,412 in 2024), however
+The unemployment benefit can never be below the minimum wage in Brazil ($1,412 in 2024), however, so for these workers (almost 40% of Brazilian formal employees) the replacement rate is a full 100% of their working salary
 
 ---
 class: middle
@@ -411,18 +372,32 @@ In Brazil, a longer duration of unemployment insurance makes people unemployed f
 class: middle
 ## Health insurance
 
-Health spending in Brazil was 9.2% of GDP (2017), with 3.9% public spending (SUS) and 5.4% private spending (27% of the population is covered by the private sector)
+Health spending in Brazil was 9.7% of GDP (2021), with 4% public spending (SUS) and 5.7% private spending &amp;mdash; while 25% of the population is covered by the private sector (ANS, 2024)) 
 
-The level of spending as a % of GDP is about the OECD average, but the public sector participation is much lower &amp;mdash; even in the US, `\(\approx 50\%\)` of health expenses are public (Medicare and Medicaid): more than in Brazil!
+The health sector accounts for 10.5% of total Brazilian income and 8% of labor force participation, being one of the main sectors in the economy [[Conta-Satélite de Saúde]](https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf)
 
 The government can intervene by obliging (and generally subsidizing) the purchase of health insurance (Germany) or directly offer the service (NHS, SUS), either directly by the government or through dealers
 
 ---
 class: middle
 
+&lt;img src="figs/eae1234-9-2.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+The level of health spending as a percentage of GDP in Brazil is about the OECD average, but the public sector participation is much lower &amp;mdash; even in the US, `\(\approx 50\%\)` of health expenses are public (Medicare and Medicaid): more than in Brazil! [[Conta-Satélite de Saúde]](https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf)
+
+---
+class: middle
+
+&lt;img src="figs/eae1234-9-3.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+In 2021, Brazilian *per capita* spending on health accounted for R$2,387 for private spending and R$1,703 for public spending &amp;mdash; about half of OECD average and 1/4th of USA (in US$ PPP) [[Conta-Satélite de Saúde]](https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf)
+
+---
+class: middle
+
 &lt;img src="figs/eae1234-9-1.png" width="70%" style="display: block; margin: auto;" /&gt;
 
-Even for those with private health insurance, in 2015 80% of them had transplants, 60% dialysis and 30% treated cancer in publicly-provided SUS (the private plans reimburse the government at 150% of SUS price) [Gui24]
+Even for those with private health insurance, in 2015, 80% of them had transplants, 60% dialysis and 30% treated cancer in publicly-provided SUS (the private plans reimburse the government at 150% of SUS price) [Gui24]
 
 
 ---
@@ -496,6 +471,29 @@ direta: o que revela a POF 2017/18."  (2020).
 &lt;!-- ``` --&gt;
 
 &lt;!-- Extensões ao "modelo de livro-texto": (a) com custo de administração provisão a todos já pode não ser eficiente; e (b) **seleção vantajosa** [EF11] --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Risk and insurance --&gt;
+
+&lt;!-- Consider an adverse event with probability `\(q\)` which implies an economic cost `\(d\)`. The individual with wealth `\(W\)` can hire a premium insurance `\(p\)` that pays `\(b\)`  if the adverse event occurs --&gt;
+
+&lt;!-- Then the expected utility of the individual is: `$$\mathbb{E}U = (1 - q) u(W - p) + q u(W - p + b - d)$$` --&gt;
+
+&lt;!-- The expected profit of the (risk neutral) insurer is: `\(\mathbb{E}\Pi = p - qb\)` --&gt;
+
+&lt;!-- If there is perfect competition with free entry, we have `\(\mathbb{E}\Pi = 0\)`, that is `\(p = qb \iff b = p/q\)` (namely, the *actuarially fair premium*) --&gt;
+
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Risk and insurance --&gt;
+
+&lt;!-- Under the actuarially fair premium, the agent's problem becomes $$ \max_p \mathbb{E}U = (1 - q) u\left(W - p\right) + q u\left(W - p + \frac{p}{q} - d\right)$$ --&gt;
+
+&lt;!-- With FOC `\(d\mathbb{E}U/dp = 0\)`, i.e., `$$- (1 - q) u^{\prime}\left(W - p\right) + q\left[ \frac{1}{q} - 1\right] u^{\prime} \left(W - p + \frac{p}{q} - d \right) = 0$$` --&gt;
+
+&lt;!-- That is, the consumer **smooths his consumption** between the states of nature, fully protecting himself from risk: `\(u^{\prime}\left(W - p\right) = u^{\prime} \left(W - p + p/q - d \right)\)`, which is only possible if `\(p/q = d\)` --&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

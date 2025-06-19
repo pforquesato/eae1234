@@ -4,7 +4,7 @@
     <title>EAE-1234: PUBLIC ECONOMICS</title>
     <meta charset="utf-8" />
     <meta name="author" content="Pedro Forquesato http://www.pedroforquesato.com Office 217/FEA2 - pforquesato@usp.br" />
-    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
   </head>
@@ -22,7 +22,7 @@ class: center, middle, inverse, title-slide
 ### School of Economics, Business and Accounting<br/>University of São Paulo
 ]
 .date[
-### Topic 6: Taxation on savings<br/>2024/2
+### Topic 10: Taxation on savings<br/>2025/2
 ]
 
 ---
@@ -81,14 +81,14 @@ In the US, wealth inequality is only slightly better: the richest 5% have 2/3 of
 ---
 class: middle
 
-&lt;img src="figs/eae0310-12-7.png" width="80%" /&gt;
+&lt;img src="figs/eae0310-12-7.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 In the US, the wealth of the 90% grew until the 80s with incentives for homeownership, but it has dropped (proportionally) since then due to income and savings inequality, besides tax reductions &amp;mdash; and this movement was mirrored by the doubling the share of wealth owned by the richest 0.1%, which today have 20% of that country's wealth [PSZ18]
 
 ---
 class: middle
 
-&lt;img src="figs/eae0310-12-8.png" width="75%" /&gt;
+&lt;img src="figs/eae0310-12-8.png" width="75%" style="display: block; margin: auto;" /&gt;
 
 Another way to look at wealth inequality is the Forbes 400 richest list: since 1982, their wealth has tripled, surpassing 3% of the total American wealth &amp;mdash; 3% of total wealth for the (nearly) 1-in-a-million richest (Saez)
 
@@ -209,7 +209,7 @@ In Denmark, we observe a wealth profile more or less compatible with the **life-
 ---
 class: middle
 
-&lt;img src="figs/eae0310-12-13.png" width="80%" /&gt;
+&lt;img src="figs/eae0310-12-13.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 In the US, the wealth of the richest also grows continuously until death, contrary to the life-cycle hypothesis, which would imply a drop in wealth in retirement (**consumption smoothing**) &amp;mdash; this behavior is more consistent with wealth in utility function [Kop07]
 
@@ -222,39 +222,6 @@ Now, consider a consumption tax `\(\tau_C\)`. The budget constraint becomes `$$(
 Instead, if we apply a tax on (labor) income `\(\tau_L\)`, the BC is now `$$c_1 + \frac{c_2}{1 + r} = (1 - \tau_L)wl$$`
 
 If `\((1 + \tau_C) = 1/(1 - \tau_L)\)`, the taxes are equivalent: we have already seen that this equivalence holds statically &amp;mdash; this is a simplified example of the equivalence between (linear) taxes on income and on consumption **and inheritances** throughout the life-cycle (in steady-state)
-
----
-class: middle
-## Taxation in the life-cycle model
-
-`$$\max_{l, c_2} u \left( (1 - \tau_L)wl - \frac{c_2}{1 + r}, l \right) + \beta u(c_2)$$`
-
-`$$[l]: (1 - \tau_L)w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$`
-`$$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r) \frac{\partial u}{\partial c_2}$$`
-Consider an **income tax**: the labor income decreases as there is an *income effect*; furthermore, the relative price of labor and leisure changes (*substitution effect*) &amp;mdash; but there is no distortion of *intertemporal consumption choice* (only income effect)
-
----
-class: middle
-## Taxation in the life-cycle model
-
-With a capital tax `\(\tau_K\)`, `\(c_2 = (1 + r(1 - \tau_K))s\)` and the BC becomes: `\(c_1 + \frac{c_2}{1 + r(1 - \tau_K)} = wl\)`
-
-`$$\max_{l, c_2} u \left( wl - \frac{c_2}{1 + r(1 - \tau_K)}, l \right) + \beta u(c_2)$$`
-
-`$$[l]: w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$`
-`$$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r(1 - \tau_K)) \frac{\partial u}{\partial c_2}$$`
-Here it is the opposite, the relative price of labor and leisure does *not* change, but of intertemporal consumption does
-
----
-class: middle
-## Taxation in the life-cycle model
-
-As in taxation on labor, **taxation on capital** (savings) involves income and substitution effects:
-
-1. *Substitution effect:* the tax makes consumption in period 2 more expensive in relation to consumption in period 1: savings decrease
-2. *Income effect:* the tax makes individuals poorer, who consume less in `\(t=1\)` *and* in `\(t=2\)`, but as `\(s = wl - c_1\)`, lower `\(c_1\)` implies that savings increase
-
-Therefore, the effect *on savings* is theoretically **ambiguous**! In fact, if utility is log in consumption, both effects cancel each other out and the impact of the tax on saving will be exactly zero
 
 ---
 class: middle
@@ -276,6 +243,19 @@ class: middle
 &lt;img src="figs/eae0310-12-10c.png" width="80%" /&gt;
 
 The **substitution effect**, maintaining utility constant, increases `\(c_1\)`, decreases `\(s\)` and `\(c_2\)`, as the **income effect** decreases `\(c_2\)` and `\(c_1\)`, but (because of this) increases `\(s\)` &amp;mdash; here, the income effect is stronger, and capital taxation increases savings (Saez)
+
+
+---
+class: middle
+## Taxation in the life-cycle model
+
+As in taxation on labor, **taxation on capital** (savings) involves income and substitution effects:
+
+1. *Substitution effect:* the tax makes consumption in period 2 more expensive in relation to consumption in period 1: savings decrease
+2. *Income effect:* the tax makes individuals poorer, who consume less in `\(t=1\)` *and* in `\(t=2\)`, but as `\(s = wl - c_1\)`, lower `\(c_1\)` implies that savings increase
+
+Therefore, the effect *on savings* is theoretically **ambiguous**! In fact, if utility is log in consumption, both effects cancel each other out and the impact of the tax on saving will be exactly zero
+
 
 ---
 class: middle
@@ -471,6 +451,28 @@ Quarterly Journal of Economics_ 131.2 (2016), pp. 519-578.
 [SZ19] E. Saez and G. Zucman. _The triumph of injustice: How the rich
 dodge taxes and how to make them pay_. WW Norton &amp; Company, 2019.
 &lt;/small&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Taxation in the life-cycle model --&gt;
+
+&lt;!-- `$$\max_{l, c_2} u \left( (1 - \tau_L)wl - \frac{c_2}{1 + r}, l \right) + \beta u(c_2)$$` --&gt;
+
+&lt;!-- `$$[l]: (1 - \tau_L)w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$` --&gt;
+&lt;!-- `$$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r) \frac{\partial u}{\partial c_2}$$` --&gt;
+&lt;!-- Consider an **income tax**: the labor income decreases as there is an *income effect*; furthermore, the relative price of labor and leisure changes (*substitution effect*) &amp;mdash; but there is no distortion of *intertemporal consumption choice* (only income effect) --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- class: middle --&gt;
+&lt;!-- ## Taxation in the life-cycle model --&gt;
+
+&lt;!-- With a capital tax `\(\tau_K\)`, `\(c_2 = (1 + r(1 - \tau_K))s\)` and the BC becomes: `\(c_1 + \frac{c_2}{1 + r(1 - \tau_K)} = wl\)` --&gt;
+
+&lt;!-- `$$\max_{l, c_2} u \left( wl - \frac{c_2}{1 + r(1 - \tau_K)}, l \right) + \beta u(c_2)$$` --&gt;
+
+&lt;!-- `$$[l]: w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$` --&gt;
+&lt;!-- `$$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r(1 - \tau_K)) \frac{\partial u}{\partial c_2}$$` --&gt;
+&lt;!-- Here it is the opposite, the relative price of labor and leisure does *not* change, but of intertemporal consumption does --&gt;
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>

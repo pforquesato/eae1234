@@ -2,7 +2,7 @@
 title: "EAE-1234: PUBLIC ECONOMICS"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: "Topic 8: Corporate Taxes<br/>2024/2"
+date: "Topic 12: Corporate Taxes<br/>2025/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -502,7 +502,7 @@ And it matters: if the US solved the problem of tax evasion by tax havens, it wo
 
 ---
 class: middle
-## Reforms
+## Global corporate taxation reform
 
 In 2021, it was approved a plan with signature of 141 countries to establish a minimum global corporate tax of 15% &mdash; still well below Brazil and most large economies, but well above tax havens
 
@@ -510,27 +510,6 @@ It comes with the weakening of *source-based taxation* and *arm's length pricing
 
 The obvious problem is that different formulas benefit different countries, which generates diverging interests &mdash; but in any case, the solution to this problem has to be global
 
----
-class: middle
-## Tax Cuts and Jobs Act
-
-In 2017, Donald Trump enacted the largest business tax cut in US history &mdash; projected to reduce revenue by US$100-150 billion a year, which accounts nominally to 17% of Brazilian budget (~3-4% of American one)
-
-It cut statutory tax rate from 35% to 21%, and allowed for immediate write-off of equipment purchases, giving further tax benefits, as we have seen
-
-Proponents of the change defended this tax cut would increase investments, create jobs (vide the tax cut name) and increase wages &mdash; and that this additional economic growth would offset some of the revenue costs of the policy
-
----
-class: middle
-## Lessons
-
- `r Citep(myBib, "chodorow2024lessons")` review the evidence evaluating this tax cut and point to 5 lessons we learned from its consequences:
-
-+ Tax cuts are very expensive: the policy cut corporate tax revenue by 40%
-+ Corporate tax affects investments: more affected firms raised investment by 8-14% (but that is not near enough to offset the policy costs)
-+ Reductions in taxation of profits abroad by corporations also raise their investments domestically
-+ Effects on economic growth and wages are smaller than proponents advertise: while the Council of Economic Advisers predicted wages would grow by 4-9k dollars, they actually increased only 750
-+ "Economic bang for fiscal buck" depends on the specific provisions: investment incentives have large impact, while corporate income tax cuts only enrich old capital   
 
 ---
 class:middle
@@ -577,3 +556,25 @@ PrintBibliography(myBib, start=16)
 <!-- ``` -->
 
 <!-- Quanto maior a proporção de dívida no financiamento da firma, maior o **conflito de interesses** entre detentores de dívida e acionistas &mdash; como acionistas "têm pouco a perder", eles aceitam investimentos de má qualidade; em expectativa disso, credores só estariam dispostas a financiar firmas com pouco capital acionário a taxas de juros elevadas `r Citep(myBib, "gruber")` -->
+
+<!-- --- -->
+<!-- class: middle -->
+<!-- ## Tax Cuts and Jobs Act -->
+
+<!-- In 2017, Donald Trump enacted the largest business tax cut in US history &mdash; projected to reduce revenue by US$100-150 billion a year, which accounts nominally to 17% of Brazilian budget (~3-4% of American one) -->
+
+<!-- It cut statutory tax rate from 35% to 21%, and allowed for immediate write-off of equipment purchases, giving further tax benefits, as we have seen -->
+
+<!-- Proponents of the change defended this tax cut would increase investments, create jobs (vide the tax cut name) and increase wages &mdash; and that this additional economic growth would offset some of the revenue costs of the policy -->
+
+<!-- --- -->
+<!-- class: middle -->
+<!-- ## Lessons -->
+
+<!--  `r Citep(myBib, "chodorow2024lessons")` review the evidence evaluating this tax cut and point to 5 lessons we learned from its consequences: -->
+
+<!-- + Tax cuts are very expensive: the policy cut corporate tax revenue by 40% -->
+<!-- + Corporate tax affects investments: more affected firms raised investment by 8-14% (but that is not near enough to offset the policy costs) -->
+<!-- + Reductions in taxation of profits abroad by corporations also raise their investments domestically -->
+<!-- + Effects on economic growth and wages are smaller than proponents advertise: while the Council of Economic Advisers predicted wages would grow by 4-9k dollars, they actually increased only 750 -->
+<!-- + "Economic bang for fiscal buck" depends on the specific provisions: investment incentives have large impact, while corporate income tax cuts only enrich old capital    -->
