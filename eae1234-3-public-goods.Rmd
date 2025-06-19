@@ -89,6 +89,14 @@ In the real world, agents expect that others will provide part of public goods, 
 
 The intersection of the response curves indicates the point at which the action of each agent is optimal given the actions of the other agents (**Nash equilibrium**)
 
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("figs/eae0310-3-17.png")
+```
+
+In the Nash equilibrium of this game (fixed point of the best-response curves), the private contribution $2 \times 20$ is less than the socially optimal value (*Samuelson condition*) of $200/3$
 
 ---
 class: middle
@@ -99,16 +107,6 @@ class: middle
 > But ’tis very difficult and indeed impossible, that a thousand persons shou’d agree in any such action; it being difficult for them to concert so complicated a design, and still more difficult for them to execute it; while each seeks a pretext to free himself of the trouble and expense, and wou’d lay the whole burden on others.
 
 David Hume, *A Treatise of Human Nature* (1742)
-
-
----
-class: middle
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("figs/eae0310-3-17.png")
-```
-
-In the Nash equilibrium of this game (fixed point of the best-response curves), the private contribution $2 \times 20$ is less than the socially optimal value (*Samuelson condition*) of $200/3$
 
 ---
 class: middle
