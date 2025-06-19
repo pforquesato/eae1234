@@ -276,6 +276,27 @@ Increased social security is associated with a significant reduction in poverty 
 
 ---
 class: middle
+## Social security in Brazil
+
+Brazil spends 12.4% of GDP on social security: 7.9% for RGPS (private sector) and 4.5% for RPPS+SPSM (public sector), while social security contributions amount to 7.5% of GDP, leading to a 4.9% deficit
+
+This deficit is evenly distributed: 2.3% for RPPS (60% states, 40% union) and 2.6% for RGPS, of which 1.5% is rural retirement, given to rural workers over 60 whether they contributed or not for INSS, and for which there is basically zero revenue `r Citep(myBib, "ipea2024politicas")`
+
+But as already mentioned, there is not much that differentiates social security contributions from other forms of taxation
+
+---
+class: middle
+## Social security in Brazil
+
+The RGPS system supports 32mi pensioners and the RPPS system 4.8mi, while they have 58mi and 5.8mi contributors respectively (2022) &mdash; so there are 1.81 contributors per beneficiary in the private sector and 1.21 in the public one
+
+Furthermore, this rate of contributors per beneficiary tends to worsen as the population ages
+
+Of these 32 million pensioners, 68% receive retirement benefits, 25% pension for death, 
+`r Citep(myBib, "ipea2024politicas")` and 5% various benefits (sickness, accidents, reclusion)
+
+---
+class: middle
 ## Social security reform
 
 Every decade, the problem of the sustainability of Brazilian retirement system and reforms to decrease social security payments come back to the public debate. [The last one was in 2019](https://www.gov.br/inss/pt-br/assuntos/noticias/confira-as-principais-mudancas-da-nova-previdencia):
@@ -312,7 +333,6 @@ knitr::include_graphics("figs/trad_eae0310-6-19.png")
 ```
 
 In Brazil, social security is not progressive: in general, benefits are even more concentrated than the (already extremely unequal) distribution of income &mdash; this lack of progressivity comes mainly (but not only) from the RPPS `r Citep(myBib, "silveira2020impactos")`
-
 
 ---
 class: middle
