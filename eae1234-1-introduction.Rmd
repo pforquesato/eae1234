@@ -29,6 +29,15 @@ myBib <- ReadBib("./esp_bib.bib", check = FALSE)
 
 # Introduction
 
+
+---
+class: middle
+## Learning
+
+> Learning results from what the student does and thinks and only from what the student does and thinks
+
+Herbert Simon (Nobel '78), quoted in Ambrose et al., 2010, p. 1
+
 ---
 class: middle
 ## English
