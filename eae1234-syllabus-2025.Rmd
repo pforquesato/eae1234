@@ -86,7 +86,7 @@ All dates in the schedule are **tentative** and **subject to change**.
 3. **Public goods and education**: @gruber, chs. 7, 10 and 11, @acemoglu. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-3-public-goods.html)
 4. **Social security and health**: @gruber, chapters 12 and 13. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-4-social-security.html)
 
-First seminar night: papers [2], [6], and [7]: **15/09**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+First seminar night: papers [5], [6], and [7]: **15/09**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
 
 5. **Social assistance**: @gruber, chapter 17, @banerjee. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-5-social-assistance.html)
 
@@ -96,13 +96,13 @@ Midterm exam: **29/09**.
 7. **Tax incidence, deadweight loss, and consumption taxation**: @gruber, chs. 19 and 20. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-7-incidence.html)
 8. **Labor income taxes**: @gruber, chapter 21. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-8-labor-income.html)
 
-Second seminar night: papers [1], [3] and [4]: **13/10**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+Second seminar night: papers [1], [2] and [3]: **13/10**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
 
 9. **Taxation on savings**: @gruber, chapter 22. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-9-taxing-savings.html)
 10. **Taxation on wealth**: @gruber, chapter 23. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-10-wealth-taxation.html)
 11. **Corporate taxes**: @gruber, chapter 24. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-11-corporate-taxes.html)
 
-Third seminar night: papers [5], [8], and [9]: **07/11**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+Third seminar night: papers [4], [8], and [9]: **07/11**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
 
 Final exam: **01/12**.
 
@@ -118,11 +118,11 @@ The deadline for submitting lists and essays is defined on [Moodle](https://edis
 Students will divide themselves in 9 groups and each group chooses one of the papers below to present to class in a 30 mins presentation.
 
 - Allcott, H., Lockwood, B. B., & Taubinsky, D. (2019). Should we tax sugar-sweetened beverages? An overview of theory and evidence. *Journal of Economic Perspectives*, 33(3), 202-227.
-- Auerbach, A. J. (2025). Public Finance Implications of Economic Inequality. *Journal of Economic Perspectives*, 39(2), 149-170.
 - Bachas, P., Jensen, A., & Gadenne, L. (2024). Tax Equity in Low-and Middle-Income Countries. *Journal of Economic Perspectives*, 38(1), 55-80.
 - Brockmeyer, A., Mascagni, G., Nair, V., Waseem, M., & Almunia, M. (2024). Does the Value-Added Tax Add Value? Lessons Using Administrative Data from a Diverse Set of Countries. *Journal of Economic Perspectives*, 38(1), 107-132.
 <!--- - Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The ways of corruption in infrastructure: Lessons from the Odebrecht case. Journal of Economic Perspectives, 35(2), 171-190. -->
 - Chodorow-Reich, G., Zidar, O., & Zwick, E. (2024). Lessons from the biggest business tax cut in US history. *Journal of Economic Perspectives*, 38(3), 61-88.
+- Clarke, C., & Kopczuk, W. (2025). Measuring Income and Income Inequality. Journal of Economic Perspectives, 39(2), 103-126.
 - Deming, D. J. (2022). Four facts about human capital. *Journal of Economic Perspectives*, 36(3), 75-102.
 <!--- - Kleven, H., Landais, C., Munoz, M., & Stantcheva, S. (2020). Taxation and migration: Evidence and policy implications. *Journal of Economic Perspectives*, 34(2), 119-142. -->
 - Levy, S., & Schady, N. (2013). Latin America's social policy challenge: Education, social insurance, redistribution. *Journal of Economic Perspectives*, 27(2), 193-218.

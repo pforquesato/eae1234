@@ -142,11 +142,21 @@ Even if the government wants to intervene, it can *grant* (auction) the service 
 class: middle
 ## Public provision
 
-Competitive auctions are efficient, but there can be collusion or corruption. If there are quality aspects difficult to observe (or to put into contract), there may be a worsening of quality &mdash; for example, private prisons in the US
+Competitive auctions are efficient, but there can be [collusion](https://www.nber.org/reporter/2025number2/reporter/collusion-public-procurement) or corruption. If there are quality aspects difficult to observe (or to put into contract), there may be a worsening of quality &mdash; for example, private prisons in the US
 
 The big advantage of the private sector to the public in economic activities is that it has a **residual claimant** &mdash; the capitalist gets all the surplus profit, which mitigates *moral hazard* problems
 
 [Barkley (2021)](https://www.aeaweb.org/research/government-outsourcing-dredging-industry) estimates that outsourcing projects to private builders saves up to 23% of the cost in the US, especially where competition is higher
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-3-1.png")
+```
+
+Although collusion in auctions is hard to observe (because illegal), we can try to infer it statistically &mdash; `r Citep(myBib, "kawai2022detecting")` analyze for Japan auctions that do not meet a secret reserve price and therefore are reauctioned: although the 2nd and 3rd place change often their bids (right panel), the winner remains the same in 96% of the time (left panel), even when first auction bids were close
 
 ---
 class: middle
