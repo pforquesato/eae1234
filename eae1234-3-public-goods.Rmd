@@ -275,7 +275,7 @@ class: middle
 knitr::include_graphics("figs/eae1234-3-2.png")
 ```
 
-Whether private provision might be more efficient depends on the characteristics of the market: whether public-private contracts can be bidding (which depends on **contractibility**) and whether the advantages of the market can shine through large innovation potential and competition `r Citep(myBib, "campos2021ways")`
+Whether private provision might be more efficient depends on the characteristics of the market: whether public-private contracts can be bidding (which depends on **contractibility**) and if the advantages of the market can shine through large innovation potential and competition `r Citep(myBib, "campos2021ways")`
 
 
 ---
