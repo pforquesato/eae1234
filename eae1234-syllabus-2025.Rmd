@@ -61,11 +61,11 @@ Please, always send me emails that are clearly identified, legible, **polite** a
 
 **Communication.** All the course's official communication will be done through [Moodle](https://edisciplinas.usp.br), including lists, grades, attendance, assessments and announcements. The course assumes that the student frequently accesses the platform and checks daily the emails received.
 
-**Absences.** According to USP regulations, **participation in 70% of the classes is mandatory to be approved in the course**. Absences will only be disregarded to a medical certificate issued by HU/USP ([Portaria GR 3740/2007](http://leginf.usp.br/?portaria=portaria-gr-no-3740-de-29-de-marco-de-2007)).
+**Attendance.** According to USP regulations, **participation in 70% of the classes is mandatory to be approved in the course**. Absences will only be disregarded to a medical certificate issued by HU/USP ([Portaria GR 3740/2007](http://leginf.usp.br/?portaria=portaria-gr-no-3740-de-29-de-marco-de-2007)).
 
 If the student misses **one** exam (regardless of a medical certificate), they can replace the grade with the *second evaluation* without needing a justification. 
 
-**Ethics.** The exams are **individual and closed-book**, except when noted otherwise and in the specific conditions noted. Cheating on the exam or the group assignment will automatically result in a failure in the course. Lists can be solved with help of colleagues, but they *must be written individually*.  Essays will be submitted by students to Turnitin, and must be *entirely* original. (Quotations are not allowed.) Copied lists or essays with similarity will result in forfeit **all** optional (extra credit) course activities.
+**Ethics.** The exams are individual and closed-book, except when otherwise noted and in the exact conditions specified. Cheating on the exam or the group assignment will automatically result in a failure in the course. Lists can be solved with help of colleagues, but they *must be written individually*.  Essays will be submitted by students to Turnitin, and must be *entirely* original. (Quotations are not allowed.) Copied lists or essays with similarity will result in forfeit **all** optional (extra credit) course activities.
 
 Note that these punishments will occur without prejudice to an administrative proceeding according to the [Código de Ética da USP](http://leginf.usp.br/?resolucao=resolucao-no-4871-de-22-de-outubro-de-2001-3).
 

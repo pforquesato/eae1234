@@ -148,7 +148,6 @@ The big advantage of the private sector to the public in economic activities is 
 
 [Barkley (2021)](https://www.aeaweb.org/research/government-outsourcing-dredging-industry) estimates that outsourcing projects to private builders saves up to 23% of the cost in the US, especially where competition is higher
 
-
 ---
 class: middle
 
@@ -246,6 +245,38 @@ A way to keep corruption in check is **electoral accountability**: if politician
 Analyzing random CGU audits, `r Citep(myBib, "ferraz2008exposing")` show that information about corruption indeed drastically reduces the chances of reelection &mdash; furthermore, politicians with electoral incentives (who can be reelected) steal 27% less than those who cannot `r Citep(myBib, "ferraz2011electoral")`
 
 `r Citep(myBib, "campante2014isolated")` show that, in the US, states with capitals far from large urban centers (less *accountability*) have more cases of corruption
+
+---
+class: middle
+## Privatization
+
+A perennial debate in economics is the state participation in economic activities &mdash; in the 1980s and 1990s this discussion centered on **privatization**: the outright sale of state firms and assets to private individuals
+
+But in many markets (e.g. *natural monopolies*) goverment participation is unavoidable: since then **public concessions** and **public-private partnerships** (PPP) became more and more common, now accounting for 10% of yearly investments in developing countries
+
+PPP contracts involve a private actor investing in building (**build-operate-transfer**, BOT, or *greenfield* projects) or rehabilitating/extending a public good (*brownfield* projects), while *concessions* trade the maintenance of a good for the right to collect user fees
+
+
+---
+class: middle
+## Privatization
+
+But while praised in public debate, the actual efficiency gains of PPPs is debatable: in Latin America the wave of PPPs in 1990s and 2000s led to a large amount of costly renegotiations and government bailouts
+
+`r Citep(myBib, "guasch2008renegotiation")` document that 53% of the concessions in the transport sector and 76% in the water sector in LatAm and were renegotiated, on average
+only 3.1 and 1.6 years after it was initiated
+
+Also, whether private involvement combats corruption is doubtful: `r Citep(myBib, "campos2021ways")` looks at the Odebrecht case files and finds no evidence that bribes were lower in PPP than standard government procurement
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-3-2.png")
+```
+
+Whether private provision might be more efficient depends on the characteristics of the market: whether public-private contracts can be bidding (which depends on **contractibility**) and whether the advantages of the market can shine through large innovation potential and competition `r Citep(myBib, "campos2021ways")`
+
 
 ---
 class: inverse, middle, center
