@@ -1,8 +1,8 @@
 ---
-title: "EAE-1234: PUBLIC ECONOMICS"
+title: "EAE-1234: PUBLIC FINANCE"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: "Topic 1: Normative Analysis<br/>2025/2"
+date: "Topic 1: Introduction and Normative Analysis<br/>2025/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -59,14 +59,14 @@ The most important words in economics studies for undergraduate students around 
 
 ---
 class: middle
-## Public sector economy
+## Government intervention
 
-The government has a huge participation in modern economies:
+Governments intervene in the *"free markets"* in a variety of ways in modern economies:
 
-1. Regulating activities and whole sectors (*industrial organization*)
+1. Regulating activities and whole sectors (**regulation/IO**)
 2. Acting directly to provide public goods or correct externalities
-3. Governments collect income from some agents and transfer to others, affecting the distribution of resources in the economy
-4. Policy of business cycles and public debt (*macro*)
+3. Governments distribute income from some agents to others, affecting the *inequality* of resources in the economy
+4. Policy of business cycles and public debt (**macroeconomics**)
 
 ---
 class: middle
@@ -89,27 +89,24 @@ Public policies *always* involve value judgments &mdash; and as economists, we c
 
 ---
 class: middle
-## Public economics
+## Government intervention
 
-In public economics, we study four types of questions:
+Gruber puts forth a four question framework to assess government intervention in the economy:
 
-1. In which situations *should* the government intervene in the economy? (normative economics)
-2. How the government *should* intervene? (normative economics)
-3. What is the effect of these interventions on society? (positive economics)
-4. How the government *actually* intervene, and why? (positive economics)
-
-The fourth question is what we know as (modern) **political economy**
-
+1. *Should* the government intervene in the economy? (**normative**)
+2. *How* the government *should* intervene? (**normative**)
+3. What is the *effect* of these interventions on society? (**positive**)
+4. How does the government *actually* intervene, and why might it differ from [2]? (**positive**)
 
 ---
 class: middle
 ## 1. When should the government intervene?
 
-**Traditional theory:** the role of governmental intervention is *only* to solve **market failures** &mdash; the most well known are *externalities* and *public goods*
+*Traditional* economics dictates that the role of governmental intervention is *only* to solve **market failures** &mdash; the most well known are *externalities* and *public goods*
 
 Also important are informational asymmetries, incomplete (insurance) markets and, more recently, internalities &mdash; discussing another market failure: *market power*, is the role of antitrust policy
 
-**Modern theory:** besides correcting market failures, taxation and governmental redistribution is the main tool to *reduce inequalities*
+The modern view is that besides correcting market failures, taxation and government policies are the main tool to **reduce inequalities**
 
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'EAE-1234: PUBLIC ECONOMICS'
+title: 'EAE-1234: PUBLIC FINANCE'
 author: Pedro Forquesato<br/>Department of Economics<br/>School of Economics, Business and Accounting <br/>University of São Paulo
 date: "2025/2"
 output:
@@ -16,42 +16,47 @@ institute: Department of Economics<br/>University of São Paulo
 bibliography: ./esp_bib.bib
 ---
 
-### General Objectives
+### Introduction
 
-In modern economies, more than a third (and sometimes more than half) of the national product is absorbed by governments in the form of taxes; governments employ one in five workers (OECD average), and in Brazil, the government consumption accounts for nearly 20% of GDP. It is unquestionable, therefore, that studying the role of the public sector in the economy is fundamental to the understanding of modern societies.
+In modern economies, more than a third of (and sometimes over half) the national income is absorbed by governments in the form of taxes; governments employ one in five workers (OECD average), and in Brazil, government consumption accounts for nearly 20% of GDP. It is then indisputable that studying the role of the public sector in the economy is essential to understanding modern societies.
 
-In this course, we will study in what situations and how the government should act in the economy in order to generate the best welfare for society, and discuss how to design some important classes of public policies, like education, health insurance and social security. We will also study how countries' tax systems should be organized in order to achieve their income redistribution goals and how to approach modern difficulties in taxing the ultra-rich and multinational corporations.
+**Public finance** is the study of *government spending* (first half of the course) and *government revenue* (second half of the course). In this course, we apply the tools of microeconomics to understand how to best implement public policies to improve social welfare, as well as how governments should collect revenue and how this collection impacts the economy.
+
 
 ### Learning Objectives
 
-1. Conceptually understand the consequences of government intervention in the economy, predicting in a substantiated and logically accurate way the likely consequence of public policies.
-2. Get to know the main microeconomic models used to explain government action, solving them analytically and interpreting them correctly.
-3. Arguing in a logical and informed way about the role of government and public policy, developing argumentative essays defending policy adoption and presenting papers with economic arguments.
-4. Judging the logical coherence and empirical consistency of economic arguments, critically evaluating classmates' and academic economists' arguments.
+1. Recognize the main sources of government intervention in the economy, identifying the main types of public policies and forms of taxation employed in Brazil and abroad and the issues they face.
+2. Understand economic models of the consequence of government intervention in the economy, interpreting the conceptual effect of programs and taxes in the behavior of individuals and firms.
+3. Apply public finance models and concepts to real world policies, predicting in a substantiated and logically accurate way the likely consequence of policy changes.
+4. Judge the logical coherence and empirical consistency of arguments on public policy, critically evaluating classmates' and academic economists' arguments.
+5. Formulate logical and informed arguments about the role of government and public policy, developing arguments defending policy adoption and presenting papers with economic arguments.
+
+Besides these content-related learning objectives, I hope this course will help students to practice universally important work-related skills such as presenting (Learning Objective 6a) and writing (Learning Objective 6b).
 
 ### Learning Assessments
 
-1. Two exams, covering each half of the course, worth 30% of the course average each. (Learning Objectives 1 and 2.)
-2. A group presentation, covering a JEP paper: 20% of the average. (Learning Objectives 3 and 4.)
-3. Two argumentative essays (opinion articles) with peer correction (6500 characters): each one worth 10% of the grade average. All grades will come from the student's essay assessment, but essays will only be credited if *both* activities are done properly. (Learning Objectives 3 and 4.)
-4. One exercise list: up to one point (**extra credit**) to the final grade. (Learning objective 2.)  [[Exercise List]](https://www.pedroforquesato.com/files/eae1234_exercise_list_2025.pdf)
+1. Two exams, each worth 30% of the course average. (Learning Objectives 1 to 3.)
+2. A group presentation of a JEP paper: 20% of the average. (Learning Objectives 4, 5, and 6a.) [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+3. Two argumentative essays (opinion articles) with peer correction (6500 characters): each one worth 10% of the grade average. The entire grade comes from the student's essay, but essays will only be credited if *both* the essay and the peer review are done properly. (Learning Objectives 4, 5, and 6b.)
+
+Furthermore, there is one **optional** exercise list that you can deliver to receive up to one point (**extra credit**) in the final grade. [[Exercise List]](https://www.pedroforquesato.com/files/eae1234_exercise_list_2025.pdf)
 
 All averages will be rounded up (relative to the final grade on Moodle) to one decimal place (**and only this**).
 
 ### Quality of life
 
-If you are having difficulties: 1. if this somehow interferes with your ability to take the course, let me know *before the end of the course* and we will work something out; 2. Contact the mental health services available in the university:
+If you are having difficulties: (i) if this somehow interferes with your ability to take the course, let me know *before the end of the course* and we will work something out; (ii) contact the mental health services available at the university:
 
 1. [Programa ECOS: Serviço de Escuta em Saúde Mental](https://prip.usp.br/programa-ecos/)
 2. [Sistema USP de Acolhimento, Registro e Responsabilização para assédio, violência, discriminações e outras violações de direitos humanos (SUA)](https://prip.usp.br/institucional/sistema-usp-de-acolhimento-sua/), also by the phone number: (11) 3091-5001.
 
 ### Professor
 
-My name is Pedro Forquesato, I am an associate professor in the Department of Economics at FEA/USP and a researcher at [LabPub](https://labpub.fea.usp.br/). More information about me can be found in [my website](https://www.pedroforquesato.com). My area of expertise is in applied microeconomics, with a focus on public sector economics. In 2025, I teach public economics (this course), principles of microeconomics and and game theory (all at the undergraduate level).
+My name is Pedro Forquesato, I am an associate professor in the Department of Economics at FEA/USP and a researcher at [LabPub](https://labpub.fea.usp.br/). More information about me can be found in [my website](https://www.pedroforquesato.com). My area of expertise is in applied microeconomics, with a focus on public sector economics. In 2025, I teach public finance (this course), principles of microeconomics, and game theory (all at the undergraduate level).
 
 ### Contact
 
-For specific and individual questions send me an [e-mail](mailto:pforquesato@usp.br). If you want to talk in person, you can book an appointment using the link available on Moodle. My office number is 217 in FEA2.
+For specific and individual questions send me an [e-mail](mailto:pforquesato@usp.br). If you want to talk to me in person, you can book an appointment using the link available in Moodle. My office number is 217 in FEA2.
 
 Please, always send me emails that are clearly identified, legible, **polite** and relatively short. (If the email you are writing is longer than 2 paragraphs, it might be better talking to me in person.)
 
@@ -59,25 +64,23 @@ Please, always send me emails that are clearly identified, legible, **polite** a
 
 **Classes.** Classes will be on Mondays from 7:30pm to 9:10pm and Wednesdays from 9:20pm to 11pm in classroom **XXX** in FEA 1.
 
-**Communication.** All the course's official communication will be done through [Moodle](https://edisciplinas.usp.br), including lists, grades, attendance, assessments and announcements. The course assumes that the student frequently accesses the platform and checks daily the emails received.
+**Communication.** All the course's official communication will be done through [Moodle](https://edisciplinas.usp.br), including lists, grades, attendance, assessments, and announcements. The course assumes that the student frequently accesses the platform and checks daily the emails received.
 
 **Attendance.** According to USP regulations, **participation in 70% of the classes is mandatory to be approved in the course**. Absences will only be disregarded to a medical certificate issued by HU/USP ([Portaria GR 3740/2007](http://leginf.usp.br/?portaria=portaria-gr-no-3740-de-29-de-marco-de-2007)).
 
-If the student misses **one** exam (regardless of a medical certificate), they can replace the grade with the *second evaluation* without needing a justification. 
+If the student misses **one** exam (regardless of a medical certificate), they can replace the grade with the *second evaluation* without needing justification. 
 
-**Ethics.** The exams are individual and closed-book, except when otherwise noted and in the exact conditions specified. Cheating on the exam or the group assignment will automatically result in a failure in the course. Lists can be solved with help of colleagues, but they *must be written individually*.  Essays will be submitted by students to Turnitin, and must be *entirely* original. (Quotations are not allowed.) Copied lists or essays with similarity will result in forfeit **all** optional (extra credit) course activities.
+**Ethics.** The exams are individual and closed-book, except when otherwise noted and in the exact conditions specified. Cheating on the exam automatically results in failure in the course. Essays will be submitted by students to Turnitin and must be *entirely* original. (Quotations are not allowed.) Lists can be solved with help of colleagues, but they must be written individually.
 
-Note that these punishments will occur without prejudice to an administrative proceeding according to the [Código de Ética da USP](http://leginf.usp.br/?resolucao=resolucao-no-4871-de-22-de-outubro-de-2001-3).
+Note that these punishments occur without prejudice to an administrative proceeding according to the [Código de Ética da USP](http://leginf.usp.br/?resolucao=resolucao-no-4871-de-22-de-outubro-de-2001-3).
 
-**Reviews.** Along with the grading of the exam, I will send the answer key. Revision requests must be accompanied by a precise and specific explanation of where the correction would not be consistent with the answer key and why. Lists, the group assignment and the essays do not allow grading revisions. There are no requests for final grade revision. [[Artigo 81, §§1-2 do RG/USP]](https://leginf.usp.br/?resolucao=consolidada-resolucao-no-3745-de-19-de-outubro-de-1990#t5)
+**Reviews.** Along with the grading of the exam, I will send the answer key. Revision requests ([Artigo 81, §§1-2 do RG/USP](https://leginf.usp.br/?resolucao=consolidada-resolucao-no-3745-de-19-de-outubro-de-1990#t5)) must be accompanied by a precise and specific explanation of where the correction would not be consistent with the answer key and why. There are no requests for final grade revision.
 
 **Retake test.** Students who have more than 70% of attendance and a grade between 3 and 5 ([Portaria CoG 3583/1989](https://leginf.usp.br/?resolucao=resolucao-cog-no-3583-de-29-de-setembro-de1989)) can take a second assessment (retake test), thus having their final average in the discipline as the simple arithmetic average of the course average and of the retake test grade.
 
 **Others.**  Any conflict with the professor that you are unable (or unwilling) to solve in person, I recommend that you contact the [Ouvidoria da FEA](https://www.fea.usp.br/fea/ouvidoria).
 
 ### Program content and schedule
-
-In this course, we will study how the government should design its tax system in order to minimize distortions in the economy and achieve its objectives (perhaps the main one is to redistribute income), as well as how to best implement its main spending policies, namely social insurance and assistance, education and health.
 
 All dates in the schedule are **tentative** and **subject to change**.
 
@@ -86,7 +89,7 @@ All dates in the schedule are **tentative** and **subject to change**.
 3. **Public goods and education**: @gruber, chs. 7, 10 and 11, @acemoglu. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-3-public-goods.html)
 4. **Social security and health**: @gruber, chapters 12 and 13. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-4-social-security.html)
 
-First seminar night: papers [5], [6], and [7]: **15/09**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+First seminar night: papers [6], [7], and [3]: **15/09**.
 
 5. **Social assistance**: @gruber, chapter 17, @banerjee. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-5-social-assistance.html)
 
@@ -96,13 +99,13 @@ Midterm exam: **29/09**.
 7. **Tax incidence, deadweight loss, and consumption taxation**: @gruber, chs. 19 and 20. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-7-incidence.html)
 8. **Labor income taxes**: @gruber, chapter 21. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-8-labor-income.html)
 
-Second seminar night: papers [1], [2] and [3]: **13/10**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+Second seminar night: papers [1], [2] and [4]: **13/10**.
 
 9. **Taxation on savings**: @gruber, chapter 22. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-9-taxing-savings.html)
 10. **Taxation on wealth**: @gruber, chapter 23. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-10-wealth-taxation.html)
 11. **Corporate taxes**: @gruber, chapter 24. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-11-corporate-taxes.html)
 
-Third seminar night: papers [4], [8], and [9]: **07/11**. [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+Third seminar night: papers [5], [8], and [9]: **07/11**.
 
 Final exam: **01/12**.
 
@@ -111,31 +114,31 @@ Exams from previous years (please be mindful that some previous offerings were i
 
 Retake test: **January, 2026**.
 
-The deadline for submitting lists and essays is defined on [Moodle](https://edisciplinas.usp.br/). *The submission of lists and essays is also on Moodle.*
+The deadline for submitting the optional list and the essays can be checked on [Moodle](https://edisciplinas.usp.br/).
 
 ### Group presentation
 
 Students will divide themselves in 9 groups and each group chooses one of the papers below to present to class in a 30 mins presentation.
 
-- Allcott, H., Lockwood, B. B., & Taubinsky, D. (2019). Should we tax sugar-sweetened beverages? An overview of theory and evidence. *Journal of Economic Perspectives*, 33(3), 202-227.
-- Bachas, P., Jensen, A., & Gadenne, L. (2024). Tax Equity in Low-and Middle-Income Countries. *Journal of Economic Perspectives*, 38(1), 55-80.
-- Brockmeyer, A., Mascagni, G., Nair, V., Waseem, M., & Almunia, M. (2024). Does the Value-Added Tax Add Value? Lessons Using Administrative Data from a Diverse Set of Countries. *Journal of Economic Perspectives*, 38(1), 107-132.
+1. Allcott, H., Lockwood, B. B., & Taubinsky, D. (2019). Should we tax sugar-sweetened beverages? An overview of theory and evidence. *Journal of Economic Perspectives*, 33(3), 202-227.
+2. Bachas, P., Jensen, A., & Gadenne, L. (2024). Tax Equity in Low-and Middle-Income Countries. *Journal of Economic Perspectives*, 38(1), 55-80.
+3. Barwick, P. J., Kalouptsidi, M., & Zahur, N. B. (2024). Industrial policy: Lessons from shipbuilding. *Journal of Economic Perspectives*, 38(4), 55-80.
+4. Brockmeyer, A., Mascagni, G., Nair, V., Waseem, M., & Almunia, M. (2024). Does the Value-Added Tax Add Value? Lessons Using Administrative Data from a Diverse Set of Countries. *Journal of Economic Perspectives*, 38(1), 107-132.
 <!--- - Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The ways of corruption in infrastructure: Lessons from the Odebrecht case. Journal of Economic Perspectives, 35(2), 171-190. -->
-- Chodorow-Reich, G., Zidar, O., & Zwick, E. (2024). Lessons from the biggest business tax cut in US history. *Journal of Economic Perspectives*, 38(3), 61-88.
-- Clarke, C., & Kopczuk, W. (2025). Measuring Income and Income Inequality. Journal of Economic Perspectives, 39(2), 103-126.
-- Deming, D. J. (2022). Four facts about human capital. *Journal of Economic Perspectives*, 36(3), 75-102.
+5. Chodorow-Reich, G., Zidar, O., & Zwick, E. (2024). Lessons from the biggest business tax cut in US history. *Journal of Economic Perspectives*, 38(3), 61-88.
+6. Clarke, C., & Kopczuk, W. (2025). Measuring Income and Income Inequality. Journal of Economic Perspectives, 39(2), 103-126.
+7. Deming, D. J. (2022). Four facts about human capital. *Journal of Economic Perspectives*, 36(3), 75-102.
 <!--- - Kleven, H., Landais, C., Munoz, M., & Stantcheva, S. (2020). Taxation and migration: Evidence and policy implications. *Journal of Economic Perspectives*, 34(2), 119-142. -->
-- Levy, S., & Schady, N. (2013). Latin America's social policy challenge: Education, social insurance, redistribution. *Journal of Economic Perspectives*, 27(2), 193-218.
-- Scheuer, F., & Slemrod, J. (2021). Taxing our wealth. *Journal of Economic Perspectives*, 35(1), 207-230.
-- Slattery, C., & Zidar, O. (2020). Evaluating state and local business incentives. *Journal of Economic Perspectives*, 34(2), 90-118.
+8. Scheuer, F., & Slemrod, J. (2021). Taxing our wealth. *Journal of Economic Perspectives*, 35(1), 207-230.
+9. Slattery, C., & Zidar, O. (2020). Evaluating state and local business incentives. *Journal of Economic Perspectives*, 34(2), 90-118.
 <!--- - Slemrod, J. (2007). Cheating ourselves: The economics of tax evasion. Journal of Economic perspectives, 21(1), 25-48. --->
 <!--- Woessmann, L. (2016). The importance of school systems: Evidence from international differences in student achievement. Journal of Economic Perspectives, 30(3), 3-32. --->
 
 
 ### Course bibliography
 
-The textbook that we are going to follow closely is *Public Finance and Public Policy*, by Jonathan Gruber. The most recent edition is the 6th edition, 2019, but the course is mostly based on the 5th edition, 2016. Bibliography chapters often have a section explaining the US public system. Reading of these sections is optional.
+The textbook that we follow closely is *Public Finance and Public Policy*, by Jonathan Gruber. The course is mostly based on the 5th edition, 2016. Bibliography chapters often have a section explaining the US public system: reading of these sections is optional. We also cover during the semester three **required reading** papers and one chapter of *Atkinson and Stiglitz'* classic 1980 textbook (see the readings schedule above).
 
 Besides that, it is important to follow the slides and class notes because I will bring data about Brazil that are not in the book (like all the others, the textbook is American), in addition to some derivations and models that I think are important.
 
-#### References
+#### Required References

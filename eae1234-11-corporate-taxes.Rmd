@@ -1,5 +1,5 @@
 ---
-title: "EAE-1234: PUBLIC ECONOMICS"
+title: "EAE-1234: PUBLIC FINANCE"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
 date: "Topic 12: Corporate Taxes<br/>2025/2"
@@ -242,6 +242,7 @@ This feature of corporate taxation creates the potential for international compe
 
 This generates the need for *international organizations* for cooperation &mdash; there is a real movement in this direction: in 2021, 141 countries agreed to structure a global minimum corporate tax of 15% (but it is still low)
 
+
 ---
 class: middle
 ## Incidence in closed economy
@@ -454,6 +455,17 @@ Another common practice is to transfer intangible assets (patents and trademarks
 
 Multinationals can also manipulate the realization of their profits using loans between subsidiaries and *transfer pricing*, since prices of input traded intra-firm rarely exist in the market
 
+
+---
+class: middle
+## Double Irish Dutch sandwich
+
+In 2003, shortly before its IPO, Google US sold its intangible assets (search and advertisement technologies) to "Google Holdings", which operated in Ireland, but with tax residence in Bermuda &mdash; which then created another Irish subsidiary to licence these technologies to Google affiliates across the world
+
+While Ireland already has low corporate tax rate, the goal is to pay 0% tax rate in Bermuda (by making "Ireland Limited" pay royalties to "Google Holdings" in Bermuda) &mdash; but to avoid paying tax on these royalties, they are first sent to "Google BV" in Netherlands
+
+According to Google's company filings, its effective corporate tax rate on foreign profits is between 2-8% `r Citep(myBib, "zucman")`
+
 ---
 class: middle
 
@@ -504,11 +516,11 @@ And it matters: if the US solved the problem of tax evasion by tax havens, it wo
 class: middle
 ## Global corporate taxation reform
 
-In 2021, it was approved a plan with signature of 141 countries to establish a minimum global corporate tax of 15% &mdash; still well below Brazil and most large economies, but well above tax havens
+In 2021, a group of 140 countries approved the "Base Erosion and Profit Shifting" (BEPS) Project
 
-It comes with the weakening of *source-based taxation* and *arm's length pricing*: new proposals for paying corporate taxes based on a formula of sales, employment and capital
+**Pillar One** attacks problems with source-based taxation and arm's-length pricing, by allowing countries where digital services are provided to tax a share of the companies' profits (Amount A), and by establishing fixed rules for pricing in intra-firm trade or marketing (Amount B)
 
-The obvious problem is that different formulas benefit different countries, which generates diverging interests &mdash; but in any case, the solution to this problem has to be global
+**Pillar Two** establishes a minimum 15% corporate tax rate, that if the country where income is generated does not collect, can be collected by the country that owns the MNE or other jurisdictions where the firm operates
 
 
 ---
