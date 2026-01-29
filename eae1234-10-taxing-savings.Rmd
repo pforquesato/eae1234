@@ -2,7 +2,7 @@
 title: "EAE-1234: PUBLIC FINANCE"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: "Topic 10: Taxation on savings<br/>2025/2"
+date: "Topic 10: Taxation on savings<br/>2026/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -54,6 +54,16 @@ knitr::include_graphics("figs/eae0310-12-3.png")
 ```
 
 In 1850, during the Industrial Revolution, capital's share of national income was nearly 50%, but it has dropped since then, and today it accounts for only 25-30% of GDP, the complement being the labor share `r Citep(myBib, "piketty2014capital")`
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align="center"}
+knitr::include_graphics("figs/eae1234-10-1.png")
+```
+
+More recent calculations of the labor share indicate it has been steadily decreasing since WW2 (in some specifications since the 80s), falling about 8-10 p.p.s since the Great Depression `r Citep(myBib, "karabarbounis2024perspectives")`
 
 ---
 class: middle
@@ -280,6 +290,28 @@ The **substitution effect**, maintaining utility constant, increases $c_1$, decr
 class: middle
 ## Taxation in the life-cycle model
 
+$$\max_{l, c_2} u \left( (1 - \tau_L)wl - \frac{c_2}{1 + r}, l \right) + \beta u(c_2)$$
+
+$$[l]: (1 - \tau_L)w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$
+$$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r) \frac{\partial u}{\partial c_2}$$
+Consider an **income tax**: the labor income decreases as there is an *income effect*; furthermore, the relative price of labor and leisure changes (*substitution effect*) &mdash; but there is no distortion of *intertemporal consumption choice* (only income effect)
+
+---
+class: middle
+## Taxation in the life-cycle model
+
+With a capital tax $\tau_K$, $c_2 = (1 + r(1 - \tau_K))s$ and the BC becomes: $c_1 + \frac{c_2}{1 + r(1 - \tau_K)} = wl$
+
+$$\max_{l, c_2} u \left( wl - \frac{c_2}{1 + r(1 - \tau_K)}, l \right) + \beta u(c_2)$$
+
+$$[l]: w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$
+$$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r(1 - \tau_K)) \frac{\partial u}{\partial c_2}$$
+Here it is the opposite, the relative price of labor and leisure does *not* change, but of intertemporal consumption does
+
+---
+class: middle
+## Taxation in the life-cycle model
+
 As in taxation on labor, **taxation on capital** (savings) involves income and substitution effects:
 
 1. *Substitution effect:* the tax makes consumption in period 2 more expensive in relation to consumption in period 1: savings decrease
@@ -462,26 +494,3 @@ class:middle
 PrintBibliography(myBib, start=11)
 ```
 </small>
-
-<!-- --- -->
-<!-- class: middle -->
-<!-- ## Taxation in the life-cycle model -->
-
-<!-- $$\max_{l, c_2} u \left( (1 - \tau_L)wl - \frac{c_2}{1 + r}, l \right) + \beta u(c_2)$$ -->
-
-<!-- $$[l]: (1 - \tau_L)w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$ -->
-<!-- $$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r) \frac{\partial u}{\partial c_2}$$ -->
-<!-- Consider an **income tax**: the labor income decreases as there is an *income effect*; furthermore, the relative price of labor and leisure changes (*substitution effect*) &mdash; but there is no distortion of *intertemporal consumption choice* (only income effect) -->
-
-<!-- --- -->
-<!-- class: middle -->
-<!-- ## Taxation in the life-cycle model -->
-
-<!-- With a capital tax $\tau_K$, $c_2 = (1 + r(1 - \tau_K))s$ and the BC becomes: $c_1 + \frac{c_2}{1 + r(1 - \tau_K)} = wl$ -->
-
-<!-- $$\max_{l, c_2} u \left( wl - \frac{c_2}{1 + r(1 - \tau_K)}, l \right) + \beta u(c_2)$$ -->
-
-<!-- $$[l]: w\frac{\partial u}{\partial c_1} = - \frac{\partial u}{\partial l}$$ -->
-<!-- $$[c_2]: \frac{\partial u}{\partial c_1} = \beta (1 + r(1 - \tau_K)) \frac{\partial u}{\partial c_2}$$ -->
-<!-- Here it is the opposite, the relative price of labor and leisure does *not* change, but of intertemporal consumption does -->
-

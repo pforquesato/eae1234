@@ -2,7 +2,7 @@
 title: "EAE-1234: PUBLIC FINANCE"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: "Topic 6: Social assistance<br/>2025/2"
+date: "Topic 9: Transfers and social assistance<br/>2026/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -25,7 +25,7 @@ BibOptions(check.entries = FALSE,
 myBib <- ReadBib("./esp_bib.bib", check = FALSE)
 ```
 
-# Social assistance
+# Transfers and social assistance
 
 ---
 class: middle

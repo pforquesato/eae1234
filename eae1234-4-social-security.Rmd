@@ -2,7 +2,7 @@
 title: "EAE-1234: PUBLIC FINANCE"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: "Topic 4: Social security and health<br/>2025/2"
+date: "Topic 4: Social Security<br/>2026/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -305,6 +305,16 @@ Every decade, the problem of the sustainability of Brazilian retirement system a
 2. The payment is now based on average wages (previously the highest 80%): 60% + 2% per year above the minimum contribution time
 3. The INSS tax is now progressive: 7.5% for minimum wage earners, up to 14% (but only up to the RGPS ceiling) in the private sector, and up to 22% for the RPPS (public employees)
 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%'}
+knitr::include_graphics("figs/resultado_rgps.png")
+```
+
+Over the last two decaded the "social security deficit" has increased steadily, up to the 2019 Retirement Reform [[Observatório Fiscal IBRE]](https://observatorio-politica-fiscal.ibre.fgv.br/politica-economica/outros/mudanca-das-metas-e-o-desafio-da-sustentabilidade-fiscal-brasileira)
+
 ---
 class: middle
 ## Social security reform
@@ -419,61 +429,6 @@ knitr::include_graphics("figs/eae0310-6-10b.png")
 
 In Brazil, a longer duration of unemployment insurance makes people unemployed for a longer time, panel (a), but it does not seem to have an effect on wage 3 years later, in panel (b) `r Citep(myBib, "gerard2021informal")` 
  
----
-class: middle
-## Health insurance
-
-Health spending in Brazil was 9.7% of GDP (2021), with 4% public spending (SUS) and 5.7% private spending &mdash; while 25% of the population is covered by the private sector (ANS, 2024)) 
-
-The health sector accounts for 10.5% of total Brazilian income and 8% of labor force participation, being one of the main sectors in the economy [[Conta-Satélite de Saúde]](https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf)
-
-The government can intervene by obliging (and generally subsidizing) the purchase of health insurance (Germany) or directly offer the service (NHS, SUS), either directly by the government or through dealers
-
----
-class: middle
-
-```{r, echo=FALSE, fig.align='center', out.width="100%"}
-knitr::include_graphics("figs/eae1234-9-2.png")
-```
-
-The level of health spending as a percentage of GDP in Brazil is about the OECD average, but the public sector participation is much lower &mdash; even in the US, $\approx 50\%$ of health expenses are public (Medicare and Medicaid): more than in Brazil! [[Conta-Satélite de Saúde]](https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf)
-
----
-class: middle
-
-```{r, echo=FALSE, fig.align='center', out.width="45%"}
-knitr::include_graphics("figs/eae1234-9-3.png")
-```
-
-In 2021, Brazilian *per capita* spending on health accounted for R$2,387 for private spending and R$1,703 for public spending &mdash; about half of OECD average and 1/4th of USA (in US$ PPP) [[Conta-Satélite de Saúde]](https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf)
-
----
-class: middle
-
-```{r, echo=FALSE, fig.align='center', out.width="70%"}
-knitr::include_graphics("figs/eae1234-9-1.png")
-```
-
-Even for those with private health insurance, in 2015, 80% of them had transplants, 60% dialysis and 30% treated cancer in publicly-provided SUS (the private plans reimburse the government at 150% of SUS price) `r Citep(myBib, "guidetti2024private")`
-
-
----
-class: middle
-
-```{r, echo=FALSE, out.width = '100%'}
-knitr::include_graphics("figs/trad_eae0310-6-15.png")
-```
-
-Around 20% of the hospitals that serve the SUS are private, and 30% are philanthropic: only half are public &mdash; among these, they are mainly municipal among the smaller hospitals (C1), and state and federal among the largest ones (and that provide more complex services), Class 3 in image `r Citep(myBib, "botega2020perfil")`
-
----
-class: middle
-
-```{r, echo=FALSE, out.width = '60%', fig.align='center'}
-knitr::include_graphics("figs/eae0310-6-11.png")
-```
-
-If a medical consultation costs $100, the individual consumes Q1, while if the *copayment* is only $10, he consumes Q2 (**moral hazard**) &mdash; but the normative effect is not obvious: without insurance, poor people (low willingness to pay) would consume fewer medical services than perhaps socially optimal `r Citep(myBib, "gruber")`
 
 ---
 class:middle
@@ -492,7 +447,6 @@ class:middle
 PrintBibliography(myBib, start=6)
 ```
 </small>
-
 
 <!-- --- -->
 <!-- class: middle -->

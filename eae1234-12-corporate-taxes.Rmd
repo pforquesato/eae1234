@@ -2,7 +2,7 @@
 title: "EAE-1234: PUBLIC FINANCE"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: "Topic 12: Corporate Taxes<br/>2025/2"
+date: "Topic 12: Corporate Taxes<br/>2026/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -171,6 +171,15 @@ knitr::include_graphics("figs/eae0310-14-2.png")
 
 And this reduction is associated with a decrease in progressivity of the tax system, since corporate income is a considerable portion at the top of income distribution (Saez)
 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-12-1.png")
+```
+
+Since 1990, the value of US corporate equity has tripled, increasing at a rate of 7.2% per year &mdash; the authors find that 40% of this increase is a reallocation of labor compensation to shareholders, as opposite to only 25% due to economic growth `r Citep(myBib, "greenwald2025wealth")`
 
 ---
 class: middle
@@ -418,13 +427,13 @@ In a survey, about 25% of Brazilian formal employees admit to engaging in *payme
 
 ---
 class: middle
-## Tax heavens
+## International profit shifting
 
 We have seen how the "ultra-rich" use **tax havens** to evade taxes on capital and wealth, but perhaps even more relevant is the use of tax havens by multinational corporations
 
-`r Citep(myBib, "torslov2018missing")` estimate that 14% of corporate tax revenue in Brazil is evaded by using tax havens (23% in the US) [[World missing profits database]](https://missingprofits.world/)
+`r Citep(myBib, "torslov2018missing")` estimate that 14% of corporate tax revenue in Brazil is evaded by using tax havens (23% in the US) [[World missing profits database]](https://missingprofits.world/) &mdash; 18% of all profits made by American companies (inside or outside the US) are now realized in tax havens, and they pay almost no taxes (on average 3%) [[Our article in Valor]](https://www.pedroforquesato.com/files/paraisos.jpeg)
 
-18% of all profits made by American companies (inside or outside the US) are now realized in tax havens, and they pay almost no taxes (on average 3%) [[Our article in Valor]](https://www.pedroforquesato.com/files/paraisos.jpeg)
+More recently, `r Citep(myBib, "fuest2025global")` estimate a global loss of corporate tax revenue of €162 billion (12% of the total) due to MNE profit shifting
 
 ---
 class: middle

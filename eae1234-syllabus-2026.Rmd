@@ -1,7 +1,7 @@
 ---
 title: 'EAE-1234: PUBLIC FINANCE'
 author: Pedro Forquesato<br/>Department of Economics<br/>School of Economics, Business and Accounting <br/>University of São Paulo
-date: "2025/2"
+date: "2026/1"
 output:
   prettydoc::html_pretty:
     toc: yes
@@ -20,24 +20,21 @@ bibliography: ./esp_bib.bib
 
 In modern economies, more than a third of (and sometimes over half) the national income is absorbed by governments in the form of taxes; governments employ one in five workers (OECD average), and in Brazil, government consumption accounts for nearly 20% of GDP. It is then indisputable that studying the role of the public sector in the economy is essential to understanding modern societies.
 
-**Public finance** is the study of *government spending* (first half of the course) and *government revenue* (second half of the course). In this course, we apply the tools of microeconomics to understand how to best implement public policies to improve social welfare, as well as how governments should collect revenue and how this collection impacts the economy.
-
+**Public finance** is the study of *government spending* (public policies) and *government revenue* (taxation). In this course, we apply the tools of microeconomics to understand how to best implement public policies to improve social welfare, as well as how governments should collect revenue and how this collection impacts the economy.
 
 ### Learning Objectives
 
 1. Recognize the main sources of government intervention in the economy, identifying the main types of public policies and forms of taxation employed in Brazil and abroad and the issues they face.
 2. Understand economic models of the consequence of government intervention in the economy, interpreting the conceptual effect of programs and taxes in the behavior of individuals and firms.
 3. Apply public finance models and concepts to real world policies, predicting in a substantiated and logically accurate way the likely consequence of policy changes.
-4. Judge the logical coherence and empirical consistency of arguments on public policy, critically evaluating classmates' and academic economists' arguments.
+4. Judge the logical coherence and empirical consistency of arguments on public policy, critically evaluating academic economists' arguments.
 5. Formulate logical and informed arguments about the role of government and public policy, developing arguments defending policy adoption and presenting papers with economic arguments.
-
-Besides these content-related learning objectives, I hope this course will help students to practice universally important work-related skills such as presenting (Learning Objective 6a) and writing (Learning Objective 6b).
 
 ### Learning Assessments
 
 1. Two exams, each worth 30% of the course average. (Learning Objectives 1 to 3.)
-2. A group presentation of a JEP paper: 20% of the average. (Learning Objectives 4, 5, and 6a.) [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
-3. Two argumentative essays (opinion articles) with peer correction (6500 characters): each one worth 10% of the grade average. The entire grade comes from the student's essay, but essays will only be credited if *both* the essay and the peer review are done properly. (Learning Objectives 4, 5, and 6b.)
+2. A group presentation of a JEP paper: 20% of the average. (Learning Objectives 2, 4 and 5.) [[Grading rubric]](https://www.pedroforquesato.com/files/group_presentation_oral_rubric.pdf)
+3. An *individual* 6500 words essay (newspaper opinion piece) on the application of the discussion in the JEP paper to Brazil: 20% of grade total. (Learning Objectives 3 and 5.)
 
 Furthermore, there is one **optional** exercise list that you can deliver to receive up to one point (**extra credit**) in the final grade. [[Exercise List]](https://www.pedroforquesato.com/files/eae1234_exercise_list_2025.pdf)
 
@@ -52,7 +49,7 @@ If you are having difficulties: (i) if this somehow interferes with your ability
 
 ### Professor
 
-My name is Pedro Forquesato, I am an associate professor in the Department of Economics at FEA/USP and a researcher at [LabPub](https://labpub.fea.usp.br/). More information about me can be found in [my website](https://www.pedroforquesato.com). My area of expertise is in applied microeconomics, with a focus on public sector economics. In 2025, I teach public finance (this course), principles of microeconomics, and game theory (all at the undergraduate level).
+My name is Pedro Forquesato, I am an associate professor in the Department of Economics at FEA/USP and a researcher at [LabPub](https://labpub.fea.usp.br/). More information about me can be found in [my website](https://www.pedroforquesato.com). My area of expertise is in applied microeconomics, with a focus on public sector economics. In 2026, I teach public finance (this course), principles of microeconomics, and game theory (all at the undergraduate level).
 
 ### Contact
 
@@ -62,7 +59,7 @@ Please, always send me emails that are clearly identified, legible, **polite** a
 
 ### Policies and regulations
 
-**Classes.** Classes will be on Mondays from 7:30pm to 9:10pm and Wednesdays from 9:20pm to 11pm in classroom **G13** in FEA 1.
+**Classes.** Classes will be on Mondays from 9:20am to 11:00am and Wednesdays from 7:30am to 09:10am in classroom **??** in FEA 1.
 
 **Communication.** All the course's official communication will be done through [Moodle](https://edisciplinas.usp.br), including lists, grades, attendance, assessments, and announcements. The course assumes that the student frequently accesses the platform and checks daily the emails received.
 
@@ -70,7 +67,7 @@ Please, always send me emails that are clearly identified, legible, **polite** a
 
 If the student misses **one** exam (regardless of a medical certificate), they can replace the grade with the *second evaluation* without needing justification. 
 
-**Ethics.** The exams are individual and closed-book, except when otherwise noted and in the exact conditions specified. Cheating on the exam automatically results in failure in the course. Essays will be submitted by students to Turnitin and must be *entirely* original. (Quotations are not allowed.) Lists can be solved with help of colleagues, but they must be written individually.
+**Ethics.** The exams are individual and closed-book, except when otherwise noted and in the exact conditions specified. Cheating on the exam automatically results in failure in the course. Essays will be submitted by students to Turnitin and must be *entirely* original. (Quotations are not allowed.) Lists can be solved with help of colleagues, but they must be written individually. **The use of AI (LLM) in any activity of the course is forbidden, and if detected it will be punished as with other ethical violations above.**
 
 Note that these punishments occur without prejudice to an administrative proceeding according to the [Código de Ética da USP](http://leginf.usp.br/?resolucao=resolucao-no-4871-de-22-de-outubro-de-2001-3).
 
@@ -84,55 +81,62 @@ Note that these punishments occur without prejudice to an administrative proceed
 
 All dates in the schedule are **tentative** and **subject to change**.
 
-1. **Normative economics and cost-benefit analysis**: @gruber, chapter 8. @atkinson, chapter 11. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-1-introduction.html)
-2. **Externalities**: @gruber, chapters 5 and 6. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-2-externalities.html)
-3. **Public goods and education**: @gruber, chs. 7, 10 and 11, @acemoglu. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-3-public-goods.html)
-4. **Social security and health**: @gruber, chapters 12 and 13. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-4-social-security.html)
+1. **Normative economics and cost-benefit analysis**: @atkinson, chapter 11. @gruber, chapter 8. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-1-normative.html)
+2. **Principles of government intervention**: @gruber, chapters 5, 6, and 7. @acemoglu. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-2-government.html)
+3. **Health and education**: @gruber, chapters 11 and 15. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-3-health-education.html)
 
-First seminar night: papers [6], [7], and [3]: **15/09**.
+First seminar session: papers [8], [12], and [5]: **13/04**.
 
-5. **Social assistance**: @gruber, chapter 17, @banerjee. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-5-social-assistance.html)
+4. **Social security**: @gruber, chapters 12 and 13. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-4-social-security.html)
+5. **Introduction to taxation**: @gruber, chapter 18. @kleven. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-5-intro-taxation.html)
+6. **Tax incidence and deadweight loss**: @gruber, chapters 19 and 20. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-6-incidence.html)
 
-Midterm exam: **29/09**.
+Second seminar session: papers [2], [9], and [1]: **27/04**.
 
-6. **Introduction to taxation**: @gruber, chapter 18, @kleven. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-6-intro-taxation.html)
-7. **Tax incidence, deadweight loss, and consumption taxation**: @gruber, chs. 19 and 20. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-7-incidence.html)
-8. **Labor income taxes**: @gruber, chapter 21. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-8-labor-income.html)
+Midterm exam: **04/05**.
 
-Second seminar night: papers [1], [2] and [4]: **13/10**.
+7. **Consumption taxes**: @gruber, chapters 19 and 20. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-7-consumption.html)
+8. **Taxes on labor income**: @gruber, chapter 21. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-8-labor-income.html)
+9. **Transfers and social assistance**: @gruber, chapter 17. @banerjee. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-9-social-assistance.html)
 
-9. **Taxation on savings**: @gruber, chapter 22. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-9-taxing-savings.html)
-10. **Taxation on wealth**: @gruber, chapter 23. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-10-wealth-taxation.html)
-11. **Corporate taxes**: @gruber, chapter 24. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-11-corporate-taxes.html)
+Third seminar session: papers [3], [6] and [7]: **18/05**.
 
-Third seminar night: papers [5], [8], and [9]: **07/11**.
+10. **Taxation on savings**: @gruber, chapter 22. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-10-taxing-savings.html)
+11. **Taxation on wealth**: @gruber, chapter 23. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-11-wealth-taxation.html)
+12. **Corporate taxes**: @gruber, chapter 24. [[Slides]](https://www.pedroforquesato.com/eae1234/eae1234-12-corporate-taxes.html)
 
-Final exam: **01/12**.
+Fourth seminar session: papers [4], [10], and [11]: **22/06**.
 
-Exams from previous years (please be mindful that some previous offerings were in Portuguese and that the program of the discipline has changed substantially across the years): <br> [[Midterm exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_1_2022.pdf) [[Final exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_2_2022.pdf) <br> [[Midterm exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_1_2023.pdf) [[Final exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_2_2023.pdf) <br>
-[[Midterm exam 2024]](https://www.pedroforquesato.com/files/eae1234_midterm_2024.pdf) [[Final exam 2024]](https://www.pedroforquesato.com/files/eae1234_final_2024.pdf)
+Final exam: **29/06**.
 
-Retake test: **January, 2026**.
+Exams from previous years (please be mindful that some previous offerings were in Portuguese and that the program of the discipline has changed slightly over the years): <br> [[Midterm exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_1_2022.pdf) [[Final exam 2022]](https://www.pedroforquesato.com/files/eae0310_prova_2_2022.pdf) <br> [[Midterm exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_1_2023.pdf) [[Final exam 2023]](https://www.pedroforquesato.com/files/eae0310_prova_2_2023.pdf) <br>
+[[Midterm exam 2024]](https://www.pedroforquesato.com/files/eae1234_midterm_2024.pdf) [[Final exam 2024]](https://www.pedroforquesato.com/files/eae1234_final_2024.pdf) <br>
+[[Midterm exam 2025]](https://www.pedroforquesato.com/files/eae1234_midterm_2025.pdf) [[Final exam 2025]](https://www.pedroforquesato.com/files/eae1234_final_2025.pdf)
+
+Retake test: **20/07**.
 
 The deadline for submitting the optional list and the essays can be checked on [Moodle](https://edisciplinas.usp.br/).
 
 ### Group presentation
 
-Students will divide themselves in 9 groups and each group chooses one of the papers below to present to class in a 30 mins presentation.
+Students will divide themselves in 12 groups and each group chooses one of the papers below to present to class in a 30 mins presentation.
 
 1. Allcott, H., Lockwood, B. B., & Taubinsky, D. (2019). Should we tax sugar-sweetened beverages? An overview of theory and evidence. *Journal of Economic Perspectives*, 33(3), 202-227.
-2. Bachas, P., Jensen, A., & Gadenne, L. (2024). Tax Equity in Low-and Middle-Income Countries. *Journal of Economic Perspectives*, 38(1), 55-80.
-3. Barwick, P. J., Kalouptsidi, M., & Zahur, N. B. (2024). Industrial policy: Lessons from shipbuilding. *Journal of Economic Perspectives*, 38(4), 55-80.
-4. Brockmeyer, A., Mascagni, G., Nair, V., Waseem, M., & Almunia, M. (2024). Does the Value-Added Tax Add Value? Lessons Using Administrative Data from a Diverse Set of Countries. *Journal of Economic Perspectives*, 38(1), 107-132.
+2. Auerbach, A. J. (2025). Public Finance Implications of Economic Inequality. Journal of Economic Perspectives, 39(2), 149-170.
+<!-- 2. Bachas, P., Jensen, A., & Gadenne, L. (2024). Tax Equity in Low-and Middle-Income Countries. *Journal of Economic Perspectives*, 38(1), 55-80. -->
+<!-- 3. Barwick, P. J., Kalouptsidi, M., & Zahur, N. B. (2024). Industrial policy: Lessons from shipbuilding. *Journal of Economic Perspectives*, 38(4), 55-80. -->
+4. Brockmeyer, A., Mascagni, G., Nair, V., Waseem, M., & Almunia, M. (2024). Does the value-added tax add value? Lessons using administrative data from a diverse set of countries. *Journal of Economic Perspectives*, 38(1), 107-132.
 <!--- - Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The ways of corruption in infrastructure: Lessons from the Odebrecht case. Journal of Economic Perspectives, 35(2), 171-190. -->
 5. Chodorow-Reich, G., Zidar, O., & Zwick, E. (2024). Lessons from the biggest business tax cut in US history. *Journal of Economic Perspectives*, 38(3), 61-88.
-6. Clarke, C., & Kopczuk, W. (2025). Measuring Income and Income Inequality. Journal of Economic Perspectives, 39(2), 103-126.
 7. Deming, D. J. (2022). Four facts about human capital. *Journal of Economic Perspectives*, 36(3), 75-102.
-<!--- - Kleven, H., Landais, C., Munoz, M., & Stantcheva, S. (2020). Taxation and migration: Evidence and policy implications. *Journal of Economic Perspectives*, 34(2), 119-142. -->
+5. Ericson, K. M., & Sydnor, J. (2017). The questionable value of having a choice of levels of health insurance coverage. *Journal of Economic Perspectives*, 31(4), 51-72.
+11. Herd, P., & Moynihan, D. (2025). Administrative Burdens in the Social Safety Net. Journal of Economic Perspectives, 39(1), 129-150.
+5. Kleven, H., Landais, C., Munoz, M., & Stantcheva, S. (2020). Taxation and migration: evidence and policy implications. *Journal of Economic Perspectives*, 34(2), 119-142.
+6. Gomez, M. (2025). Macro perspectives on income inequality. Journal of Economic Perspectives, 39(2), 127-148.
 8. Scheuer, F., & Slemrod, J. (2021). Taxing our wealth. *Journal of Economic Perspectives*, 35(1), 207-230.
 9. Slattery, C., & Zidar, O. (2020). Evaluating state and local business incentives. *Journal of Economic Perspectives*, 34(2), 90-118.
 <!--- - Slemrod, J. (2007). Cheating ourselves: The economics of tax evasion. Journal of Economic perspectives, 21(1), 25-48. --->
-<!--- Woessmann, L. (2016). The importance of school systems: Evidence from international differences in student achievement. Journal of Economic Perspectives, 30(3), 3-32. --->
+10. Woessmann, L. (2016). The importance of school systems: evidence from international differences in student achievement. *Journal of Economic Perspectives*, 30(3), 3-32.
 
 
 ### Course bibliography

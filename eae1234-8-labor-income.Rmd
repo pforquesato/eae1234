@@ -2,7 +2,7 @@
 title: "EAE-1234: PUBLIC FINANCE"
 author: "Pedro Forquesato<br/>http://www.pedroforquesato.com<br/>Office 217/FEA2 - pforquesato@usp.br"
 institute: "School of Economics, Business and Accounting<br/>University of São Paulo"
-date: " Topic 9: Taxes on labor income<br/>2025/2"
+date: " Topic 8: Taxes on labor income<br/>2026/2"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -39,7 +39,7 @@ As in modern societies, **income redistribution** is one of the main tasks of go
 
 ---
 class: middle
-## Tax on income
+## Taxing income
 
 We already saw in the first class of the course that if income does not depend on effort (it is "fixed"), and we have a **utilitarian** social objective with *decreasing marginal utility*, it results in the *principle of equimarginal sacrifice*
 
@@ -49,7 +49,7 @@ But this would only be possible with an income tax of $100\%$, which is very ext
 
 ---
 class: middle
-## Tax on income
+## Taxing income
 
 But it is obvious that income *does depend* on effort, and under a tax of 100%, no one would work &mdash; which generates the well-known **trade-off between efficiency and equity**
 
