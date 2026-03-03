@@ -175,6 +175,16 @@ Although important (and the topic of next week), the excess burden is relatively
 
 Thus, the loss of consumer surplus becomes $\rho dt \cdot Q$ (which $\rho$ is the **pass-through**) and the loss from the producer $(1 - \rho)dt \cdot Q$ &mdash; both add up to (approximately) the government revenue $R(dt) = Qdt$
 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '85%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-6-1.jpg")
+```
+
+On the other hand, in non-competitive markets the tax can be amplified by the firm's **mark-up**, leading to pass-throughs *higher than one* `r Citep(myBib, "flaaen2025pays")` 
+
 ---
 class: middle
 ## General equilibrium incidence
