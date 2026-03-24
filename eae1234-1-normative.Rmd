@@ -177,6 +177,25 @@ Brazil is more unequal than any other large economy (5th largest of the world/UN
 ---
 class: middle
 
+```{r, echo=FALSE, out.width = '85%', fig.align="center"}
+knitr::include_graphics("figs/eae1234-1-21.png")
+```
+
+Starting from a Gini coefficient of 0.61 in 1996, inequality has decreased steadily since then, to about 10 p.p. lower nowadays &mdash; but this change is mostly a redistribution outside of the top 1%, whose influence hasn't decreased `r Citep(myBib, "hecksher2025pobreza")`
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align="center"}
+knitr::include_graphics("figs/eae1234-1-22.png")
+```
+
+The Palma ratio, top 10/bottom 40, also decreased from 6.4 times larger (while being 4x less people) in 1995 to "only" 3.5 times more 30 years later `r Citep(myBib, "hecksher2025pobreza")`
+
+---
+class: middle
+
 ```{r, echo=FALSE, out.width = '70%', fig.align="center"}
 knitr::include_graphics("figs/eae0310-1-16.jpg")
 ```

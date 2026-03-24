@@ -94,10 +94,39 @@ In Brazil, between 1977 and 1990 the proportion of destitute and poor remained c
 class: middle
 
 ```{r, echo=FALSE, out.width = '90%', fig.align='center'}
-knitr::include_graphics("figs/trad_eae0310-7-6.png")
+knitr::include_graphics("figs/eae1234-9-11.png")
 ```
 
-The great reduction of poverty took place from 2003 onwards, with extreme poverty dropping to 1/3 in about 10 years &mdash; poverty fell from 49% to 25% in 2018, and as of extreme poverty (national line) from 28% to 13% and on the international line from 14% to 7% `r Citep(myBib, "ipea2020politicas")`
+Extreme poverty fell sharply in the 2000s, from one quarter of Brazilians (!!) in 2000 to 7% in 2013, probably mostly due to PBF, and now fallen again in the 2020s to 4.8% in 2024 (and 3.5% in 2025) `r Citep(myBib, "hecksher2025pobreza")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-9-12.png")
+```
+
+Poverty in Brazil also fell from 60% of Brazilians in 2000 to half of this amount ten years later, and nowadays a quarter of Brazilians are still poor `r Citep(myBib, "hecksher2025pobreza")`
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-9-13.png")
+```
+
+Transfer policies have a significant effect in reducing Gini inequality... `r Citep(myBib, "hecksher2025pobreza")`
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-9-14.png")
+```
+
+... but much larger effect in reducing poverty &mdash; without them the extreme poverty rate would be 3 times larger  `r Citep(myBib, "hecksher2025pobreza")`
 
 ---
 class: middle
