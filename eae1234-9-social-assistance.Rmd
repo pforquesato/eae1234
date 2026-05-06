@@ -312,6 +312,15 @@ Also, `r Citep(myBib, "gerard2021cash")` find that the PBF *increases* local emp
 
 ---
 class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-9-15.png")
+```
+
+Using a 2012 expansion, `r Citep(myBib, "best2026cash")` find evidence that PBF *increases* labor supply through a "productive inclusion" effect &mdash; recipients spend more on medicine (and presumably better nutrition) and this increased health allows them to find employment 
+
+---
+class: middle
 ## Empirical evidence on PBF
 
 The program is also associated with greater use of the health service and vaccination, and lower `r Citep(myBib, "rasella2013effect")`, which translate to a 9.3% reduction in infant mortality rates `r Citep(myBib, "shei2013brazil")`

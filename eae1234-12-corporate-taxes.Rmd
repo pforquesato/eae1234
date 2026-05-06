@@ -123,6 +123,16 @@ knitr::include_graphics("figs/eae1234-8-1.png")
 
 In most countries (the figure above is for USA) a small percentage of firms are responsible for a large (and growing!) share of the total corporate equity and revenue &mdash; indeed, only the top 0.1% of firms own about 90% of total corporate equity and 2/3 of total revenue (and therefore corporate tax liabilities) [[Source]](https://www.aeaweb.org/research/charts/rising-corporate-concentration-us)
 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-12-2.png")
+```
+
+In terms of employment, however, this effect is less pronounced, and especially in Latin America, where small (and unproductive) firms dominate &mdash; while in the EU 65% of workers are employed in companies with 11+ employees, in LA 59% work at companies with less than 4 people `r Citep(myBib, "eslava2025businesses")` 
+
 ---
 class: middle
 ## Taxation of economic profits
@@ -171,6 +181,15 @@ knitr::include_graphics("figs/eae0310-14-2.png")
 
 And this reduction is associated with a decrease in progressivity of the tax system, since corporate income is a considerable portion at the top of income distribution (Saez)
 
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-12-3.png")
+```
+
+In fact, `r Citep(myBib, "nallareddy2022corporate")` find that a 1 p.p. decrease in state corporate taxes in the USA causes a 0.9 p.p. increase in the share of the top 1% in the income &mdash; so corporate tax cuts would be responsible for 7.4% of the (6.1 p.p.) increase in top 1% share of income since the 90s
 
 ---
 class: middle

@@ -86,6 +86,24 @@ Around 20% of the hospitals that serve the SUS are private, and 30% are philanth
 ---
 class: middle
 
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-3-4.png")
+```
+
+In Brazil, outsourcing hospitals to non-profits increases hospital productivity by 35% (higher turnover and lower length of stay), with no negative effects on quality &mdash; they find exit of less productive doctors, hiring of more specialists with more flexible contracts  `r Citep(myBib, "coube2025public")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-3-3.png")
+```
+
+On the population level, this increase in hospital access (over 18%) leads to a 3% decrease in mortality at home (by people that presumably didn't have access before), not at hospitals `r Citep(myBib, "coube2025public")`
+
+---
+class: middle
+
 ```{r, echo=FALSE, out.width = '60%', fig.align='center'}
 knitr::include_graphics("figs/eae0310-6-11.png")
 ```
@@ -334,6 +352,16 @@ knitr::include_graphics("figs/eae1234-11-6.png")
 ```
 
 A reform that changed the algorithm for calculating GPAs in Sweden led to students with the same ability graduating with different GPAs &mdash; this higher grade on the diploma leads to higher incomes in years 1 and 2, but this effect fades with time, while the effect of the "true GPA" (knowledge) endures `r Citep(myBib, "hansen2024grades")` 
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-3-5.png")
+```
+
+Another evidence against the **signaling** theory (and in favor of human capital) is on grade inflation &mdash; having an "easier" teacher in high school lowers future test scores, SAT scores, chance of completing a BA degree, and future employment and earnings: a PV cost of over 200k dollars (!)
 
 ---
 class: middle
