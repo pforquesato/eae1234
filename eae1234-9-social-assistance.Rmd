@@ -309,7 +309,6 @@ There is a huge literature examining the (generally beneficial) side effects of 
 
 Also, `r Citep(myBib, "gerard2021cash")` find that the PBF *increases* local employment (remember that by microeconomic choice it should *reduce* labor supply), due to local economic multipliers
 
-
 ---
 class: middle
 
@@ -344,7 +343,6 @@ A very important type of constraint on the poor are *credit constraints* &mdash;
 
 The poor also have **insurance constraints**: it makes them especially risk averse and pushes them to invest less than the optimal 
 
-
 ---
 class: middle
 
@@ -355,7 +353,6 @@ knitr::include_graphics("figs/eae0310-7-15b.png")
 
 `r Citep(myBib, "balboni2022people")` examine a wealth transfer program for the "ultra-poor" in Bangladesh:  the control group (B) is in a **poverty trap**, as increases in wealth do not last long term &mdash; but transfers *above a value* in (A) break this trap, and generate wealth in 2011 equal to or higher than in 2007
 
-
 ---
 class: middle
 ## Restrictions on the poor
@@ -365,8 +362,6 @@ Poverty is also extremely costly *psychologically*, and it makes making good dec
 [Research](https://www.youtube.com/watch?v=hd-WWdl8A5s&t=1s) shows that in the Brazilian Northeastern semi-arid, people have worse cognitive skills when they are afraid of drought
 
 Poor people are also more pessimistic about their abilities and possibilities for improving their lives (a **pessimism trap**) &mdash; there is evidence that mentoring policies can have a positive effect
-
-
 
 ---
 class: middle
@@ -408,7 +403,6 @@ Research on lottery winners estimate the income elasticity of labor supply of ab
 
 The 2nd problem with targeting is the much higher *administrative costs* of targeted transfer &mdash; although in PBF it is relatively low, ~5%, it is still relevant
 
-
 ---
 class: middle
 
@@ -419,8 +413,6 @@ knitr::include_graphics("figs/eae0310-7-16b.png")
 
 Although UBI generates a **negative income effect**, an analysis of Alaska Permanent Fund found no aggregate effect on labor supply, only an increase of 17% (1.8p.p.) in part-time work &mdash; the decrease in labor supply may be counterbalanced by increased labor demand due to greater economic dynamism `r Citep(myBib, "jones2022labor")` 
 
-
-
 ---
 class: middle
 ## Problems with targeting
@@ -430,6 +422,15 @@ The third problem is *targeting itself*: it is not clear that targeted programs 
 There is strong evidence that **intra-family distribution** is important: `r Citep(myBib, "duflo2003grandmothers")` finds that retirement paid to grandmothers impacts granddaughter nutrition, but not retirement paid to grandfathers   
 
 In addition, income transfers are redistributed across support networks and can generate final redistribution very different from what is on paper (e.g. `r Citep(myBib, "duflo2003grandmothers")` above, which is probably also true for Brazil)
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-9-15.png")
+```
+
+Using a 2012 expansion, `r Citep(myBib, "best2026cash")`
 
 ---
 class: middle

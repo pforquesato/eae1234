@@ -194,6 +194,35 @@ In fact, `r Citep(myBib, "nallareddy2022corporate")` find that a 1 p.p. decrease
 ---
 class: middle
 
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-12-4.png")
+```
+
+On the same direction, `r Citep(myBib, "kennedy2026corporate")` investigate the incidence effects of the 2017 Tax Cuts and Jobs Act (TCJA), and they find that it led to increases in investment, capital, employment, and payroll, but...
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-12-5.png")
+```
+
+A large part of the gains are reflected in increased corporate after-tax income and dividend payouts `r Citep(myBib, "kennedy2026corporate")`...
+
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-12-6.png")
+```
+
+And even the payroll increases are heavily concentrated on top: overall, the top 10% receive 87% of the TCJA private gains `r Citep(myBib, "kennedy2026corporate")`
+
+---
+class: middle
+
 ```{r, echo=FALSE, out.width = '90%', fig.align='center'}
 knitr::include_graphics("figs/eae1234-12-1.png")
 ```
@@ -579,12 +608,23 @@ PrintBibliography(myBib, start=11, end=15)
 </small>
 
 
+
 ---
 class:middle
 # References
 <small>
 ```{r refs4, echo=FALSE, results="asis"}
-PrintBibliography(myBib, start=16)
+PrintBibliography(myBib, start=16, end=20)
+```
+</small>
+
+
+---
+class:middle
+# References
+<small>
+```{r refs5, echo=FALSE, results="asis"}
+PrintBibliography(myBib, start=21)
 ```
 </small>
 

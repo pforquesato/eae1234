@@ -365,13 +365,13 @@ Another evidence against the **signaling** theory (and in favor of human capital
 
 ---
 class: middle
-## Higher Education
+## Higher education
 
 Basic education in almost all countries is provided almost entirely by the state &mdash; in Brazil, in SP around 80%, and in other states even more `r Citep(myBib, "pela2021anuario")`
 
 The same applies to technical education, which now accounts for 20% of high school enrollment in Brazil
 
-On the other hand, Higher Education is usually mainly private &mdash; in Brazil, in 2019, 82% of admissions to Higher Education were at private institutions, a higher percentage than even in the US `r Citep(myBib, "da2019notas")`
+On the other hand, higher education is usually mainly private &mdash; in Brazil, in 2019, 82% of admissions to higher education were at private institutions, a higher percentage than even in the US `r Citep(myBib, "da2019notas")`
 
 ---
 class: middle
@@ -432,7 +432,25 @@ PROUNI doubled in 8 years, but most of the increase in the proportion of enrollm
 
 ---
 class: middle
-## Quotas
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-3-7.png")
+```
+
+We cannot discuss higher education nowadays without talking about online education &mdash; while it represented 17% of university enrollment in 2010, it rose to 44% in 2019 and basically 2/3 of enrollment post-pandemic, almost all of it in the private sector `r Citep(myBib, "barahona2025effects")`
+
+---
+class: middle
+
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("figs/eae1234-3-6.png")
+```
+
+While this expansion did raise access to higher education, it did so while generating lower value added (online education leads to a smaller increase in post graduation wages) &mdash; since it is cheaper and more convenient, OE leads to a increase of 14% in overall HE enrollment but a decrease of 33% in (higher value) in-person courses `r Citep(myBib, "barahona2025effects")`
+
+---
+class: middle
+## Racial quotas
 
 Racial quotas at universities were introduced in 2003 at UERJ &mdash; 20% for public schools, 20% for black and indigenous people, all with income limits
 

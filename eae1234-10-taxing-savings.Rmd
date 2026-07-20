@@ -138,7 +138,7 @@ knitr::include_graphics("figs/eae1234-6-2.png")
 knitr::include_graphics("figs/eae1234-6-2b.png")
 ```
 
-And this is problematic because during the past 40 years globally the tax rate on capital income has decreased significantly, while the labor tax rate remained mostly constant... `r Citep(myBib, "bachas2022capital")`
+And this is problematic because during the past 40 years globally the tax rate on capital income (in blue) has decreased significantly (dashed is for corporate profits), while the labor tax rate (in red) remained mostly constant... `r Citep(myBib, "bachas2022capital")`
 
 ---
 class: middle
